@@ -4,8 +4,6 @@ My favorite quote is that one: "<span id="k">Talent alone does not make someone 
 
 <!-- laglaglaglaglaglaglaglaglaglaglaglag --><p>Hello, my name is Hanna Gawel. I am a PhD student in Doctoral School in the Social Sciences at Jagiellonian University. The discipline I represent is Social Communication and Media Studies. I am supervised by Professor Wiesław Babik (Jagiellonian University, Institute of Information Studies).</p>
 
-<p></p> <!-- laglaglaglaglaglaglaglaglaglaglaglag -->
-
 <p>My research quantifies information ecology and evolutionary dynamics of information at a range of spatial, temporal, and taxonomic scales. I am exploring how modern communities of different generations respond to changes in the information environment during technological change and the information deluge. Understanding the events associated with informational pathologies could help communications professionals involved in information processing to create, adapt, and deliver reliable and high-quality information to the public.</p> <!-- laglaglagl -->
 
 <p>Over the next three years, I will be researching information regarding air quality in urban spaces of Polish, Finnish, Swedish and German cities. In doing so, I can then understand how (or if) information about air quality is developed and managed.</p> <!-- laglaglag -->
@@ -13,20 +11,17 @@ My favorite quote is that one: "<span id="k">Talent alone does not make someone 
 
 <span id="a">hanna@gawel</span>:<span id="b">~</span><span id="c">$</span> cat <!-- laglaglaglaglaglaglaglaglaglaglaglag -->skills.txt<br/><br/>
 
-<p>Tell more about yourself. <br><br><br>Give your project links or something like that. <a href="link"> Here you go</a>.</p><!-- hsdgfhjfkdjhfkjsdhfkjdshfkjsdhfkjsdhkfjhdskjfhksdjhfkdsj -->
+<p>Languages: Polish (native), English (C1), German (B2)</p> <!-- laglaglag -->
+<p>Languages: HTML, CSS, JavaScript, R</p> <!-- laglaglag -->
+<p>Software/Apps: Canva, Notion.so, Airtable, GSuite, Tumblr</p> <!-- laglaglag -->
 
-<p> You can give links to other professional profiles you have on Internet, here:
+If you do not like this kind of a website, please vist my Tumblr: "<span id="k">hanna-gawel-academic.tumblr.com</span>". <!-- laglaglaglaglaglaglaglaglaglaglaglag -->
 
-<span id="a">hanna@gawel</span>:<span id="b">~</span><span id="c">$</span> cat <!-- laglaglaglaglaglaglaglaglaglaglaglag -->contactlinks.txt<br/><br/>
-
-<br> <a href="http://orcid.org/0000-0001-5714-0459">ORCID ID</a>
-<br> <a href="https://hanna-gawel-academic.tumblr.com/research">Research</a>
-<br> <a href="link3">Portfolio</a></p>
 
 <p>Email me if you have difficulty accessing a PDF of any article: <a href="hanna.gawel@doctoral.uj.edu.pl">hanna.gawel@doctoral.uj.edu.pl</a></p>
 <hr>
 <h2>Education:</h2>
-<p><strong>2019 – present</strong>: PhD studies in Social Communication and Media, Jagiellonian University, Cracow, Poland</p>
+<p><strong>2019 – present</strong>: "<span id="k">PhD studies in Social Communication and Media, Jagiellonian University, Cracow, Poland</span>""</p>
 <p><strong>2017 – 2019</strong>: MA with Honors in Information Management, Jagiellonian University, Cracow, Poland</p>
 <p><strong>2014-2017</strong>: BA in Information Science and Library Studies, Kazimierz Wielki University, Bydgoszcz, Poland</p>
 <hr>
@@ -77,6 +72,7 @@ My favorite quote is that one: "<span id="k">Talent alone does not make someone 
 <p>2020: Association of Internet Researchers &gt;&gt;&gt; <a href="https://www.dropbox.com/s/ifx2k511zoved26/Association%20of%20Internet%20Researchers%20-%20Member%20public%20profile.pdf?dl=0" target="&ldquo;_blank&rdquo;">AoIR Profile;</a></p>
 
 <hr>
+<span id="a">hanna@gawel</span>:<span id="b">~</span><span id="c">$</span> cat <!-- laglaglaglaglaglaglaglaglaglaglaglag -->contactlinks.txt<br/><br/>
 
 
 <h2 style="text-align: center;">Hanna Gaweł</h2>
@@ -84,5 +80,6 @@ My favorite quote is that one: "<span id="k">Talent alone does not make someone 
 <p style="text-align: center;">ResearchGate: <a href="https://www.researchgate.net/profile/Hanna_Gawel3">My ResearchGate Profile</a> // Google Scholar: <a href="https://scholar.google.com/citations?user=rxf11gEAAAAJ&hl=pl">My Google Scholar Profile</a></p>
 <h2 style="text-align: center;">Social Media</h2>
 <p style="text-align: center;">LinkedIn: <a href="https://www.linkedin.com/in/hannagawel/">My LinkedIn Profile</a> // Twitter: <a href="https://twitter.com/vanitachi">Twitter Account</a></p>
+<hr>
 
 <p class="love"><b>made with <img src="https://web.archive.org/web/20091027032803/http://hk.geocities.com/hop_step_pop/images/heart.gif" width="auto" style="margin:0em 0.5em;" /> by Hanna </b></p>
