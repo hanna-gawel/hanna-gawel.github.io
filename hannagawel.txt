@@ -2,27 +2,28 @@
 <span id="a">hanna@gawel</span>:<span id="b">~</span><span id="c">$</span> cat <!-- laglaglaglaglaglaglaglaglaglaglaglag -->hannagawel.txt<br/><br/>
 My favorite quote is that one: "<span id="k">Talent alone does not make someone an expert</span>". <!-- laglaglaglaglaglaglaglaglaglaglaglag -->
 
-<!-- laglaglaglaglaglaglaglaglaglaglaglag --><p>I am a PhD student in Doctoral School in the Social Sciences at Jagiellonian University. The discipline I represent is Social Communication and Media Studies.</p>
+<!-- laglaglaglaglaglaglaglaglaglaglaglag --><p>Hello, my name is Hanna Gawel. I am a PhD student in Doctoral School in the Social Sciences at Jagiellonian University. The discipline I represent is Social Communication and Media Studies. I am supervised by Professor Wiesław Babik (Jagiellonian University, Institute of Information Studies).</p>
 
-<p>Hello, my name is Hanna Gawel. I am supervised by Professor Wiesław Babik (Jagiellonian University, Institute of Information Studies).</p> <!-- laglaglaglaglaglaglaglaglaglaglaglag -->
+<p></p> <!-- laglaglaglaglaglaglaglaglaglaglaglag -->
 
 <p>My research quantifies information ecology and evolutionary dynamics of information at a range of spatial, temporal, and taxonomic scales. I am exploring how modern communities of different generations respond to changes in the information environment during technological change and the information deluge. Understanding the events associated with informational pathologies could help communications professionals involved in information processing to create, adapt, and deliver reliable and high-quality information to the public.</p> <!-- laglaglagl -->
 
 <p>Over the next three years, I will be researching information regarding air quality in urban spaces of Polish, Finnish, Swedish and German cities. In doing so, I can then understand how (or if) information about air quality is developed and managed.</p> <!-- laglaglag -->
 
 
-<p> You can also tell what you've worked and known and what skills you have, you can also give link to your professional portfolio here<a href="link"> portfolio</a>.</p><!-- laglaglaglaglaglaglaglaglaglaglaglag -->
+<span id="a">hanna@gawel</span>:<span id="b">~</span><span id="c">$</span> cat <!-- laglaglaglaglaglaglaglaglaglaglaglag -->skills.txt<br/><br/>
 
 <p>Tell more about yourself. <br><br><br>Give your project links or something like that. <a href="link"> Here you go</a>.</p><!-- hsdgfhjfkdjhfkjsdhfkjdshfkjsdhfkjsdhkfjhdskjfhksdjhfkdsj -->
 
 <p> You can give links to other professional profiles you have on Internet, here:
 
+<span id="a">hanna@gawel</span>:<span id="b">~</span><span id="c">$</span> cat <!-- laglaglaglaglaglaglaglaglaglaglaglag -->contactlinks.txt<br/><br/>
+
 <br> <a href="http://orcid.org/0000-0001-5714-0459">ORCID ID</a>
 <br> <a href="https://hanna-gawel-academic.tumblr.com/research">Research</a>
-<br> <a href="link3">Portfolio</a>.</p>
+<br> <a href="link3">Portfolio</a></p>
 
-You can also give your email ID for contacting you<!-- laglaglaglaglaglaglaglaglaglaglaglag-->, feel free to send me an email at <!-- longlonglongcomment --><a href="mailto@gawehanna@gmail.com">Email</a>.
-
+<p>Email me if you have difficulty accessing a PDF of any article: <a href="hanna.gawel@doctoral.uj.edu.pl">hanna.gawel@doctoral.uj.edu.pl</a></p>
 <hr>
 <h2>Education:</h2>
 <p><strong>2019 – present</strong>: PhD studies in Social Communication and Media, Jagiellonian University, Cracow, Poland</p>
@@ -78,6 +79,10 @@ You can also give your email ID for contacting you<!-- laglaglaglaglaglaglaglagl
 <hr>
 
 
-<p>Cheers!</p>
+<h2 style="text-align: center;">Hanna Gaweł</h2>
+<p style="text-align: center;">Blog: <a href="https://hanna-gawel-academic.tumblr.com/">Hanna-Gawel-Academic</a> // ORCID ID: <a href="http://orcid.org/0000-0001-5714-0459">0000-0001-5714-0459</a> // Web of Science Researcher ID: <a href="https://publons.com/researcher/1272242/hanna-gawe/">F-8886-2015</a> // Academia.edu: <a href="https://jagiellonian.academia.edu/HannaGawel">My Academia.edu Profile</a></p>
+<p style="text-align: center;">ResearchGate: <a href="https://www.researchgate.net/profile/Hanna_Gawel3">My ResearchGate Profile</a> // Google Scholar: <a href="https://scholar.google.com/citations?user=rxf11gEAAAAJ&hl=pl">My Google Scholar Profile</a></p>
+<h2 style="text-align: center;">Social Media</h2>
+<p style="text-align: center;">LinkedIn: <a href="https://www.linkedin.com/in/hannagawel/">My LinkedIn Profile</a> // Twitter: <a href="https://twitter.com/vanitachi">Twitter Account</a></p>
 
 <p class="love"><b>made with <img src="https://web.archive.org/web/20091027032803/http://hk.geocities.com/hop_step_pop/images/heart.gif" width="auto" style="margin:0em 0.5em;" /> by Hanna </b></p>
