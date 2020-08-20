@@ -1,27 +1,22 @@
 <span id="a">hanna@gawel</span>:<span id="b">~</span><span id="c">$</span> cd Hanna Gawel/<!-- laglaglaglaglaglaglaglaglaglaglaglagj -->About_Me
 <span id="a">hanna@gawel</span>:<span id="b">~</span><span id="c">$</span> cat <!-- laglaglaglaglaglaglaglaglaglaglaglag -->hannagawel.txt<br/><br/>
 My favorite quote is that one: "<span id="k">Talent alone does not make someone an expert</span>". <!-- laglaglaglaglaglaglaglaglaglaglaglag -->
-
 <!-- laglaglaglaglaglaglaglaglaglaglaglag --><p>Hello, my name is Hanna Gawel. I am a PhD student in Doctoral School in the Social Sciences at Jagiellonian University. The discipline I represent is Social Communication and Media Studies. I am supervised by Professor Wiesław Babik (Jagiellonian University, Institute of Information Studies).</p>
 
 <p>My research quantifies information ecology and evolutionary dynamics of information at a range of spatial, temporal, and taxonomic scales. I am exploring how modern communities of different generations respond to changes in the information environment during technological change and the information deluge. Understanding the events associated with informational pathologies could help communications professionals involved in information processing to create, adapt, and deliver reliable and high-quality information to the public.</p> <!-- laglaglagl -->
-
 <p>Over the next three years, I will be researching information regarding air quality in urban spaces of Polish, Finnish, Swedish and German cities. In doing so, I can then understand how (or if) information about air quality is developed and managed.</p> <!-- laglaglag -->
-<p>Research interest: <span id="b">#information_science</span><span id="c">#communication</span><span id="b">#information_ecology</span><span id="c">#information_media</span><span id="b">#air_quality</span><span id="c">#knowledge_management</span>
+<p>Research interest: <span id="b">#information_science</span> <span id="c">#communication</span> <span id="b">#information_ecology</span> <span id="c">#information_media</span> <span id="b">#air_quality</span> <span id="c">#knowledge_management</span>
 
 <span id="a">hanna@gawel</span>:<span id="b">~</span><span id="c">$</span> cat <!-- laglaglaglaglaglaglaglaglaglaglaglag -->skills.txt<br/><br/>
-
 <p>Languages: Polish (native), English (C1), German (B2)</p> <!-- laglaglag -->
 <p>Languages: HTML, CSS, JavaScript, R</p> <!-- laglaglag -->
 <p>Software/Apps: Canva, Notion.so, Airtable, GSuite, Tumblr</p> <!-- laglaglag -->
-
-If you do not like this kind of a website, please vist my Tumblr: hanna-gawel-academic.tumblr.com. <!-- laglaglaglaglaglaglaglaglaglaglaglag -->
 
 
 <p>Email me if you have difficulty accessing a PDF of any article: <a href="mailto:hanna.gawel@doctoral.uj.edu.pl">hanna.gawel@doctoral.uj.edu.pl</a></p>
 <hr>
 <h2>Education:</h2>
-<p><strong>"<span id="k">2019 – present</strong></span>": PhD studies in Social Communication and Media, Jagiellonian University, Cracow, Poland</p>
+<p><strong><span id="k">2019 – present</strong></span>: PhD studies in Social Communication and Media, Jagiellonian University, Cracow, Poland</p>
 <p><strong>2017 – 2019</strong>: MA with Honors in Information Management, Jagiellonian University, Cracow, Poland</p>
 <p><strong>2014-2017</strong>: BA in Information Science and Library Studies, Kazimierz Wielki University, Bydgoszcz, Poland</p>
 <hr>
