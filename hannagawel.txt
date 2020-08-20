@@ -7,7 +7,7 @@ My favorite quote is that one: "<span id="k">Talent alone does not make someone 
 <p>My research quantifies information ecology and evolutionary dynamics of information at a range of spatial, temporal, and taxonomic scales. I am exploring how modern communities of different generations respond to changes in the information environment during technological change and the information deluge. Understanding the events associated with informational pathologies could help communications professionals involved in information processing to create, adapt, and deliver reliable and high-quality information to the public.</p> <!-- laglaglagl -->
 
 <p>Over the next three years, I will be researching information regarding air quality in urban spaces of Polish, Finnish, Swedish and German cities. In doing so, I can then understand how (or if) information about air quality is developed and managed.</p> <!-- laglaglag -->
-
+<p>Research interest: #information_science #communication #information_management #information_ecology #information_media #air_quality
 
 <span id="a">hanna@gawel</span>:<span id="b">~</span><span id="c">$</span> cat <!-- laglaglaglaglaglaglaglaglaglaglaglag -->skills.txt<br/><br/>
 
@@ -82,4 +82,4 @@ If you do not like this kind of a website, please vist my Tumblr: "<span id="k">
 <p style="text-align: center;">LinkedIn: <a href="https://www.linkedin.com/in/hannagawel/">My LinkedIn Profile</a> // Twitter: <a href="https://twitter.com/vanitachi">Twitter Account</a></p>
 <hr>
 
-<p class="love"><b>made with <img src="https://web.archive.org/web/20091027032803/http://hk.geocities.com/hop_step_pop/images/heart.gif" width="auto" style="margin:0em 0.5em;" /> by Hanna </b></p>
+<p class="love"><b>made with <img src="https://web.archive.org/web/20091027032803/http://hk.geocities.com/hop_step_pop/images/heart.gif" width="auto" style="margin:0em 0.5em;" /> by Hanna Gawel in 2020</b></p>
