@@ -2,7 +2,7 @@
 <span id="a">hanna@gawel</span>:<span id="b">~</span><span id="c">$</span> cat <!-- laglaglaglaglaglaglaglaglaglaglaglag -->hannagawel.txt<br/><br/>
 My favorite quote is that one: "<span id="k">Talent alone does not make someone an expert</span>". <!-- laglaglaglaglaglaglaglaglaglaglaglag -->
 
-Hello, my name is Hanna Gawel.<!-- laglaglaglaglaglaglaglaglaglaglaglag --><p>I am a PhD student in Doctoral School in the Social Sciences at Jagiellonian University. The discipline I represent is Social Communication and Media Studies.</p>
+<p>Hello, my name is Hanna Gawel.</p><!-- laglaglaglaglaglaglaglaglaglaglaglag --><p>I am a PhD student in Doctoral School in the Social Sciences at Jagiellonian University. The discipline I represent is Social Communication and Media Studies.</p>
 
 <p>I am a Polish PhD student at Jagiellonian University, in the Doctoral School in the Social Sciences (Social Communication and Media), with a background in Information Management and Library Studies. I am supervised by Professor Wiesław Babik.</p> <!-- laglaglaglaglaglaglaglaglaglaglaglag -->
 
