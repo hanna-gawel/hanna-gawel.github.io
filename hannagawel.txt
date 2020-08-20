@@ -2,32 +2,38 @@
 <span id="a">hanna@gawel</span>:<span id="b">~</span><span id="c">$</span> cat <!-- laglaglaglaglaglaglaglaglaglaglaglag -->hannagawel.txt<br/><br/>
 My favorite quote is that one: "<span id="k">Talent alone does not make someone an expert</span>". <!-- laglaglaglaglaglaglaglaglaglaglaglag -->
 
-<p>Hello, my name is Hanna Gawel.</p><!-- laglaglaglaglaglaglaglaglaglaglaglag --><p>I am a PhD student in Doctoral School in the Social Sciences at Jagiellonian University. The discipline I represent is Social Communication and Media Studies.</p>
+Hello, my name is Hanna Gawel.<!-- laglaglaglaglaglaglaglaglaglaglaglag --><p>I am a PhD student in Doctoral School in the Social Sciences at Jagiellonian University. The discipline I represent is Social Communication and Media Studies.</p>
 
-<p>I am a Polish PhD student at Jagiellonian University, in the Doctoral School in the Social Sciences (Social Communication and Media), with a background in Information Management and Library Studies. I am supervised by Professor Wiesław Babik.</p> <!-- laglaglaglaglaglaglaglaglaglaglaglag -->
+<p>I am supervised by Professor Wiesław Babik (Jagiellonian University, Institute of Information Studies).</p> <!-- laglaglaglaglaglaglaglaglaglaglaglag -->
 
 <p>My research quantifies information ecology and evolutionary dynamics of information at a range of spatial, temporal, and taxonomic scales. I am exploring how modern communities of different generations respond to changes in the information environment during technological change and the information deluge. Understanding the events associated with informational pathologies could help communications professionals involved in information processing to create, adapt, and deliver reliable and high-quality information to the public.</p> <!-- laglaglaglaglaglaglaglaglaglaglaglag -->
 
 <p>Over the next three years, I will be researching information regarding air quality in urban spaces of Polish, Finnish, Swedish and German cities. In doing so, I can then understand how (or if) information about air quality is developed and managed.</p> <!-- laglaglaglaglaglaglaglaglaglaglaglag -->
 
+
+<p> My Portfolio:<a href="link"> portfolio</a>.</p><!-- laglaglaglaglaglaglaglaglaglaglaglag -->
+
+<p>Tell more about yourself. <br><br><br>Give your project links or something like that. <a href="link"> Here you go</a>.</p><!-- hsdgfhjfkdjhfkjsdhfkjdshfkjsdhfkjsdhkfjhdskjfhksdjhfkdsj -->
+
+<p> Where you can find information about me:
+
+<br> <a href="http://orcid.org/0000-0001-5714-0459">ORCID ID</a>
+<br> <a href="https://hanna-gawel-academic.tumblr.com/research">Research</a>
+
+
+You can also give your email ID for contacting you<!-- laglaglaglaglaglaglaglaglaglaglaglag-->, feel free to send me an email at <!-- longlonglongcomment --><a href="mailto@gawehanna@gmail.com">Email</a>.
+
 <hr>
 
+<h2>Education:</h2>
 <p><strong>2019 – present</strong>: PhD studies in Social Communication and Media, Jagiellonian University, Cracow, Poland</p>
       <hr>
 <p><strong>2017 – 2019</strong>: MA with Honors in Information Management, Jagiellonian University, Cracow, Poland</p>
       <hr>
 <p><strong>2014-2017</strong>: BA in Information Science and Library Studies, Kazimierz Wielki University, Bydgoszcz, Poland</p>
 
-<p> You can also tell what you've worked and known and what skills you have, you can also give link to your professional portfolio here<a href="link"> portfolio</a>.</p><!-- laglaglaglaglaglaglaglaglaglaglaglag -->
-
-<p>Tell more about yourself. <br><br><br>Give your project links or something like that. <a href="link"> Here you go</a>.</p><!-- hsdgfhjfkdjhfkjsdhfkjdshfkjsdhfkjsdhkfjhdskjfhksdjhfkdsj -->
-
-<p> You can give links to other professional profiles you have on Internet, here: 
-
-<br> <a href="http://orcid.org/0000-0001-5714-0459">ORCID ID</a> 
-<br> <a href="https://hanna-gawel-academic.tumblr.com/research">Research</a>  
-<br> <a href="link3">Portfolio</a>.</p>
-
-You can also give your email ID for contacting you<!-- laglaglaglaglaglaglaglaglaglaglaglag-->, feel free to send me an email at <!-- longlonglongcomment --><a href="mailto@gawehanna@gmail.com">Email</a>.
+<hr>
 
 <p>Cheers!</p>
+
+<p class="love"><b>made with <img src="https://web.archive.org/web/20091027032803/http://hk.geocities.com/hop_step_pop/images/heart.gif" width="auto" style="margin:0em 0.5em;" /> by Hanna </b></p>
