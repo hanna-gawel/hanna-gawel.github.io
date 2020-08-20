@@ -7,7 +7,7 @@ My favorite quote is that one: "<span id="k">Talent alone does not make someone 
 <p>My research quantifies information ecology and evolutionary dynamics of information at a range of spatial, temporal, and taxonomic scales. I am exploring how modern communities of different generations respond to changes in the information environment during technological change and the information deluge. Understanding the events associated with informational pathologies could help communications professionals involved in information processing to create, adapt, and deliver reliable and high-quality information to the public.</p> <!-- laglaglagl -->
 
 <p>Over the next three years, I will be researching information regarding air quality in urban spaces of Polish, Finnish, Swedish and German cities. In doing so, I can then understand how (or if) information about air quality is developed and managed.</p> <!-- laglaglag -->
-<p>Research interest: #information_science #communication #information_management #information_ecology #information_media #air_quality
+<p>Research interest: <span id="b">#information_science</span><span id="c">#communication</span><span id="b">#information_ecology</span><span id="c">#information_media</span><span id="b">#air_quality</span><span id="c">#knowledge_management</span>
 
 <span id="a">hanna@gawel</span>:<span id="b">~</span><span id="c">$</span> cat <!-- laglaglaglaglaglaglaglaglaglaglaglag -->skills.txt<br/><br/>
 
@@ -15,13 +15,13 @@ My favorite quote is that one: "<span id="k">Talent alone does not make someone 
 <p>Languages: HTML, CSS, JavaScript, R</p> <!-- laglaglag -->
 <p>Software/Apps: Canva, Notion.so, Airtable, GSuite, Tumblr</p> <!-- laglaglag -->
 
-If you do not like this kind of a website, please vist my Tumblr: "<span id="k">hanna-gawel-academic.tumblr.com</span>". <!-- laglaglaglaglaglaglaglaglaglaglaglag -->
+If you do not like this kind of a website, please vist my Tumblr: hanna-gawel-academic.tumblr.com. <!-- laglaglaglaglaglaglaglaglaglaglaglag -->
 
 
-<p>Email me if you have difficulty accessing a PDF of any article: <a href="hanna.gawel@doctoral.uj.edu.pl">hanna.gawel@doctoral.uj.edu.pl</a></p>
+<p>Email me if you have difficulty accessing a PDF of any article: <a href="mailto:hanna.gawel@doctoral.uj.edu.pl">hanna.gawel@doctoral.uj.edu.pl</a></p>
 <hr>
 <h2>Education:</h2>
-<p><strong>2019 – present</strong>: "<span id="k">PhD studies in Social Communication and Media, Jagiellonian University, Cracow, Poland</span>""</p>
+<p><strong>"<span id="k">2019 – present</strong></span>": PhD studies in Social Communication and Media, Jagiellonian University, Cracow, Poland</p>
 <p><strong>2017 – 2019</strong>: MA with Honors in Information Management, Jagiellonian University, Cracow, Poland</p>
 <p><strong>2014-2017</strong>: BA in Information Science and Library Studies, Kazimierz Wielki University, Bydgoszcz, Poland</p>
 <hr>
@@ -46,12 +46,15 @@ If you do not like this kind of a website, please vist my Tumblr: "<span id="k">
 <p><strong>Toruń - 23.04.2017:</strong> Międzynarodowa Konferencja Toruńska &ldquo;Wizualizacja informacji w humanistyce&rdquo; - referat pt. &ldquo;Pomiędzy tekstem a technologią - Ngram Viewer&rdquo;</p>
 <p><strong>Toruń - 09.03.2017:</strong> II Og&oacute;lnopolska Konferencja Naukowa &ldquo;Człowiek - Informacja. Książka. Cyberkultura&rdquo; - referat pt. &ldquo;Memy krzywym zwierciadle: nowa forma pastiszu, komunikacji, walki i sztuki&rdquo;</p>
 <p><strong>Bydgoszcz - 22.04.2016:</strong> VII Og&oacute;lnopolska Konferencja Bibliologicznych K&oacute;ł Naukowych &ldquo;Książka kontra e-book&rdquo; - referat pt. &ldquo;Kr&oacute;tka historia książkomat&oacute;w&rdquo;</p>
-<p><strong>Toruń - 17.03.2016:</strong> I Og&oacute;lnopolska Konferencja Naukowa &ldquo;Człowiek - biblioteki. Książki. Media&rdquo; - referat pt. &ldquo;Co na daje 25 milion&oacute;w książek&rdquo;</p>
+<p><strong>Toruń - 17.03.2016:</strong> I Og&oacute;lnopolska Konferencja Naukowa &ldquo;Człowiek - biblioteki. Książki. Media&rdquo; - referat pt. &ldquo;Co nam daje 25 milion&oacute;w książek&rdquo;</p>
 <p><strong>Bydgoszcz - 22.04.2015:</strong> IV Og&oacute;lnopolska Konferencja Bibliologicznych K&oacute;ł Naukowych - referat pt. &ldquo;The Student Engagement Platform (SEP) - nowa generacja platform do nauczania na przykładzie Chalkup&rdquo;</p>
 <p><strong>Toruń - 20.03.2015:</strong> I Og&oacute;lnopolska Studencko-Doktorancka Konferencja Naukowa &ldquo;Człowiek - Nauka. Technologia. Informacja&rdquo; - referat pt. &ldquo;MOOC (Massive Online Open Course) w dobie Web 2.0 - por&oacute;wnanie platform&rdquo;</p>
 <p><strong>Bydgoszcz - 25.02.2015:</strong> Sesja Naukowa &ldquo;Przegląd badań licencjackich, magisterskich i innych inspiracji studenckich&rdquo; - referat pt. &ldquo;Bibliografia bydgoska 1801-1811 - wstępne om&oacute;wienie pracy&rdquo;</p>
 <hr>
-<h2> Awards:</h2>
+<h2>Certificates:</h2>
+<p>Look at this website for full list: <a href="https://hanna-gawel-academic.tumblr.com/research" target="&ldquo;_blank&rdquo;">"Certificates";</a></p> 
+<hr>
+<h2>Awards:</h2>
 <p><strong>2017</strong>: Award for Best Graduate Student of the Faculty of Administration and Social Sciences of the Kazimierz Wielki University in Bydgoszcz in the academic year 2016/2017</p>
 <p><strong>2017</strong>: Honour Kazimierz Wielki University Rector’s Award for scientific achievements and an exemplary student conduct</p>
 <p><strong>2017</strong>: The Best Diploma Thesis of the Faculty of Administration and Social Sciences Award in the academic year 2016/2017</p>
@@ -82,4 +85,4 @@ If you do not like this kind of a website, please vist my Tumblr: "<span id="k">
 <p style="text-align: center;">LinkedIn: <a href="https://www.linkedin.com/in/hannagawel/">My LinkedIn Profile</a> // Twitter: <a href="https://twitter.com/vanitachi">Twitter Account</a></p>
 <hr>
 
-<p class="love"><b>made with <img src="https://web.archive.org/web/20091027032803/http://hk.geocities.com/hop_step_pop/images/heart.gif" width="auto" style="margin:0em 0.5em;" /> by Hanna Gawel in 2020</b></p>
+<p class="love"><b>made with <img src="https://web.archive.org/web/20091027032803/http://hk.geocities.com/hop_step_pop/images/heart.gif" width="auto" style="margin:0em 0.5em;" /> by Hanna </b></p>
