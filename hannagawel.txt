@@ -67,7 +67,7 @@ My favorite quote is that one: "<span id="k">Talent alone does not make someone 
 <hr>
 <h2>Memberships:</h2>
 <p>2019: Europeana &gt;&gt;&gt; <a href="https://pro.europeana.eu/person/hanna-gawel" target="&ldquo;_blank&rdquo;">Europeana Profile Link;</a></p>
-<p>2020: Association of Internet Researchers &gt;&gt;&gt; <a href="https://www.dropbox.com/s/ifx2k511zoved26/Association%20of%20Internet%20Researchers%20-%20Member%20public%20profile.pdf?dl=0" target="&ldquo;_blank&rdquo;">AoIR Profile;</a></p>
+<p>2020: Association of Internet Researchers &gt;&gt;&gt; <a href="https://members.aoir.org/Sys/PublicProfile/55476902" target="&ldquo;_blank&rdquo;">AoIR Profile;</a></p>
 
 <hr>
 <span id="a">hanna@gawel</span>:<span id="b">~</span><span id="c">$</span> cat <!-- laglaglaglaglaglaglaglaglaglaglaglag -->contactlinks.txt<br/><br/>
