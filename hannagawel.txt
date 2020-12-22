@@ -71,22 +71,7 @@ My favorite quote is that one: "<span id="k">Talent alone does not make someone 
 <p>2019: Europeana &gt;&gt;&gt; <a href="https://pro.europeana.eu/person/hanna-gawel" target="&ldquo;_blank&rdquo;">Europeana Profile Link;</a></p>
 <p>2020: Association of Internet Researchers &gt;&gt;&gt; <a href="https://members.aoir.org/Sys/PublicProfile/55476902" target="&ldquo;_blank&rdquo;">AoIR Profile;</a></p>
 <p>2020: NordMedia Network &gt;&gt;&gt; <a href="https://nordmedianetwork.org/researchers/hanna-gawel/" target="&ldquo;_blank&rdquo;">NordMedia Network Profile;</a></p>
-<h2>Teaching:</h2>
-<!-- office hours go here -->
-<table class="table table-striped table-bordered">
-<thead>
-<tr><th>Academic year</th><th>Class</th><th>Link</th></tr>
-</thead>
-<tbody>
-<tr>
-<td>2020/2021</td>
-<td>Środowisko informacyjne</td>
-<td><a href="https://www.usosweb.uj.edu.pl/kontroler.php?_action=katalog2/przedmioty/pokazPrzedmiot&amp;kod=WZ.ZI-074">USOS UJ</a></td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
+
 
 <hr>
 <span id="a">hanna@gawel</span>:<span id="b">~</span><span id="c">$</span> cat <!-- laglaglaglaglaglaglaglaglaglaglaglag -->contactlinks.txt<br/><br/>
