@@ -4,7 +4,7 @@ My favorite quote is that one: "<span id="k">Talent alone does not make someone 
 <!-- laglaglaglaglaglaglaglaglaglaglaglag --><p>Hello, my name is Hanna Gawel. I am a PhD student in Doctoral School in the Social Sciences at Jagiellonian University. The discipline I represent is Social Communication and Media Studies. I am supervised by Professor Wiesław Babik (Jagiellonian University, Institute of Information Studies).</p>
 
 <p>My research quantifies information ecology and evolutionary dynamics of information at a range of spatial, temporal, and taxonomic scales. I am exploring how modern communities of different generations respond to changes in the information environment during technological change and the information deluge. Understanding the events associated with informational pathologies could help communications professionals involved in information processing to create, adapt, and deliver reliable and high-quality information to the public.</p> <!-- laglaglagl -->
-<p>Over the next three years, I will be researching information regarding air quality in urban spaces of Polish, Finnish, Swedish and German cities. In doing so, I can then understand how (or if) information about air quality is developed and managed.</p> <!-- laglaglag -->
+
 <p>Research interest: <span id="b">#information_science</span> <span id="c">#communication</span> <span id="b">#information_ecology</span> <span id="c">#information_media</span> <span id="b">#air_quality</span> <span id="c">#knowledge_management</span><span id="b">#digital_footprints</span>
 
 <span id="a">hanna@gawel</span>:<span id="b">~</span><span id="c">$</span> cat <!-- laglaglaglaglaglaglaglaglaglaglaglag -->skills.txt<br/><br/>
@@ -15,63 +15,6 @@ My favorite quote is that one: "<span id="k">Talent alone does not make someone 
 
 <p>Email me if you have difficulty accessing a PDF of any article: <a href="mailto:hanna.gawel@doctoral.uj.edu.pl">hanna.gawel@doctoral.uj.edu.pl</a></p>
 <hr>
-<h2>Education:</h2>
-<p><strong><span id="k">2019 – present</strong></span>: PhD studies in Social Communication and Media, Jagiellonian University, Cracow, Poland</p>
-<p><strong>2017 – 2019</strong>: MA with Honors in Information Management, Jagiellonian University, Cracow, Poland</p>
-<p><strong>2014-2017</strong>: BA in Information Science and Library Studies, Kazimierz Wielki University, Bydgoszcz, Poland</p>
-<hr>
-<h2>Peer-Reviewed Papers:</h2>
-<p>Gaweł, Hanna (2020). Międzynarodowa Konferencja Naukowa w Katowicach: &ldquo;Przyszłość badań naukowych w świetle prawa autorskiego, kodeks&oacute;w etycznych naukowc&oacute;w oraz kryteri&oacute;w ocen jakości badań&rdquo;. Folia Toruniensia, Vol 20 (2020), pp. 243-251. <a href="https://apcz.umk.pl/czasopisma/index.php/FT/article/view/FT.2020.011" target="&ldquo;_blank&rdquo;">PDF.</a></p>
-<p>Gaweł, Hanna (2020). Zarządzanie Informacją. Seria: Nauka &ndash; Dydaktyka &ndash; Praktyka, red. W. Babik, Wydawnictwo SBP, Warszawa 2019, ss. 668, ISBN 978-83-65741-47-9. Folia Toruniensia, Vol 20 (2020), pp. 235-241. <a href="https://apcz.umk.pl/czasopisma/index.php/FT/article/view/FT.2020.010/27436" target="&ldquo;_blank&rdquo;">PDF.</a></p>
-<p>Gaweł, Hanna (2019). Information Architecture (IA) design challenges for the Arabic-speaking user. Toruńskie Studia Bibliologiczne, Vol 12 (2) (2019), pp. 55-67. <a href="https://apcz.umk.pl/czasopisma/index.php/TSB/article/view/TSB.2019.014" target="&ldquo;_blank&rdquo;">Link.</a></p>
-<p>Gaweł, Hanna (2019). II International Scientific Conference Concerning Paul Ladewig and his “Library Catechism”. Folia Toruniensia, Vol 19 (2019), pp. 255-264. <a href="http://dx.doi.org/10.12775/FT.2019.017" target="&ldquo;_blank&rdquo;">DOI.</a></p>
-<p>Gaweł, Hanna (2019). Ożywienie biblioteki uczelni polskiej (Biblioteki Głównej Akademii Muzycznej im. Feliksa Nowowiejskiego w Bydgoszczy) poprzez kursy e-learningowe (oraz szkolenia biblioteczne on-line). W: Zdzisław Gębołyś red. Wokół „Katechizmu bibiloteki” Paula Ladewiga, Bydgoszcz: Wydawnictwo Uniwersytetu Kazimierza Wielkiego, pp. 268-280.</p>
-<p>Gaweł, Hanna (2017). Zarys dziejów Międzynarodowej Federacji Stowarzyszeń Bibliotekarskich [IFLA]. Universitas Gedanensis, R. 28, t. 52, pp. 53-82. <a href="https://universitasgedanensis.wordpress.com/2017/06/24/universitas-gedanensis-t-52/" target="&ldquo;_blank&rdquo;">Link.</a></p>
-<p>Gaweł, Hanna (2017). Pomiędzy tekstem a technologią – Ngram Viewer. W: Małgorzata Kowalska, Veslawa Osińska red. Wizualizacja informacji w humanistyce. Toruń: Wydawnictwo Naukowe Uniwersytetu Mikołaja Kopernika, pp. 93-107.</p>
-<p>Gaweł, Hanna (2015). Nauka we współczesnym świecie arabskim. Universitas Gedanensis, R. 26, t. 49, pp. 145-157. <a href="https://universitasgedanensis.wordpress.com/2015/06/19/universitas-gedanensis-t-49/" target="&ldquo;_blank&rdquo;">Link.</a></p>
-<p>Gaweł Hanna (2015). Biblioteka Główna Akademii Morskiej w Szczecinie. Między Regałami, nr 3 (22), pp. 14-15. <a href="https://www.scribd.com/document/293799397/Mi%C4%99dzy-Rega%C5%82ami-2015-nr-3-22" target="&ldquo;_blank&rdquo;">Link.</a></p>
-<hr>
-<h2> Selected Talks:</h2>
-<p><strong>Kraków - 4-5.06.2020:</strong> III Konferencja AIDA2 - Architektura Informacji jako dyscyplina akademicka - referat pt. &ldquo;Architektura informacji serwisów informujących o jakości powietrza w Polsce&rdquo;</p>
-<p><strong>Bydgoszcz - 3-4.06.2019:</strong> II Międzynarodowa Konferencja Naukowa &ldquo;Wok&oacute;ł Paula Ladewiga i jego &ldquo;Katechizmu biblioteki&rdquo; - referat pt. &ldquo;Biblioteki przyszłości wedle koncepcji Paula Ladewiga&rdquo;</p>
-<p><strong>Kraków - 16.05.2019:</strong> I Og&oacute;lnopolska Konferencja Naukowa Doktorant&oacute;w - Doctoral Research Conference. Share &amp; Inspire 2019 - Confidence and Beauty in Communication - referat pt. &ldquo;Is man an information system? - an interdisciplinary approach&rdquo;</p>
-<p><strong>Toruń - 23.02.2019:</strong> I Og&oacute;lnopolska Konferencja Naukowa WIAD19 &ldquo;Projektowanie dla R&oacute;żnorodności&rdquo; - referat pt. &ldquo;Wyzwania projektowania AI dla arabskojęzycznego użytkownika&rdquo;</p>
-<p><strong>Kraków - 14.12.2018:</strong> XV Og&oacute;lnopolska Studencko-Doktorancka Konferencja Naukowa Zarządzanie Informacją w Organizacji: METODOLOGIA, NARZĘDZIA, PRAKTYKA - referat pt. &ldquo;Zarządzanie informacją dotyczącą wytycznych praktyki klinicznej według metodologii GRADE&rdquo;</p>
-<p><strong>Kraków - 05-06.06.2018:</strong> I Konferencja AIDA - Architektura Informacji jako dyscyplina akademicka - referat pt. &ldquo;Wizualizacja niepewnych, niekompletnych i brakujących danych / Visualization of uncertain, incomplete and missing data&rdquo;</p>
-<p><strong>Kielce - 24.04.2018:</strong> III Og&oacute;lnopolska Konferencja Studencko-Doktorancka &ldquo;Język jako świadectwo kultury. Język. Kultura. Społeczeństwo&rdquo; - referat pt. &ldquo;Modelowanie temat&oacute;w a popularność badacza na polu naukowym&rdquo;</p>
-<p><strong>Krak&oacute;w - 01.12.2017:</strong> XIV Studencko-Doktorancka Konferencja Naukowa &ldquo;Big Data: zastosowanie, problem i przyszłość zjawiska&rdquo; - referat pt. &ldquo;To już czas: nowy rodzaj mapy - przypadek krakowskiego turysty&rdquo;</p>
-<p><strong>Toruń - 23.04.2017:</strong> Międzynarodowa Konferencja Toruńska &ldquo;Wizualizacja informacji w humanistyce&rdquo; - referat pt. &ldquo;Pomiędzy tekstem a technologią - Ngram Viewer&rdquo;</p>
-<p><strong>Toruń - 09.03.2017:</strong> II Og&oacute;lnopolska Konferencja Naukowa &ldquo;Człowiek - Informacja. Książka. Cyberkultura&rdquo; - referat pt. &ldquo;Memy krzywym zwierciadle: nowa forma pastiszu, komunikacji, walki i sztuki&rdquo;</p>
-<p><strong>Bydgoszcz - 22.04.2016:</strong> VII Og&oacute;lnopolska Konferencja Bibliologicznych K&oacute;ł Naukowych &ldquo;Książka kontra e-book&rdquo; - referat pt. &ldquo;Kr&oacute;tka historia książkomat&oacute;w&rdquo;</p>
-<p><strong>Toruń - 17.03.2016:</strong> I Og&oacute;lnopolska Konferencja Naukowa &ldquo;Człowiek - biblioteki. Książki. Media&rdquo; - referat pt. &ldquo;Co nam daje 25 milion&oacute;w książek&rdquo;</p>
-<p><strong>Bydgoszcz - 22.04.2015:</strong> IV Og&oacute;lnopolska Konferencja Bibliologicznych K&oacute;ł Naukowych - referat pt. &ldquo;The Student Engagement Platform (SEP) - nowa generacja platform do nauczania na przykładzie Chalkup&rdquo;</p>
-<p><strong>Toruń - 20.03.2015:</strong> I Og&oacute;lnopolska Studencko-Doktorancka Konferencja Naukowa &ldquo;Człowiek - Nauka. Technologia. Informacja&rdquo; - referat pt. &ldquo;MOOC (Massive Online Open Course) w dobie Web 2.0 - por&oacute;wnanie platform&rdquo;</p>
-<p><strong>Bydgoszcz - 25.02.2015:</strong> Sesja Naukowa &ldquo;Przegląd badań licencjackich, magisterskich i innych inspiracji studenckich&rdquo; - referat pt. &ldquo;Bibliografia bydgoska 1801-1811 - wstępne om&oacute;wienie pracy&rdquo;</p>
-<hr>
-<h2>Certificates:</h2>
-<p>Look at this website for full list: <a href="https://hanna-gawel-academic.tumblr.com/research" target="&ldquo;_blank&rdquo;">"Certificates";</a></p> 
-<hr>
-<h2>Awards:</h2>
-<p><strong>2017</strong>: Award for Best Graduate Student of the Faculty of Administration and Social Sciences of the Kazimierz Wielki University in Bydgoszcz in the academic year 2016/2017</p>
-<p><strong>2017</strong>: Honour Kazimierz Wielki University Rector’s Award for scientific achievements and an exemplary student conduct</p>
-<p><strong>2017</strong>: The Best Diploma Thesis of the Faculty of Administration and Social Sciences Award in the academic year 2016/2017</p>
-<p><strong>2016</strong>: The Best Student of the Kazimierz Wielki University in Bydgoszcz Award in the academic year 2015/2016</p>
-<p><strong>2016</strong>: The Best Student at the Faculty of Administration and Social Sciences of the Kazimierz Wielki University in Bydgoszcz Award</p>
-<hr>
-<h2>Scholarships:</h2>
-<p>2017-2019: Jagiellonian University Rector’s Scholarship for The Best Students</p>
-<p>2018: Scholarship of the Ministry of Science and Higher Education for Students in the academic year 2018/2019</p>
-<p>2016: Scholarship of the Ministry of Science and Higher Education for Students in the academic year 2016/2017</p>
-<p>2015-2016: Kazimierz Wielki University Rector’s Scholarship for The Best Students</p>
-<hr>
-<h2>Grants:</h2>
-<p>2020: Mini Grant SDNS UJ &gt;&gt;&gt; <a href="https://social-sciences.phd.uj.edu.pl/en_GB/for_phd_students/mini-grants" target="&ldquo;_blank&rdquo;">Doctoral School in the Social Sciences - Jagiellonian University in Krakow</a></p>
-<hr>
-<h2>Memberships:</h2>
-<p>2019: Europeana &gt;&gt;&gt; <a href="https://pro.europeana.eu/person/hanna-gawel" target="&ldquo;_blank&rdquo;">Europeana Profile Link;</a></p>
-<p>2020: Association of Internet Researchers &gt;&gt;&gt; <a href="https://members.aoir.org/Sys/PublicProfile/55476902" target="&ldquo;_blank&rdquo;">AoIR Profile;</a></p>
-<p>2020: NordMedia Network &gt;&gt;&gt; <a href="https://nordmedianetwork.org/researchers/hanna-gawel/" target="&ldquo;_blank&rdquo;">NordMedia Network Profile;</a></p>
-
 
 <hr>
 <span id="a">hanna@gawel</span>:<span id="b">~</span><span id="c">$</span> cat <!-- laglaglaglaglaglaglaglaglaglaglaglag -->contactlinks.txt<br/><br/>
