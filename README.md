@@ -29,11 +29,11 @@ About me:
 
 | Name | Link |
 | ------ | ------ |
-| ORCID | [https://orcid.org/0000-0001-5714-0459][PlMe] |
-| About | [https://hanna-gawel-academic.tumblr.com/about][PlDb] |
-| Research | [https://hanna-gawel-academic.tumblr.com/research][PlGh] |
-| Mastodon| [https://mastodon.online/@AirQualDepo][PlGd] |
-| ResearchGate | [https://www.researchgate.net/profile/Hanna_Gawel3][PlOd] |
-| Academia | [https://jagiellonian.academia.edu/HannaGawel][PlMe] |
-| Google Scholar | [https://scholar.google.com/citations?user=rxf11gEAAAAJ&hl=pl][PlMe] |
+| ORCID | (https://orcid.org/0000-0001-5714-0459) |
+| About | (https://hanna-gawel-academic.tumblr.com/about) |
+| Research | (https://hanna-gawel-academic.tumblr.com/research) |
+| Mastodon| (https://mastodon.online/@AirQualDepo) |
+| ResearchGate | (https://www.researchgate.net/profile/Hanna_Gawel3) |
+| Academia | (https://jagiellonian.academia.edu/HannaGawel) |
+| Google Scholar | (https://scholar.google.com/citations?user=rxf11gEAAAAJ&hl=pl) |
 
