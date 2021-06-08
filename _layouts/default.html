@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--
+Hello internet user,
+
+For the love of all that is worth loving *please*
+if you copy-paste this to use for your own
+website, try to change the Google analytics code
+to yours or just remove it.
+
+The code used to generate this website is released
+under the GNU General Public License version 3
+(GPLv3) .
+-->
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+
+<head>
+
+
+
+  <script>
+  this.top.location !== this.location && (this.top.location = this.location);
+  </script>
+
+
+  {% include meta.html %}
+
+  {% include css.html %}
+
+  {% include js.html %}
+
+</head>
+
+<body>
+
+
+
+  <div id="main" role="main" class="container">
+
+
+    <h1 id="top"><a href="{{ site.url }}">Hanna Gawel</a></h1>
+
+
+    {{ content }}
+
+
+  {% include footer.html %}
+
+  {% include analytics.html %}
+</div>
+
+</body>
+
+</html>
