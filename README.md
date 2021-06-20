@@ -6,7 +6,8 @@
 Nice to meet you!!
 
 About me:
-> I am a PhD Student at Jagiellonian University Doctoral School in the Social Sciences 
+> I am a West Pomeranian native who grew up on the lowlands near Szczecin.
+> Currently, I am a PhD Student at Jagiellonian University Doctoral School in the Social Sciences 
 >under Professor Wieslaw Babik supervison studying, how information 
 >pollutants affects information regarding air quality in Polish metropolises.
 > My research objectives are to develop research on the origins and receptions 
