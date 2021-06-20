@@ -21,7 +21,7 @@ About me:
 - 🎓  I’m currently working on air quality information management.
 - 💬  Ask me about information management, SEO, information search.
 - 📫  How to reach me: <a href="mailto:hanna.gawel@doctoral.uj.edu.pl" target="_top">hanna.gawel@doctoral.uj.edu.pl </a> 
-- 😄  My academic website: (https://www.hanna-gawel-academic.tumblr.com/about)
+- 😄  My academic website: <a href="https://www.hanna-gawel-academic.tumblr.com/about" target="_top">https://www.hanna-gawel-academic.tumblr.com/about</a> 
 - 🚴  Fun fact: I love reading books, cycling & stick post-it cards everywhere.
 
 #### My most recent links & what you can find there:
