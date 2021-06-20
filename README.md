@@ -6,17 +6,8 @@
 Nice to meet you!!
 
 About me:
-> I am a West Pomeranian native who grew up on the lowlands near Szczecin.
-> Currently, I am also a PhD Student at Jagiellonian University Doctoral School in the Social Sciences 
->under Professor Wieslaw Babik supervison studying, how information 
->pollutants affects information regarding air quality in Polish metropolises.
-> My research objectives are to develop research on the origins and receptions 
->of information regarding air quality in Polish metropolises,
->using social, information ecology and communication science frameworks.
-> Prior to this, I received my Master's in Information Management 
->from Institute of Information Studies at Jagiellonian University in 2019. 
->And, I received my Bachelor's in Information Science and Library Studies 
->from Kazimierz Wielki University in Bydgoszcz in 2017.
+> I am a West Pomeranian native who grew up on the lowlands near Szczecin. Currently, I am also a PhD student at Jagiellonian University Doctoral School in the Social Sciences under Professor Wieslaw Babik supervision studying, how information pollutants affect information regarding air quality in Polish metropolises. My research aims are to develop research on the origins and receptions of information regarding air quality in Polish metropolises, using social, information ecology and communication science frameworks. Before this, I received my Master's in Information Management from the Institute of Information Studies at Jagiellonian University in 2019. And, I obtained my Bachelor's in Information Science and Library Studies from Kazimierz Wielki University in Bydgoszcz in 2017.
+
 
 
 - 🎓  I’m currently working on air quality information management.
