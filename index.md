@@ -12,7 +12,10 @@ layout: default
 
 <!-- <img class="profile-picture" src="me.png"> -->
 
-I am a West Pomeranian native who grew up on the lowlands near Szczecin. Currently, I am also a PhD student at Jagiellonian University Doctoral School in the Social Sciences under Professor Wieslaw Babik supervision studying, how information pollutants affect information regarding air quality in Polish metropolises. My research aims are to develop research on the origins and receptions of information regarding air quality in Polish metropolises, using social, information ecology and communication science frameworks. Before this, I received my Master’s in Information Management from the Institute of Information Studies at Jagiellonian University in 2019. And, I obtained my Bachelor’s in Information Science and Library Studies from Kazimierz Wielki University in Bydgoszcz in 2017.
+I’m an information manager and PhD Candidate research how society is conscious about information about air quality in urban space. My expertise includes project design and management, data analysis and interpretation, and the development and implementation of research tools. 
+
+I enjoy generating new concepts and devising feasible solutions to broadly relevant problems. My colleagues would describe me as a motivated, resourceful individual who maintains a positive, proactive attitude when faced with adversity. 
+
 
 **I'll be on the job market starting in Fall 2023.** Please reach out if you think I'd be a good fit for your academic department or industry research group.
 
