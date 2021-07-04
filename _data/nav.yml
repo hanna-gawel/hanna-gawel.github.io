@@ -1,0 +1,17 @@
+- name: "Contact"
+  link: "https://hanna-gawel.github.io/contact"
+
+- name: "Tumblr"
+  link: "https://hanna-gawel-academic.tumblr.com/"
+
+- name: "Blog"
+  link: "https://hanna-gawel.github.io/blog"
+
+- name: "Publications"
+  link: "https://hanna-gawel.github.io/publications"
+
+- name: "CV"
+  link: "https://hanna-gawel.github.io/cv"
+
+- name: "About"
+  link: "https://hanna-gawel.github.io/"
