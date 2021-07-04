@@ -12,11 +12,7 @@ layout: default
 
 <!-- <img class="profile-picture" src="me.png"> -->
 
-I'm a researcher and data scientist working in natural language processing, computational social science, and cultural analytics. I'm interested in modeling how people communicate about their personal experiences through text, especially when these communications occur in online communities centered on healthcare support or cultural objects like books or games. My research relies on unsupervised machine learning methods and re-explores the reliability and evaluation of these methods when applied to small, socially-specific datasets.
-
-My past work has examined how postpartum people share and frame their [birth experiences](https://maria-antoniak.github.io/resources/2019_cscw_birth_stories.pdf), how online book reviewers use and write about [genres](https://maria-antoniak.github.io/resources/2021_cscw_librarything_genres.pdf), and how the use of word embedding models requires additional [stability tests](https://maria-antoniak.github.io/resources/2018_evaluating_stability.pdf) when used to measure biases.
-
-I'm currently a PhD candidate in [Information Science](http://infosci.cornell.edu/) at Cornell University, where I'm advised by [David Mimno](https://mimno.infosci.cornell.edu/). I have a master's degree in [Computational Linguistics](https://www.compling.uw.edu/) from the University of Washington and have worked as a data scientist and research intern at places like [Microsoft Research](https://www.microsoft.com/en-us/research/), [Facebook Core Data Science](https://research.fb.com/core-data-science/), and [Pacific Northwest National Laboratory](https://www.pnl.gov/).
+I am a West Pomeranian native who grew up on the lowlands near Szczecin. Currently, I am also a PhD student at Jagiellonian University Doctoral School in the Social Sciences under Professor Wieslaw Babik supervision studying, how information pollutants affect information regarding air quality in Polish metropolises. My research aims are to develop research on the origins and receptions of information regarding air quality in Polish metropolises, using social, information ecology and communication science frameworks. Before this, I received my Master’s in Information Management from the Institute of Information Studies at Jagiellonian University in 2019. And, I obtained my Bachelor’s in Information Science and Library Studies from Kazimierz Wielki University in Bydgoszcz in 2017.
 
 **I'll be on the job market starting in Fall 2023.** Please reach out if you think I'd be a good fit for your academic department or industry research group.
 
@@ -54,11 +50,9 @@ I'm currently a PhD candidate in [Information Science](http://infosci.cornell.ed
 
 ## Other Things
 
-* I'm the current President of [Grads for Gender Inclusion in Computing](https://gsgic.org/) at Cornell.
-* I'm the current Webmaster (and former Social Chair and Treasurer) of [Graduate Women in Science](https://gwiscornell.wordpress.com/) at Cornell.
-* In undergrad, I studied in the [Program of Liberal Studies](https://pls.nd.edu/), a reading-oriented set of tutorials and seminars, at the University of Notre Dame. I'm always happy to talk to students who are interested in transitioning from the humanities to technology.
-* No relation (as far as I know) to [the other Antoniak](https://www.semanticscholar.org/author/C.-Antoniak/16645877) interested in the Dirichlet distribution.
-* [books books books](https://maria-antoniak.github.io/reading)
+
+
+* [books books books](https://hanna-gawel.github.io/reading)
 
 
 <br><br><br>
