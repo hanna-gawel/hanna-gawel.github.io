@@ -26,9 +26,15 @@ I enjoy generating new concepts and devising feasible solutions to broadly relev
 
 <table style="width:100%">
   <tr>
-    <td width="15%">Dec 2020</td>
-    <td>Paper on <a href="https://maria-antoniak.github.io/resources/2021_cscw_librarything_genres.pdf">genre and LibraryThing book reviews</a> published at CSCW</td>
+    <td width="15%">Google Scholar</td>
+    <td><a href="https://scholar.google.com/citations?user=rxf11gEAAAAJ&hl=pl" target="_top">My Google Scholar profile</a>
   </tr>
+  
+    <tr>
+    <td width="15%">ResearchGate</td>
+    <td><a href="https://www.researchgate.net/profile/Hanna_Gawel3" target="_top">My ResearchGate profile</a>
+  </tr>
+  
   
 </table>
 
@@ -40,7 +46,10 @@ I enjoy generating new concepts and devising feasible solutions to broadly relev
 
 
 
-* [books books books](https://hanna-gawel.github.io/reading)
+* [Books that I have set my heart](https://hanna-gawel.github.io/reading)
+* 💬  Ask me about information management, SEO, information search.
+* 📫  How to reach me: <a href="mailto:hanna.gawel@doctoral.uj.edu.pl" target="_top">hanna.gawel@doctoral.uj.edu.pl </a> 
+* 🚴  Fun fact: I love reading books, cycling & stick post-it cards everywhere.
 
 
 <br><br><br>
