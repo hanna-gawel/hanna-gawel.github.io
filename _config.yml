@@ -1,5 +1,5 @@
-title: Maria Antoniak
-url: "https://maria-antoniak.github.io/"
+title: Hanna Gawel
+url: "https://hanna-gawel.github.io/"
 baseurl: ""
 
 markdown: kramdown
@@ -7,7 +7,7 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 
-tracking_id: UA-156013933-1
+tracking_id: 
 
 sass:
     style: compressed
