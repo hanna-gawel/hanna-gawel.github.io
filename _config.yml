@@ -1,0 +1,14 @@
+title: Maria Antoniak
+url: "https://maria-antoniak.github.io/"
+baseurl: ""
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+tracking_id: UA-156013933-1
+
+sass:
+    style: compressed
+    sass_dir: _sass
