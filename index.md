@@ -25,10 +25,7 @@ I enjoy generating new concepts and devising feasible solutions to broadly relev
 ## Science Communication
 
 <table style="width:100%">
-  <tr>
-    <td width="15%">Google Scholar</td>
-    <td><a href="https://scholar.google.com/citations?user=rxf11gEAAAAJ&hl=pl" target="_top">My Google Scholar profile</a>
-  </tr>
+
   
     <tr>
     <td width="15%">ResearchGate</td>
