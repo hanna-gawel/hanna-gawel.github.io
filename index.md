@@ -26,16 +26,8 @@ I enjoy generating new concepts and devising feasible solutions to broadly relev
 
 <table style="width:100%">
   <tr>
-    <td width="15%">ResearchGate</td>
-    <td>My ResearchGate profile <a href="https://www.researchgate.net/profile/Hanna_Gawel3"></td>
-  </tr>
-   <tr>
-    <td width="15%">Academia.edu</td>
-    <td>My Academia.edu profile <a href="https://jagiellonian.academia.edu/HannaGawel"></td>
-  </tr>
-  <tr>
-    <td width="15%">Google Scholar</td>
-    <td>My Google Scholar profile <a href="https://scholar.google.com/citations?user=rxf11gEAAAAJ&hl=pl"></td>
+    <td width="15%">Dec 2020</td>
+    <td>Paper on <a href="https://maria-antoniak.github.io/resources/2021_cscw_librarything_genres.pdf">genre and LibraryThing book reviews</a> published at CSCW</td>
   </tr>
   
 </table>
