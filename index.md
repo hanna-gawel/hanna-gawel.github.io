@@ -4,7 +4,7 @@ layout: default
 
 <br>
 
-<img src="me_banner.jpg">
+<img src="me_banner.png">
 
 <br>
 
@@ -22,22 +22,6 @@ I am a West Pomeranian native who grew up on the lowlands near Szczecin. Current
 ## News
 
 <table style="width:100%">
-  <tr>
-    <td width="15%">Jun 2021</td>
-    <td>Interning at <a href="https://cortex.twitter.com/">Twitter Cortex</a></td>
-  </tr>
-  <tr>
-    <td width="15%">May 2021</td>
-    <td>Our paper <a href="https://maria-antoniak.github.io/resources/2021_acl_bad_seeds.pdf">Bad Seeds: Evaluating Lexical Methods for Bias Measurement</a> is accepted at ACL 2021</td>
-  </tr>
-  <tr>
-    <td width="15%">Dec 2020</td>
-    <td>Paper on Goodreads classics published at <a href="https://post45.org/2021/04/the-goodreads-classics-a-computational-study-of-readers-amazon-and-crowdsourced-amateur-criticism/">Post45</a> & <a href="https://culturalanalytics.org/article/22221-the-goodreads-classics-a-computational-study-of-readers-amazon-and-crowdsourced-amateur-criticism">Cultural Analytics</a></td>
-  </tr>
-  <tr>
-    <td width="15%">Feb 2021</td>
-    <td>Speaking at Microsoft's <a href="https://www.microsoft.com/en-us/research/event/aiandgaming2021/">AI & Gaming Research Summit</a> on self disclosure in online gaming communities</td>
-  </tr>
   <tr>
     <td width="15%">Dec 2020</td>
     <td>Paper on <a href="https://maria-antoniak.github.io/resources/2021_cscw_librarything_genres.pdf">genre and LibraryThing book reviews</a> published at CSCW</td>
