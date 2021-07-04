@@ -22,16 +22,21 @@ I enjoy generating new concepts and devising feasible solutions to broadly relev
 
 <br>
 
-## Science Communication
+## News
 
 <table style="width:100%">
-
-  
-    <tr>
-    <td width="15%">ResearchGate</td>
-    <td><a href="https://www.researchgate.net/profile/Hanna_Gawel3" target="_top">My ResearchGate profile</a>
+<tr>
+   <td width="15%">Jun 2021</td>
+    <td>Interning at <a href="https://cortex.twitter.com/">Twitter Cortex</a></td>
   </tr>
-  
+  <tr>
+    <td width="15%">May 2021</td>
+    <td>Our paper <a href="https://maria-antoniak.github.io/resources/2021_acl_bad_seeds.pdf">Bad Seeds: Evaluating Lexical Methods for Bias Measurement</a> is accepted at ACL 2021</td>
+  </tr>
+  <tr>
+    <td width="15%">Dec 2020</td>
+    <td>Paper on Goodreads classics published at <a href="https://post45.org/2021/04/the-goodreads-classics-a-computational-study-of-readers-amazon-and-crowdsourced-amateur-criticism/">Post45</a> & <a href="https://culturalanalytics.org/article/22221-the-goodreads-classics-a-computational-study-of-readers-amazon-and-crowdsourced-amateur-criticism">Cultural Analytics</a></td>
+  </tr> 
   
 </table>
 
