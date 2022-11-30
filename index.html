@@ -1,255 +1,289 @@
 
-<!------------------------------------------------------------------------
- 
- 
- 
-                      hazelnut // by @xyz
- 
- 
- 
-------------------------------------------------------------------------->
 <!DOCTYPE html>
-<html>
-<head>
-<title>Hanna Gawel</title>
- 
-<link rel="shortcut icon" href="https://64.media.tumblr.com/37d4cd99ebc8e1218d009cb1163b823d/6d2ba65fc9c32057-3b/s64x64u_c1/452ebdaef324c381995fde0135f2d869eef570af.jpg">
-<link rel="alternate" type="application/rss+xml" href="{RSS}">
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
- 
-<!-- google fonts -->
- 
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400;1,700&display=swap" rel="stylesheet">
- 
-<!-- scripts -->
- 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
-<script src="https://static.tumblr.com/iuw14ew/VSQma1786/jquery.style-my-tooltips.js"></script>
- 
-<script>
-(function($){
-$(document).ready(function(){
-$("a[title]").style_my_tooltips({
-tip_follows_cursor:true,
-tip_delay_time:90,
-tip_fade_speed:300,
-attribute:"title"
-});
-});
-})(jQuery);
-</script>
- 
-<style type="text/css">
- 
-/* ---------------------- change colors & font here --------------------- */
- 
-:root {
-    --accent:#cfb095; /* accent color */
-    --link-hover-color:#ffffff; /* link text color on hover */
-    --bg-color:#ffffff; /* background color */
-    --headings:#222222; /* headings */
-    --borders:#eaeaea; /* border */
- 
-    --body-font:'Open Sans'; /* body font */
-    --text-size:11px; /* body font size */
-    --body-color:#555555; /* text color */
-}
- 
-/* ---------------------------------------------------------------------- */
- 
-@-webkit-keyframes fadein {
-        0%   {opacity: 0;}
-        100% { opacity: 1; }}
- 
-@-moz-keyframes fadein {
-        0%   { opacity: 0; }
-        100% { opacity: 1; }}
- 
-@keyframes fadein {
-        0%   { opacity: 0; }
-        100% { opacity: 1; }}
- 
-/*----- BASIC STYLING -----*/
- 
-#s-m-t-tooltip {
-    max-width:300px;
-    margin-top:-35px;
-    margin-left:0px;
-    font-size:9px;
-    letter-spacing:1.25px;
-    font-weight:500;
-    padding:1px 7px;
-    text-align:center;
-    text-transform:uppercase;
-    color:#aaaaaa;
-    background-color:#fff;
-    z-index:999999;
-}
- 
-body {
-    font-family:var(--body-font);
-    font-size:var(--text-size);
-    text-align:left;
-    line-height:1.55em;
-    letter-spacing:0.5px;
-    color:var(--body-color);
-    background-color:#fff;
-    -moz-osx-font-smoothing:grayscale;
-    -webkit-font-smoothing:antialiased;
-    font-smoothing:antialiased;
-    -webkit-animation: fadein 1.3s;
-    -moz-animation:fadein 1.3s;
-    animation:fadein 1.3s;
-}
- 
-h1 {
-    font-family:'Open Sans';
-    font-size:var(--text-size);
-    color:var(--headings);
-    font-weight:700;
-    margin:0 0 3px 0;
-    padding:0px;
-    font-size:11px;
-    letter-spacing:1px;
-    text-transform:uppercase;
-}
- 
-hr {
-    width:30%;
-    margin:35px 0 40px 0;
-    border-width: 1px 0px 0px 0px;
-    border-style:solid;
-    border-color:var(--borders);
-}
- 
-#container {
-    display:block;
-    position:relative;
-    top:125px;
-    background-color:#fff;
-    width:375px;
-    height:auto;
-    margin:auto;
-}
- 
-#container a {
-    color:var(--body-color);
-    text-decoration:none;
-    background:
-        linear-gradient(
-        to bottom, var(--accent) 0%,
-        var(--accent) 100% );
-    background-position: 0 100%;
-    background-repeat: repeat-x;
-    background-size: 1px 1px;
-    transition: .3s;
-}
- 
-#container a:hover {
-    color:var(--link-hover-color);
-    background-size: 2px 50px;
-}
- 
-.bio-heading {
-    font-size:25px;
-    -webkit-text-stroke: 1px var(--headings);
-    -webkit-text-fill-color: transparent;
-    font-family:'Open Sans';
-    text-transform:uppercase;
-    font-weight:800;
-    letter-spacing:3px;
-    text-shadow:2px 2px 0px var(--accent);
-    margin-bottom:30px;
-}
- 
-.bio {
-    padding:0px 0px 20px 0px;
-}
- 
-.links {
-    display:grid;
-    grid-template-columns:34% 34% 34%;
-}
- 
-.links span {
-    display:block;
-}
- 
-.links a {
-    display:inline-block;
-    margin-bottom:2px;
-}
- 
-iframe.tmblr-iframe {display:none;}
- 
-/*---- credit -  pls don't remove <3 -----*/
- 
-#credit {
-    position: fixed;
-    bottom: 20px;
-    right: 25px;
-    font-size: 15px;
-    color:#aaaaaa;
-}
- 
-#credit a {
-    color:#aaaaaa;
-}
- 
-</style>
-</head>
-<body>
- 
-<div id="container">
- 
-<div class="bio-heading">Hanna Gawel Resume</div>
- 
-<!-- bio -->
- <b>About:</b>
-<p>Hello! I am an information manager specialising in the management of the back-end of the information cycle. Now I am a PhD student in Social Communication and Media Studies division under Professor Wieslaw Babik supervision.
-</p>
+<html lang=" en "><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<p>I'm 📖 reading White Ivy by Susie Yang, 🎧 listening to The Tim Ferriss Show, 💭 thinking about information in urban space experiences, 💡 learning how to code smart websites, and 📓 having conversations about business solutions and design thinking.</p>
-
-	
-<div class="links">
-    <span>
-    <h1>Social Media</h1>
-        <a href="https://www.linkedin.com/in/hannagawel/">LinkedIn</a><br/>
-        <a href="https://twitter.com/gawel_hanna">Twitter</a><br/>
-        <a href="https://hanna-gawel-academic.tumblr.com/">Tumblr</a><br/>
-    </span>
- 
-    <span>
-    <h1>Academia</h1>
-        <a href="http://orcid.org/0000-0001-5714-0459">ORCID</a><br/>
-        <a href="https://www.researchgate.net/profile/Hanna_Gawel3">Researchgate</a><br/>
-        <a href="https://scholar.google.com/citations?user=rxf11gEAAAAJ&hl=pl">Google Scholar</a><br/>
-    </span>
- 
-    
+  <title>Hui Lin | coffee to code; silence to music</title><!-- Begin Jekyll SEO tag v2.5.0 -->
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="coffee to code; silence to music" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:site_name" content="coffee to code; silence to music" />
+<script type="application/ld+json">
+{"headline":"coffee to code; silence to music","name":"coffee to code; silence to music","@type":"WebSite","url":"/","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css">
+  <link rel="shortcut icon" type="image/x-icon" href=""></head>
+<body><div class="container header-contianer">
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 header-left">
+      <h1>Hanna Gawel</h1>
+      <h2>coffee to code; silence to music</h2>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 header-right">
+      <ul class="icons no-print"><li>
+            <a target="_blank" href="https://github.com/hanna-gawel" class="button button--sacnite button--round-l">
+              <i class="fa fa-github" title="Github link"></i>
+            </a>
+          </li><li>
+            <a target="_blank" href="https://scholar.google.com/citations?user=PAArLQIAAAAJ&hl=en" class="button button--sacnite button--round-l">
+              <i class="ai ai-google-scholar-square ai-3x" title="Google Scholar link"></i>
+            </a>
+          </li><li>
+            <a target="_blank" href="https://www.linkedin.com/in/hui-lin-81653855" class="button button--sacnite button--round-l">
+              <i class="fa fa-linkedin" title="Linkedin link"></i>
+            </a>
+          </li><li>
+            <a target="_blank" href="https://www.youtube.com/channel/UCgEXiCCxJO9S6lWcoXShryg" class="button button--sacnite button--round-l">
+              <i class="fa fa-youtube-play" title="Youtube link"></i>
+            </a>
+          </li></ul><p>
+          Email: <a href="mailto:gawehanna(at)gmail.com" target="_blank">gawehanna(at)gmail.com</a>
+        </p><p>
+          Web: 
+<a href="https://www.hanna-gawel-academic.tumblr.com/" target="_blank" class="">https://www.hanna-gawel-academic.tumblr.com/</a>
+        </p></div>
+  </div>
 </div>
-	
-<hr/>
-	
+<main class="page-content" aria-label="Content">
+    <div class="wrapper"><div class="container intro-container">
+  <h3>About Me</h3>
+  <div class="row clearfix"><div class="col-xs-12 col-sm-4 col-md-3 no-print">
+        <span class="profile-img" style="background-image: url(/HuiLin.png)" />
+      </div><div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
+      <p>I am currently working at Shopify, ex-Google/Netlify/DuPont.</p>
 
-<b>Education:</b><br><br>Jagiellonian University<br><small>Cracow, PL</small><br>
-<div style="text-align: right"><small>2019 - 2023</small>
-<br></div><small><span style="color: rgba(0, 0, 0, 0.84);">PhD - Social Communication &amp; Media Studies</span></small><br>
-<br>
-Jagiellonian University<br><small>Cracow, PL</small><div style="text-align: right;"><small>2017 - 2019</small></div><small><span style="color: rgba(0, 0, 0, 0.84);">M.A. - Information Management</span></small><br>
-<br>Kazimierz Wielki University<br><small>Bydgoszcz, PL</small><div style="text-align: right;"><small>2014 - 2017</small></div><small><span style="color: rgba(0, 0, 0, 0.84);">B.A. - Information Science &amp; Library Studies</span></small><hr><b>Work Experience:</b><br><br>Jagiellonian University<br><small>Cracow, PL</small><div style="text-align: right;"><small>2019 - present</small></div><small><span style="color: rgba(0, 0, 0, 0.84);"><ul><li>PhD - Social Communication &amp; Media Studies</li></ul></span></small><blockquote><small>Discipline: Social Communication and Media Studies</small></blockquote><br><small><span style="color: rgba(0, 0, 0, 0.84);"><ul><li>Information Manager</li></ul></span></small><blockquote><small>Participation and implementation of specific research tasks carried out as part of the project financed from NCN HARMONIA 10 entitled "The conditions of civil society in Central and Eastern Europe thirty years after: a comparative perspective" (HARMONIA 10 NCN nr 2018/30/M/HS5/00437)</small></blockquote><br>Royal Dutch Shell (Shell Business Operations Cracow)<br><small>Cracow, PL</small><div style="text-align: right;"><small>2019 - 2019</small></div><small><span style="color: rgba(0, 0, 0, 0.84);"><ul><li>Summer Internship</li></ul></span></small><blockquote><small>•&nbsp; Reorganized contract data of over a thousand Dutch customers for the Shell Fleet Solutions business unit.<br>•&nbsp; Planned and executed a better contract register based on priorities, which succeed in high‐quality information management.<br>•&nbsp; Worked with Account Managers to provide pre-offer, offer and contract management support for standard and non-standard contract set up and maintenance.<br>•&nbsp; Improved &amp; automated elements of the Knowledge Sharing procedure for the SCM process.<br>•&nbsp; Implemented new solutions for maintaining master data integrity.</small></blockquote><hr><b>Languages:</b><br><br><small><ul><li>Polish - native language</li><li>English - C1</li><li>German - B2</li><li>Finnish - A1</li></ul></small><hr><b>Skills:<br></b><br><small><ul><li>HTML/CSS</li><li>SQL</li><li>JavaScript<br></li><li>Python</li><li>R</li><li>Web design</li><li>Image editing</li></ul></small><hr><b>Tools:<br></b><br><small><ul><li>Affinity</li><li>Airtable</li><li>Tableau</li><li>Power BI</li><li>MS Excel</li></ul></small><br><br><hr><small>References Available Upon Request.</small><small></small><div style="text-align: right;"><small><i>Cracow, 2021</i></small></div></div>
-</div><div style="text-align: right"><small><i></i></small></div>
+<p>I love to code in <mark>R</mark>. Also use <mark>Python</mark>. 
+I am addicted to <a href="https://hui1987.com">reading</a>. I love <a href="https://scientistcafe.com">data science</a> and <a href="https://scientistcafe.com/learning/">MOOC</a>.
+I like <a href="https://linhui.org/photos/99art/">drawing</a>,
+<a href="https://linhui.org/photos/">traveling</a>, <a href="https://hui1987.com/english-jokes.html">collecting jokes</a> and anything beautiful. 
+My interest in sport is not any higher than fish’s interest in driving Tesla.</p>
 
- 
-<!-- end bio -->
- </div><!-- end container -->
+<p>I was born in China, moved to the US, and now live in the San Francisco Bay area.</p>
 
-<!-- pls don't remove, thanks!<3 -->
- 
-<div id="credit"><a href="https://hanna-gawel-academic.tumblr.com/contact" target="_blank" title="@hannagawel"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 25 25" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></a></div>
- 
- 
-</body>
+<p>See the <a href="https://scientistcafe.com/cv.pdf">pdf resume here</a>.</p>
+
+    </div>
+  </div>
+</div>
+<div class="container experience-container">
+  <h3>Working and Research Experience</h3>
+  
+    <div class="row clearfix layout layout-left">
+  <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details"><h4>Shopify</h4><p><b>Lead Quantitative Researcher</b></p><p>Sep.2021 - Present</p></div>
+  <div class="col-xs-12 col-sm-8 col-md-9 col-print-12"><ul>
+  <li>Build quantitative research as a discipline at Shopify</li>
+  <li>Foundational research on user perception (survey) and connect to behavior (logs)</li>
+  <li>Understand user journey and pain point to inform product strategy</li>
+  <li>Discover market opportunities (internationalization)</li>
+  <li>Tackle complicated long term problem in a multi-discipline team of statistician, economist, social scientist and designer</li>
+</ul>
+
+  </div>
+</div>
+
+  
+    <div class="row clearfix layout layout-left">
+  <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details"><h4>Google</h4><p><b>Quantitative UX Researcher</b></p><p>Jul.2020 - Sep.2021</p></div>
+  <div class="col-xs-12 col-sm-8 col-md-9 col-print-12"><ul>
+  <li>Lead and build a user-centered metric tracking framework with a team of PM, SWE, UXR, and Analysts.</li>
+  <li>Address product needs, competitive positioning, and unmet user needs through a combination of a large-scale survey, text analytics, preference modeling, and log analysis.</li>
+  <li>Work closely with the machine intelligence team on innovative AI features.</li>
+  <li>Drive change by communicating actionable findings to experts and non-experts in the organization.</li>
+</ul>
+
+  </div>
+</div>
+
+  
+    <div class="row clearfix layout layout-left">
+  <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details"><h4>Netlify</h4>
+<a href="https://www.netlify.com" target="_blank" class="link">https://www.netlify.com</a><p><b>Data Science</b></p><p>May.2018 - Jun. 2020</p></div>
+  <div class="col-xs-12 col-sm-8 col-md-9 col-print-12"><p>I am building the data science department @Netlify from scratch.</p>
+<ul>
+  <li>Build up and lead a data science team to unlock the optimization for growth and sales enablement (Netlify user has grown 15%+ MoM, revenue has grown 10% MoM)</li>
+  <li>Partner with the infrastructure team to build <a href="https://course2019.scientistcafe.com/09datapipeline/">data pipeline</a> to centralize large scale of user-generated data (Data Lake) in a big data cloud environment using Hadoop and Spark.</li>
+  <li>Design and build Data Mart for business users.</li>
+  <li>Define and lead the development of foundational user behavior analysis, including user conversion model, funnel engagement analysis, marketing attribution, etc.</li>
+</ul>
+
+  </div>
+</div>
+
+  
+    <div class="row clearfix layout layout-left">
+  <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details"><h4>DuPont</h4>
+<a href="http://www.dupont.com" target="_blank" class="link">http://www.dupont.com</a><p><b>Data Scientist</b></p><p>May.2013 - Apr.2018</p></div>
+  <div class="col-xs-12 col-sm-8 col-md-9 col-print-12"><ul>
+  <li>Provide data science leadership for a broad range of analytics in North America Marketing
+    <ol>
+      <li>Predictive Analytics</li>
+      <li>Marketing programs analysis under the observational scenario</li>
+      <li>Analyze market research survey data using psychometric models and natural language processing; quantitatively study customer perception and identify variables that are predictive of patterns and/or are leading indicators</li>
+    </ol>
+  </li>
+  <li>Lead the project of building marketing data pipeline
+    <ol>
+      <li>Build marketing database in the cloud</li>
+      <li>Automate models and dashboard that track business performance</li>
+      <li>Social media analytics</li>
+    </ol>
+  </li>
+</ul>
+
+  </div>
+</div>
+
+  
+    <div class="row clearfix layout layout-left">
+  <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details"><h4>Iowa State University</h4>
+<a href="https://www.iastate.edu" target="_blank" class="link">https://www.iastate.edu</a><p><b>Consultant and Statistician</b></p><p>Sep.2009 - Apr.2013</p></div>
+  <div class="col-xs-12 col-sm-8 col-md-9 col-print-12"><ul>
+  <li>Jun.2012 - Apr.2013, Statistical Consulting for Business College</li>
+  <li>Sep.2009 - Apr.2013, Statistician, <a href="http://www.padrap.org/">Production Animal Disease Risk Assessment Program</a></li>
+  <li>Aug.2011 - May.2012, Consultant, General University Statistical Consulting and Statistics Consulting for College of Veterinary Medicine</li>
+</ul>
+
+  </div>
+</div>
+
+  
+</div>
+<div class="container education-container">
+  <h3>Books</h3>
+  
+    <div class="row clearfix layout layout-left">
+  <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details"><h4>Machine Learning using R</h4><p>Published in Oct 2017</p></div>
+  <div class="col-xs-12 col-sm-8 col-md-9 col-print-12"><ul>
+  <li><a href="http://scientistcafe.com/book/">Book Link</a></li>
+  <li>ISBN 9787121326585</li>
+  <li>Publishing House of Electronics industry</li>
+</ul>
+
+  </div>
+</div>
+
+  
+    <div class="row clearfix layout layout-left">
+  <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details"><h4>Introduction to Data Science</h4><p>2022 Dec 31 (Expected)</p></div>
+  <div class="col-xs-12 col-sm-8 col-md-9 col-print-12"><ul>
+  <li><a href="http://scientistcafe.com/IDS">Book Link</a></li>
+  <li>CRC Press (under copyediting…)</li>
+</ul>
+
+  </div>
+</div>
+
+  
+</div>
+<div class="container education-container">
+  <h3>Book Translation</h3>
+  
+    <div class="row clearfix layout layout-left">
+  <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details"><h4>Applied Predictive Modeling</h4><p>Published in May 2016</p></div>
+  <div class="col-xs-12 col-sm-8 col-md-9 col-print-12"><ul>
+  <li><a href="http://appliedpredictivemodeling.com">Book Link</a></li>
+  <li>English version by Max Kuhn and Kjell Johnson</li>
+  <li>Translated chapters 1-4, 12-14, 16, 18-20</li>
+  <li>Huazhang Publishing Inc.</li>
+</ul>
+
+  </div>
+</div>
+
+  
+    <div class="row clearfix layout layout-left">
+  <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details"><h4>R for Marketing Research and Analytics</h4><p>Published in Oct 2016</p></div>
+  <div class="col-xs-12 col-sm-8 col-md-9 col-print-12"><ul>
+  <li><a href="http://r-marketing.r-forge.r-project.org">Book Link</a></li>
+  <li>English version by Chris Chapman and Elea McDonnell Feit</li>
+  <li>Translated the book</li>
+  <li>Huazhang Publishing Inc.</li>
+</ul>
+
+  </div>
+</div>
+
+  
+    <div class="row clearfix layout layout-left">
+  <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details"><h4>Statistical Rethinking - A Bayesian Course with Examples in R and Stan</h4><p>Published in Apr 2019</p></div>
+  <div class="col-xs-12 col-sm-8 col-md-9 col-print-12"><ul>
+  <li><a href="http://xcelab.net/rm/statistical-rethinking/">Book Link</a></li>
+  <li>English version by Richard McElreath</li>
+  <li>Translated the book</li>
+  <li>Huazhang Publishing Inc.</li>
+</ul>
+
+  </div>
+</div>
+
+  
+</div>
+
+<!--<div class="container education-container">
+  <h3>Education</h3>
+  
+    <div class="row clearfix layout layout-left">
+  <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details"><h4>Iowa State University</h4><p><b>PhD in Statistics</b></p><p>2011 - 2013</p></div>
+  <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
+
+  </div>
+</div>
+
+  
+    <div class="row clearfix layout layout-left">
+  <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details"><h4>Iowa State University</h4><p><b>MS in Statistics</b></p><p>2009 - 2011</p></div>
+  <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
+
+  </div>
+</div>
+
+  
+    <div class="row clearfix layout layout-left">
+  <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details"><h4>Beijing Normal University</h4><p><b>BS in Mathematical Statistics</b></p><p>2005 - 2009</p></div>
+  <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
+
+  </div>
+</div>
+
+  
+</div>
+<div class="container projects-container">
+  <h3>Projects</h3>
+  
+    <div class="row clearfix layout layout-top-middle">
+  <div class="col-xs-12 col-print-12 details"><h4>Project name</h4>
+<a href="//Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)" target="_blank" class="link">Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)</a><p class="no-print">
+        <a href="https://github.com/Github page for project (eg. sproogen/modern-resume-theme)(optional)" target="_blank">
+          <i class="fa fa-github" title="Project name Github link"></i>
+        </a>
+      </p></div>
+  <div class="col-xs-12 col-print-12"><p class="quote">Short overview of the project (optional)
+</p><p>Description about the work on/with the project</p>
+
+  </div>
+</div>
+
+  
+</div>
+<div class="container more-container">
+  <h3>A Little More About Me</h3>
+  <div class="row clearfix">
+    <div class="col-md-12">
+      <p>This is where you can write a little more about yourself. You could title this section <strong>Interests</strong> and include some of your other interests.</p>
+
+<p>Or you could title it <strong>Skills</strong> and write a bit more about things that make you more desirable, like <em>leadership</em> or <em>teamwork</em></p>
+
+    </div>
+  </div>
+</div>
+--> 
+    </div>
+  </main><div class="container footer-container">
+  <p>
+    Hui Lin -
+    <a href="mailto:gawehanna(at)gmail.com" target="_blank">gawehanna(at)gmail.com</a>&nbsp;- References on request</p>
+</div></body>
+
 </html>
