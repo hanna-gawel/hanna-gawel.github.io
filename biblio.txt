@@ -1,0 +1,107 @@
+1. Yang, W., Zhang, L., Wang, S., White, A. D. & Jiang, S. Functionalizable and ultra stable nanoparticles coated with zwitterionic poly (carboxybetaine) in undiluted blood serum. Biomaterials 30, 5617–5621 (2009).
+
+2. Shao, Q., He, Y., White, A. D. & Jiang, S. Difference in hydration between carboxybetaine and sulfobetaine. The Journal of Physical Chemistry B 114, 16625–16631 (2010).
+
+3. Nowinski, A. K., Sun, F., White, A. D., Keefe, A. J. & Jiang, S. Sequence, structure, and function of peptide self-assembled monolayers. Journal of the American Chemical Society 134, 6000–6005 (2012).
+
+4. White, A. & Jiang, S. Local and bulk hydration of zwitterionic glycine and its analogues through molecular simulations. The Journal of Physical Chemistry B 115, 660–667 (2011).
+
+5. White, A. D., Nowinski, A. K., Huang, W., Keefe, A. J., Sun, F. & Jiang, S. Decoding nonspecific interactions from nature. Chemical Science 3, 3488–3494 (2012).
+
+6. Shao, Q., He, Y., White, A. D. & Jiang, S. Different effects of zwitterion and ethylene glycol on proteins. The Journal of chemical physics 136, 06B607 (2012).
+
+7. White, A. D., Keefe, A. J., Nowinski, A. K., Shao, Q., Caldwell, K. & Jiang, S. Standardizing and simplifying analysis of peptide library data. Journal of chemical information and modeling 53, 493–499 (2013).
+
+8. Brault, N. D., White, A. D., Taylor, A. D., Yu, Q. & Jiang, S. A directly functionalizable surface platform for protein arrays in undiluted human blood plasma. Analytical Chemistry 85, 1447–1453 (2013).
+
+9. White, A. D., Huang, W. & Jiang, S. Role of nonspecific interactions in molecular chaperones through model-based bioinformatics. Biophysical Journal 103, 2484–2491 (2012).
+
+10. Keefe, A. J., Caldwell, K. B., Nowinski, A. K., White, A. D., Thakkar, A. & Jiang, S. Screening nonspecific interactions of peptides without background interference. Biomaterials 34, 1871–1877 (2013).
+
+11. White, A. D., Keefe, A. J., Ella-Menye, J.-R., Nowinski, A. K., Shao, Q., Pfaendtner, J. & Jiang, S. Free energy of solvated salt bridges: A simulation and experimental study. The Journal of Physical Chemistry B 117, 7254–7259 (2013).
+
+12. Shao, Q., White, A. D. & Jiang, S. Difference of carboxybetaine and oligo (ethylene glycol) moieties in altering hydrophobic interactions: A molecular simulation study. The Journal of Physical Chemistry B 118, 189–194 (2014).
+
+13. Nowinski, A. K., White, A. D., Keefe, A. J. & Jiang, S. Biologically inspired stealth peptide-capped gold nanoparticles. Langmuir 30, 1864–1870 (2014).
+
+14. Mi, L., White, A. D., Shao, Q., Setlow, P., Li, Y. & Jiang, S. Chemical insights into dodecylamine spore lethal germination. Chemical Science 5, 3320–3324 (2014).
+
+15. White, A. D. & Voth, G. A. Efficient and minimal method to bias molecular simulations with experimental data. Journal of chemical theory and computation 10, 3023–3030 (2014).
+
+16. White, A. D., Dama, J. F. & Voth, G. A. Designing free energy surfaces that match experimental data with metadynamics. Journal of Chemical Theory and Computation 11, 2451–2460 (2015).
+
+17. Dannenhoffer-Lafage, T., White, A. D. & Voth, G. A. A direct method for incorporating experimental data into multiscale coarse-grained models. Journal of chemical theory and computation 12, 2144–2153 (2016).
+
+18. White, A. D., Knight, C., Hocky, G. M. & Voth, G. A. Communication: Improved ab initio molecular dynamics by minimally biasing with experimental data. The Journal of Chemical Physics 146, 041102 (2017).
+
+19. Freeman, G. M., Drennen, T. E. & White, A. D. Can parked cars and carbon taxes create a profit? The economics of vehicle-to-grid energy storage for peak reduction. Energy Policy 106, 183–190 (2017).
+
+20. Mayes, H. B., Lee, S., White, A. D., Voth, G. A. & Swanson, J. M. Multiscale kinetic modeling reveals an ensemble of cl–/h+ exchange pathways in ClC-ec1 antiporter. Journal of the American Chemical Society 140, 1793–1804 (2018).
+
+21. Amirkulova, D. B. & White, A. D. Combining enhanced sampling with experiment-directed simulation of the GYG peptide. Journal of Theoretical and Computational Chemistry 17, 1840007 (2018).
+
+22. Chakraborty, M., Xu, C. & White, A. D. Encoding and selecting coarse-grain mapping operators with hierarchical graphs. The Journal of Chemical Physics 149, 134106 (2018).
+
+23. Barrett, R., Jiang, S. & White, A. D. Classifying antimicrobial and multifunctional peptides with bayesian network models. Peptide Science 110, e24079 (2018).
+
+24. Barrett, R., Gandhi, H. A., Naganathan, A., Daniels, D., Zhang, Y., Onwunaka, C., Luehmann, A. & White, A. D. Social and tactile mixed reality increases student engagement in undergraduate lab activities. Journal of Chemical Education 95, 1755–1762 (2018).
+
+25. Amirkulova, D. B. & White, A. D. Recent advances in maximum entropy biasing techniques for molecular dynamics. Molecular Simulation 45, 1285–1294 (2019).
+
+26. Promoting transparency and reproducibility in enhanced molecular simulations. Nature methods 16, 670–673 (2019).
+
+27. Chakraborty, M., Xu, J. & White, A. D. Is preservation of symmetry necessary for coarse-graining? Physical Chemistry Chemical Physics 22, 14998–15005 (2020).
+
+28. Chakraborty, M., Ziatdinov, M., Dyck, O., Jesse, S., White, A. & Kalinin, S. V. Reconstruction of the interatomic forces from dynamic scanning transmission electron microscopy data. Journal of Applied Physics 127, 224301 (2020).
+
+29. Li, Z., Wellawatte, G. P., Chakraborty, M., Gandhi, H. A., Xu, C. & White, A. D. Graph neural network based coarse-grained mapping prediction. Chemical science 11, 9524–9531 (2020).
+
+30. Tang, J., Zhang, Y., Luehmann, A. & White, A. Augmented reality improved learning of lower-level students by empowering their participation in collaborative activities. (2020).
+
+31. Barrett, R., Chakraborty, M., Amirkulova, D., Gandhi, H., Wellawatte, G. & White, A. Hoomd-tf: Gpu-accelerated, online machine learning in the hoomd-blue molecular dynamics engine. Journal of Open Source Software 5, (2020).
+
+32. Amirkulova, D. B., Chakraborty, M. & White, A. D. Experimentally consistent simulation of aβ21–30 peptides with a minimal NMR bias. The Journal of Physical Chemistry B 124, 8266–8277 (2020).
+
+33. Gandhi, H. A., Jakymiw, S., Barrett, R., Mahaseth, H. & White, A. D. Real-time interactive simulation and visualization of organic molecules. (2020).
+
+34. Barrett, R. & White, A. D. Investigating active learning and meta-learning for iterative peptide design. Journal of chemical information and modeling 61, 95–105 (2020).
+
+35. Barrett, R., Ansari, M., Ghoshal, G. & White, A. D. Simulation-based inference with approximately correct parameters via maximum entropy. Machine Learning: Science and Technology 3, 025006 (2022).
+
+36. Yang, Z., Chakraborty, M. & White, A. D. Predicting chemical shifts with graph neural networks. Chemical Science (2021).
+
+37. Gandhi, H. A. & White, A. D. City-wide modeling of vehicle-to-grid economics to understand effects of battery performance. ACS Sustainable Chemistry & Engineering 9, 14975–14985 (2021).
+
+38. Wellawatte, G. P., Seshadri, A. & White, A. D. Model agnostic generation of counterfactual explanations for molecules. Chemical science 13, 3697–3705 (2022).
+
+39. Ansari, M., Gandhi, H. A., Foster, D. G. & White, A. D. Iterative symbolic regression for learning transport equations. AIChE Journal e17695 (2022).
+
+40. Hocky, G. M. & White, A. D. Natural language processing models that automate programming will transform chemistry research and teaching. Digital discovery 1, 79–83 (2022).
+
+41. Ansari, M., Soriano-Paños, D., Ghoshal, G. & White, A. D. Inferring spatial source of disease outbreaks using maximum entropy. Physical Review E 106, 014306 (2022).
+
+42. Hamsici, S., White, A. D. & Acar, H. Peptide framework for screening the effects of amino acids on assembly. Science advances 8, eabj0305 (2022).
+
+43. Krenn, M., Ai, Q., Barthel, S., Carson, N., Frei, A., Frey, N. C., Friederich, P., Gaudin, T., Gayle, A. A., Jablonka, K. M., et al. SELFIES and the future of molecular string representations. Patterns 3, 100588 (2022).
+
+44. Cox, S. & White, A. D. Symmetric molecular dynamics. arXiv preprint arXiv:2204.01114 (2022).
+
+45. Kalinin, S. V., Ziatdinov, M., Sumpter, B. G. & White, A. D. Physics is the new data. arXiv preprint arXiv:2204.05095 (2022).
+
+46. Ansari, M. & White, A. D. Serverless prediction of peptide properties with recurrent neural networks. bioRxiv (2022).
+
+47. Zhu, W., Luo, J. & White, A. D. Federated learning of molecular properties with graph neural networks in a heterogeneous setting. Patterns 100521 (2022).
+
+48. White, A. D. Deep learning for molecules and materials. Living Journal of Computational Molecular Science 3, 1499–1499 (2021).
+
+49. Yang, Z., Milas, K. A. & White, A. D. Now what sequence? Pre-trained ensembles for bayesian optimization of protein sequences. bioRxiv (2022).
+
+50. Gandhi, H. A. & White, A. D. Explaining molecular properties with natural language. (2022).
+
+51. Seshadri, A., Gandhi, H. A., Wellawatte, G. P. & White, A. D. Why does that molecule smell? (2022).
+
+52. Wellawatte, G. P., Gandhi, H. A., Seshadri, A. & White, A. D. A perspective on explanations of molecular prediction models. (2022).
+
+53. White, A. D., Hocky, G. M., Gandhi, H. A., Ansari, M., Cox, S., Wellawatte, G. P., Sasmal, S., Yang, Z., Liu, K., Singh, Y., et al. Assessment of chemistry knowledge in large language models that generate code. (2022).
+
+54. Wellawatte, G. P., Hocky, G. M. & White, A. D. Neural potentials of proteins extrapolate beyond training data. (2022).
