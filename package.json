@@ -1,0 +1,21 @@
+{
+  "name": "personalwebsitehg",
+  "version": "1.0.0",
+  "description": "This is a great package",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "node bib/convert.js bib/biblio.txt > src/biblio.html && parcel src/index.html --host localhost --no-cache ",
+    "build-prod": "node bib/convert.js bib/biblio.txt > src/biblio.html && parcel build src/index.html --public-url ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-image": "latest",
+    "parcel": "latest"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0",
+    "posthtml-include": "^1.7.1"
+  }
+}
