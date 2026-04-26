@@ -575,72 +575,146 @@
 </tr>
 
 <tr>
-                  <td>conferences</td>
-                  <td>
-                    <dl>
+  <td style="vertical-align: top; padding-right: 20px; font-weight: bold; font-size: 18px;">Conferences</td>
+  <td>
+    <div style="margin-bottom: 24px; display: flex; gap: 8px; flex-wrap: wrap;">
+        <button onclick="filterYear('all')" class="filter-btn active" style="padding: 6px 12px; border: 1px solid #0056b3; background: #0056b3; color: white; border-radius: 4px; cursor: pointer; font-size: 13px;">All</button>
+        <button onclick="filterYear('2026')" class="filter-btn" style="padding: 6px 12px; border: 1px solid #eaeaea; background: white; border-radius: 4px; cursor: pointer; font-size: 13px;">2026</button>
+        <button onclick="filterYear('2025')" class="filter-btn" style="padding: 6px 12px; border: 1px solid #eaeaea; background: white; border-radius: 4px; cursor: pointer; font-size: 13px;">2025</button>
+        <button onclick="filterYear('2024')" class="filter-btn" style="padding: 6px 12px; border: 1px solid #eaeaea; background: white; border-radius: 4px; cursor: pointer; font-size: 13px;">2024</button>
+        <button onclick="filterYear('2023')" class="filter-btn" style="padding: 6px 12px; border: 1px solid #eaeaea; background: white; border-radius: 4px; cursor: pointer; font-size: 13px;">2023</button>
+        <button onclick="filterYear('2022')" class="filter-btn" style="padding: 6px 12px; border: 1px solid #eaeaea; background: white; border-radius: 4px; cursor: pointer; font-size: 13px;">2022</button>
+        <button onclick="filterYear('2021')" class="filter-btn" style="padding: 6px 12px; border: 1px solid #eaeaea; background: white; border-radius: 4px; cursor: pointer; font-size: 13px;">2021</button>
+        <button onclick="filterYear('2020')" class="filter-btn" style="padding: 6px 12px; border: 1px solid #eaeaea; background: white; border-radius: 4px; cursor: pointer; font-size: 13px;">2020</button>
+        <button onclick="filterYear('2019')" class="filter-btn" style="padding: 6px 12px; border: 1px solid #eaeaea; background: white; border-radius: 4px; cursor: pointer; font-size: 13px;">2019</button>
+        <button onclick="filterYear('2018')" class="filter-btn" style="padding: 6px 12px; border: 1px solid #eaeaea; background: white; border-radius: 4px; cursor: pointer; font-size: 13px;">2018</button>
+        <button onclick="filterYear('2017')" class="filter-btn" style="padding: 6px 12px; border: 1px solid #eaeaea; background: white; border-radius: 4px; cursor: pointer; font-size: 13px;">2017</button>
+        <button onclick="filterYear('2016')" class="filter-btn" style="padding: 6px 12px; border: 1px solid #eaeaea; background: white; border-radius: 4px; cursor: pointer; font-size: 13px;">2016</button>
+        <button onclick="filterYear('2015')" class="filter-btn" style="padding: 6px 12px; border: 1px solid #eaeaea; background: white; border-radius: 4px; cursor: pointer; font-size: 13px;">2015</button>
+    </div>
 
-<p><strong>GERMANY, Frankfurt am Main - 17-19.03.2026:</strong> Social Media Access Days 2026: Social-Media-Daten zwischen Forschung und Infrastrukturen - nachhaltige Archivierung, Erschließung und Bereitstellung (Organizator: Deutsche Nationalbibliothek) - referat pt. "Archiving Hacktivism: Derivative Collections for High-Risk Publics (Images, Manifests, Memes)" - <a href="https://snurb.info/index.php/node/3555">Liveblog - A Process for Creating Derivative Archival Datasets from Sensitive Hacktivist Content</a> </p>
-<hr />                           
-<p><strong>SPAIN, Madrid - 29-30.10.2025:</strong> The  2nd European Congress on Disinformation and Fact-Checking - Beyond 2025: Emerging threats and solutions in the global Information ecosystem (Organizator: UC3M MediaLab - Universidad Carlos III de Madrid Media Lab)- referat pt. "The Gossiping Machine: Ethical Tensions in AI-Assisted Verification Systems as Information Ecosystem Actors"</p>
-<hr />   
-<p><strong>UNITED KINGDOM, London - 22-23.05.2025:</strong> CAMRI: Histories, Presents and Futures of Media and Communication (Organizator: University of Westminster)- referat pt. "From Pirated Signals to Platform Sovereignty: Lessons from Fifty Years of Media Disruption"</p>
-<hr />                       
- <p><strong>Kraków - 10-12.04.2024:</strong> Polish Open Science Conference 2024 - referat pt. "Open access publications and the preprint phenomenon"</p>
-<hr />                     
-<p><strong>Bydgoszcz - 29-30.05.2023:</strong> III Międzynarodowa Konferencja Naukowa - "Wokół Paula Ladewiga i jego "Katechizmu bibliotekarza"" - referat pt. "Nowoczesna biblioteka i bibliotekarz po obu stronach oceanu - Analiza porównawcza modeli bibliotekarstwa na przykładzie "Education for Librarianship" J. Periam Dantona i "Katechismus der Bücherei" Paula Ladewiga"</p>
-<hr />
-                        
-<p><strong>DENMARK, Aarhus (online) - 24.10.2022:</strong> ECREA postconference "Digital media and information disorders: Theorising and investigating influence operations, impact and contextual factors" (Organizator: Aarhus Universitet, RETHINK IMPACT, EDMO - European Digital Media Observatory) - referat pt. "Birds of a feather boycott together - strength of temporary homophily cyber voice in social media in the time of unrest"</p>
-<hr />
+    <div id="conf-container" style="display: flex; flex-direction: column; gap: 16px;">
 
+        <div class="conf-card" data-year="2026" style="padding: 16px; border: 1px solid #eaeaea; border-radius: 8px; background-color: #ffffff;">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+                <div style="font-size: 24px; margin-right: 12px;">🇩🇪</div>
+                <div style="flex-grow: 1;">
+                    <p style="margin: 0; font-weight: bold; color: #333;">Social Media Access Days 2026</p>
+                    <p style="margin: 4px 0; font-size: 14px; color: #666;">Frankfurt am Main, Germany | 17-19.03.2026</p>
+                    <p style="margin: 8px 0; font-style: italic; font-size: 15px;">"Archiving Hacktivism: Derivative Collections for High-Risk Publics (Images, Manifests, Memes)"</p>
+                    <a href="https://snurb.info/index.php/node/3555" target="_blank" rel="noopener noreferrer" style="font-size: 13px; color: #0056b3; text-decoration: none;">🔗 Liveblog - Creating Derivative Archival Datasets</a>
+                </div>
+                <span style="background: #e7f3ff; color: #0056b3; padding: 4px 8px; border-radius: 4px; font-size: 11px; font-weight: bold; text-transform: uppercase; white-space: nowrap;">Paper Presenter</span>
+            </div>
+        </div>
 
-<p><strong>TURKEY, Antalya (online) - 16-18.05.2022:</strong> 4th International Media Studies Symposium - "Communication Research in Digital Society" (Organizator: Akdeniz University, Faculty of Communication) - referat pt. "Rescuing the suffocated by information smog: the phenomenon of the meme as an information carrier in times of terror and cyber- revolution"</p>
-<hr />
+        <div class="conf-card" data-year="2025" style="padding: 16px; border: 1px solid #eaeaea; border-radius: 8px; background-color: #ffffff;">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+                <div style="font-size: 24px; margin-right: 12px;">🇪🇸</div>
+                <div style="flex-grow: 1;">
+                    <p style="margin: 0; font-weight: bold; color: #333;">2nd European Congress on Disinformation and Fact-Checking</p>
+                    <p style="margin: 4px 0; font-size: 14px; color: #666;">Madrid, Spain | 29-30.10.2025</p>
+                    <p style="margin: 8px 0; font-style: italic; font-size: 15px;">"The Gossiping Machine: Ethical Tensions in AI-Assisted Verification Systems as Information Ecosystem Actors"</p>
+                </div>
+                <span style="background: #e7f3ff; color: #0056b3; padding: 4px 8px; border-radius: 4px; font-size: 11px; font-weight: bold; text-transform: uppercase;">Paper Presenter</span>
+            </div>
+        </div>
 
+        <div class="conf-card" data-year="2025" style="padding: 16px; border: 1px solid #eaeaea; border-radius: 8px; background-color: #ffffff;">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+                <div style="font-size: 24px; margin-right: 12px;">🇬🇧</div>
+                <div style="flex-grow: 1;">
+                    <p style="margin: 0; font-weight: bold; color: #333;">CAMRI: Histories, Presents and Futures of Media and Communication</p>
+                    <p style="margin: 4px 0; font-size: 14px; color: #666;">London, United Kingdom | 22-23.05.2025</p>
+                    <p style="margin: 8px 0; font-style: italic; font-size: 15px;">"From Pirated Signals to Platform Sovereignty: Lessons from Fifty Years of Media Disruption"</p>
+                </div>
+                <span style="background: #e7f3ff; color: #0056b3; padding: 4px 8px; border-radius: 4px; font-size: 11px; font-weight: bold; text-transform: uppercase;">Paper Presenter</span>
+            </div>
+        </div>
 
-<p><strong>Toruń (online) - 05-06.03.2022:</strong> WIAD22 (Organizator: Instytut Badań Informacji i Komunikacji; Wydział Filozofii i Nauk Społecznych; Uniwersytet Mikołaja Kopernika) - referat pt. "Projektowanie komunikacji naukowej na przykładzie nano-influencerów w niszy #AcademicTwitter"</p>
-<hr />
+        <div class="conf-card" data-year="2024" style="padding: 16px; border: 1px solid #eaeaea; border-radius: 8px; background-color: #ffffff;">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+                <div style="font-size: 24px; margin-right: 12px;">🇵🇱</div>
+                <div style="flex-grow: 1;">
+                    <p style="margin: 0; font-weight: bold; color: #333;">Polish Open Science Conference 2024</p>
+                    <p style="margin: 4px 0; font-size: 14px; color: #666;">Kraków, Poland | 10-12.04.2024</p>
+                    <p style="margin: 8px 0; font-style: italic; font-size: 15px;">"Open access publications and the preprint phenomenon"</p>
+                </div>
+                <span style="background: #e7f3ff; color: #0056b3; padding: 4px 8px; border-radius: 4px; font-size: 11px; font-weight: bold; text-transform: uppercase;">Paper Presenter</span>
+            </div>
+        </div>
 
-<p><strong>Toruń (online) - 28.02.2021:</strong> WIAD21 (Organizator: Instytut Badań Informacji i Komunikacji; Wydział Filozofii i Nauk Społecznych; Uniwersytet Mikołaja Kopernika) - referat pt. "Love to Online Hate: How curiosity & IA of social media platforms support toxic communication"</p>
-<hr />
+        <div class="conf-card" data-year="2023" style="padding: 16px; border: 1px solid #eaeaea; border-radius: 8px; background-color: #ffffff;">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+                <div style="font-size: 24px; margin-right: 12px;">🇵🇱</div>
+                <div style="flex-grow: 1;">
+                    <p style="margin: 0; font-weight: bold; color: #333;">III Międzynarodowa Konferencja Naukowa - Wokół Paula Ladewiga</p>
+                    <p style="margin: 4px 0; font-size: 14px; color: #666;">Bydgoszcz, Poland | 29-30.05.2023</p>
+                    <p style="margin: 8px 0; font-style: italic; font-size: 15px;">"Analiza porównawcza modeli bibliotekarstwa na przykładzie Education for Librarianship J. Periam Dantona i Katechismus der Bücherei Paula Ladewiga"</p>
+                </div>
+                <span style="background: #e7f3ff; color: #0056b3; padding: 4px 8px; border-radius: 4px; font-size: 11px; font-weight: bold; text-transform: uppercase;">Paper Presenter</span>
+            </div>
+        </div>
 
-<p><strong>Krak&oacute;w (online) - 27.11.2020:</strong> VII Og&oacute;lnopolska Konferencja Naukowa "Zarządzanie informacją w nauce" (Organizator: Polskie Towarzystwo Informacji Naukowej [PTIN]) - referat pt. &ldquo;Komunikacja 3.0 - nowe propozycje komunikowania nauki dla naukowc&oacute;w i popularyzator&oacute;w nauki&rdquo;</p>
-<hr />
-<p><strong>Krak&oacute;w (online) - 4-5.06.2020:</strong> III Konferencja AIDA2 - Architektura Informacji jako dyscyplina akademicka - referat pt. &ldquo;Architektura informacji serwis&oacute;w informujących o jakości powietrza w Polsce&rdquo;</p>
-<hr />
-<p><strong>Bydgoszcz - 3-4.06.2019:</strong> II Międzynarodowa Konferencja Naukowa &ldquo;Wok&oacute;ł Paula Ladewiga i jego &ldquo;Katechizmu biblioteki&rdquo; - referat pt. &ldquo;Biblioteki przyszłości wedle koncepcji Paula Ladewiga&rdquo;</p>
-<hr />
-<p><strong>Krak&oacute;w - 16.05.2019:</strong> I Og&oacute;lnopolska Konferencja Naukowa Doktorant&oacute;w - Doctoral Research Conference. Share &amp; Inspire 2019 - Confidence and Beauty in Communication - referat pt. &ldquo;Is man an information system? - an interdisciplinary approach&rdquo;</p>
-<hr />
-<p><strong>Toruń - 23.02.2019:</strong> I Og&oacute;lnopolska Konferencja Naukowa WIAD19 &ldquo;Projektowanie dla R&oacute;żnorodności&rdquo; - referat pt. &ldquo;Wyzwania projektowania AI dla arabskojęzycznego użytkownika&rdquo;</p>
-<hr />
-<p><strong>Krak&oacute;w - 14.12.2018:</strong> XV Og&oacute;lnopolska Studencko-Doktorancka Konferencja Naukowa Zarządzanie Informacją w Organizacji: METODOLOGIA, NARZĘDZIA, PRAKTYKA - referat pt. &ldquo;Zarządzanie informacją dotyczącą wytycznych praktyki klinicznej według metodologii GRADE&rdquo;</p>
-<hr />
-<p><strong>Krak&oacute;w - 05-06.06.2018:</strong> I Konferencja AIDA - Architektura Informacji jako dyscyplina akademicka - referat pt. &ldquo;Wizualizacja niepewnych, niekompletnych i brakujących danych / Visualization of uncertain, incomplete and missing data&rdquo;</p>
-<hr />
-<p><strong>Kielce - 24.04.2018:</strong> III Og&oacute;lnopolska Konferencja Studencko-Doktorancka &ldquo;Język jako świadectwo kultury. Język. Kultura. Społeczeństwo&rdquo; - referat pt. &ldquo;Modelowanie temat&oacute;w a popularność badacza na polu naukowym&rdquo;</p>
-<hr />
-<p><strong>Krak&oacute;w - 01.12.2017:</strong> XIV Studencko-Doktorancka Konferencja Naukowa &ldquo;Big Data: zastosowanie, problem i przyszłość zjawiska&rdquo; - referat pt. &ldquo;To już czas: nowy rodzaj mapy - przypadek krakowskiego turysty&rdquo;</p>
-<hr />
-<p><strong>Toruń - 23.04.2017:</strong> Międzynarodowa Konferencja Toruńska &ldquo;Wizualizacja informacji w humanistyce&rdquo; - referat pt. &ldquo;Pomiędzy tekstem a technologią - Ngram Viewer&rdquo;</p>
-<hr />
-<p><strong>Toruń - 09.03.2017:</strong> II Og&oacute;lnopolska Konferencja Naukowa &ldquo;Człowiek - Informacja. Książka. Cyberkultura&rdquo; - referat pt. &ldquo;Memy krzywym zwierciadle: nowa forma pastiszu, komunikacji, walki i sztuki&rdquo;</p>
-<hr />
-<p><strong>Bydgoszcz - 22.04.2016:</strong> VII Og&oacute;lnopolska Konferencja Bibliologicznych K&oacute;ł Naukowych &ldquo;Książka kontra e-book&rdquo; - referat pt. &ldquo;Kr&oacute;tka historia książkomat&oacute;w&rdquo;</p>
-<hr />
-<p><strong>Toruń - 17.03.2016:</strong> I Og&oacute;lnopolska Konferencja Naukowa &ldquo;Człowiek - biblioteki. Książki. Media&rdquo; - referat pt. &ldquo;Co na daje 25 milion&oacute;w książek&rdquo;</p>
-<hr />
-<p><strong>Bydgoszcz - 22.04.2015:</strong> IV Og&oacute;lnopolska Konferencja Bibliologicznych K&oacute;ł Naukowych - referat pt. &ldquo;The Student Engagement Platform (SEP) - nowa generacja platform do nauczania na przykładzie Chalkup&rdquo;</p>
-<hr />
-<p><strong>Toruń - 20.03.2015:</strong> I Og&oacute;lnopolska Studencko-Doktorancka Konferencja Naukowa &ldquo;Człowiek - Nauka. Technologia. Informacja&rdquo; - referat pt. &ldquo;MOOC (Massive Online Open Course) w dobie Web 2.0 - por&oacute;wnanie platform&rdquo;</p>
-<hr />
-<p><strong>Bydgoszcz - 25.02.2015:</strong> Sesja Naukowa &ldquo;Przegląd badań licencjackich, magisterskich i innych inspiracji studenckich&rdquo; - referat pt. &ldquo;Bibliografia bydgoska 1801-1811 - wstępne om&oacute;wienie pracy&rdquo;</p>
-<hr /></div>
-                        
-                  </dl>
-                  </td>
-                </tr>
+        <div class="conf-card" data-year="2022" style="padding: 16px; border: 1px solid #eaeaea; border-radius: 8px; background-color: #ffffff;">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+                <div style="font-size: 24px; margin-right: 12px;">🇩🇰</div>
+                <div style="flex-grow: 1;">
+                    <p style="margin: 0; font-weight: bold; color: #333;">ECREA postconference 🌐</p>
+                    <p style="margin: 4px 0; font-size: 14px; color: #666;">Aarhus, Denmark (Online) | 24.10.2022</p>
+                    <p style="margin: 8px 0; font-style: italic; font-size: 15px;">"Birds of a feather boycott together - strength of temporary homophily cyber voice in social media in the time of unrest"</p>
+                </div>
+                <span style="background: #e7f3ff; color: #0056b3; padding: 4px 8px; border-radius: 4px; font-size: 11px; font-weight: bold; text-transform: uppercase;">Paper Presenter</span>
+            </div>
+        </div>
 
+        <div class="conf-card" data-year="2021" style="padding: 16px; border: 1px solid #eaeaea; border-radius: 8px; background-color: #ffffff;">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+                <div style="font-size: 24px; margin-right: 12px;">🇵🇱</div>
+                <div style="flex-grow: 1;">
+                    <p style="margin: 0; font-weight: bold; color: #333;">WIAD21 🌐</p>
+                    <p style="margin: 4px 0; font-size: 14px; color: #666;">Toruń, Poland (Online) | 28.02.2021</p>
+                    <p style="margin: 8px 0; font-style: italic; font-size: 15px;">"Love to Online Hate: How curiosity & IA of social media platforms support toxic communication"</p>
+                </div>
+                <span style="background: #e7f3ff; color: #0056b3; padding: 4px 8px; border-radius: 4px; font-size: 11px; font-weight: bold; text-transform: uppercase;">Paper Presenter</span>
+            </div>
+        </div>
+
+        <div class="conf-card" data-year="2020" style="padding: 16px; border: 1px solid #eaeaea; border-radius: 8px; background-color: #ffffff;">
+            <p style="margin: 0; font-weight: bold;">Zarządzanie informacją w nauce 🌐</p>
+            <p style="margin: 4px 0; font-size: 14px; color: #666;">Kraków, Poland | 27.11.2020</p>
+            <p style="margin: 4px 0; font-style: italic; font-size: 14px;">"Komunikacja 3.0 - nowe propozycje komunikowania nauki"</p>
+        </div>
+
+    </div>
+
+    <script>
+    function filterYear(year) {
+        // Update buttons styling
+        const buttons = document.querySelectorAll('.filter-btn');
+        buttons.forEach(btn => {
+            btn.style.background = 'white';
+            btn.style.color = 'black';
+            btn.style.borderColor = '#eaeaea';
+        });
+        
+        event.target.style.background = '#0056b3';
+        event.target.style.color = 'white';
+        event.target.style.borderColor = '#0056b3';
+
+        // Filter cards
+        const cards = document.querySelectorAll('.conf-card');
+        cards.forEach(card => {
+            if (year === 'all' || card.getAttribute('data-year') === year) {
+                card.style.display = 'block';
+            } else {
+                card.style.display = 'none';
+            }
+        });
+    }
+    </script>
+  </td>
+</tr>
  <tr>
                     <td>hackatons, scholarships & awards</td>
                     <td> <p><strong>2022</strong>: EU TalentOn (hackaton) - team: Urbolution</p>
