@@ -14,151 +14,85 @@
     <meta name="citation_title" content="Survival in the Information Smog: Digital Tradecraft as an Evolutionary Adaptation in Information Ecologies">
     <meta name="citation_author" content="Gaweł, Hanna">
     <meta name="citation_publication_date" content="2026">
+    <meta name="citation_journal_title" content="SSRN">
+    <meta name="citation_doi" content="10.2139/ssrn.5917983">
     <meta name="citation_pdf_url" content="http://dx.doi.org/10.2139/ssrn.5917983">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
     
     <style>
-        /* Base Variables & Typography */
         :root {
             --bg-color: #fcfcfc;
-            --text-main: #333333;
-            --text-muted: #555555;
+            --text-main: #2d3748;
+            --text-muted: #495057;
             --accent-color: #0056b3;
-            --accent-hover: #004494;
             --card-bg: #ffffff;
         }
-        
-        body { 
-            font-family: 'Inter', sans-serif; 
-            color: var(--text-main); 
-            line-height: 1.7; 
-            background-color: var(--bg-color);
-        }
-
-        h1, h2, h3, .serif-text {
-            font-family: 'Playfair Display', serif;
-            color: #111;
-        }
-
+        body { font-family: 'Inter', sans-serif; color: var(--text-main); line-height: 1.7; background-color: var(--bg-color); }
+        h1, h2, h3, h4, .serif-text { font-family: 'Playfair Display', serif; color: #111; }
         .container { max-width: 960px; margin: auto; padding: 0 20px; }
         
         /* Sticky Navigation */
-        .top-nav {
-            position: sticky;
-            top: 0;
-            background: rgba(252, 252, 252, 0.85);
-            backdrop-filter: blur(12px);
-            -webkit-backdrop-filter: blur(12px);
-            border-bottom: 1px solid rgba(0,0,0,0.05);
-            padding: 15px 0;
-            z-index: 1000;
-            margin-bottom: 50px;
-        }
-        .nav-links { display: flex; gap: 20px; font-size: 14px; font-weight: 500; overflow-x: auto; white-space: nowrap; padding-bottom: 4px; }
-        .nav-links a { color: var(--text-muted); text-decoration: none; transition: color 0.2s; }
+        .top-nav { position: sticky; top: 0; background: rgba(252, 252, 252, 0.9); backdrop-filter: blur(12px); border-bottom: 1px solid rgba(0,0,0,0.05); padding: 15px 0; z-index: 1000; margin-bottom: 50px; }
+        .nav-links { display: flex; gap: 20px; font-size: 14px; font-weight: 600; overflow-x: auto; white-space: nowrap; }
+        .nav-links a { color: var(--text-muted); text-decoration: none; transition: 0.2s; }
         .nav-links a:hover { color: var(--accent-color); }
 
         /* Hero Section */
-        .hero-section {
-            display: flex;
-            align-items: center;
-            gap: 40px;
-            margin-bottom: 60px;
-        }
-        .hero-text h1 { font-size: 3.2rem; margin-bottom: 10px; font-weight: 700; }
-        .hero-text p { font-size: 1.1rem; color: var(--text-muted); margin-bottom: 24px; }
-        .profile-pic {
-            width: 160px;
-            height: 160px;
-            border-radius: 50%;
-            object-fit: cover;
-            box-shadow: 0 12px 30px rgba(0,0,0,0.1);
-            flex-shrink: 0;
-        }
+        .hero-section { display: flex; align-items: center; gap: 40px; margin-bottom: 60px; }
+        .hero-text h1 { font-size: 3rem; margin-bottom: 10px; font-weight: 700; }
+        .profile-pic { width: 160px; height: 160px; border-radius: 50%; object-fit: cover; box-shadow: 0 12px 30px rgba(0,0,0,0.1); flex-shrink: 0; }
 
-        /* Modern Header Links */
-        .profile-links { display: flex; gap: 8px; flex-wrap: wrap; }
-        .profile-links a { 
-            padding: 6px 14px; 
-            border: 1px solid rgba(0, 86, 179, 0.2); 
-            border-radius: 20px; 
-            text-decoration: none; 
-            font-size: 13px; 
-            font-weight: 600; 
-            color: var(--accent-color); 
-            background: rgba(0, 86, 179, 0.03);
-            transition: all 0.2s ease; 
-        }
-        .profile-links a:hover { background-color: var(--accent-color); color: #ffffff; border-color: var(--accent-color); transform: translateY(-1px); }
-
-        /* Responsive Layout Structure */
+        /* Links & Tags */
+        .profile-links { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 15px; }
+        .profile-links a { padding: 6px 14px; border: 1px solid rgba(0, 86, 179, 0.2); border-radius: 20px; text-decoration: none; font-size: 13px; font-weight: 600; color: var(--accent-color); background: rgba(0, 86, 179, 0.03); transition: 0.2s; }
+        .profile-links a:hover { background: var(--accent-color); color: #fff; border-color: var(--accent-color); }
+        .tag { padding: 4px 12px; background: #f1f3f5; color: #495057; border-radius: 16px; font-size: 13px; font-weight: 500; display: inline-block; border: none; cursor: pointer;}
+        
+        /* Layout */
         .section-row { display: flex; flex-wrap: wrap; margin-bottom: 60px; scroll-margin-top: 80px; }
-        .section-title { width: 220px; font-weight: 700; font-size: 20px; color: #111; flex-shrink: 0; padding-right: 20px; font-family: 'Playfair Display', serif; }
+        .section-title { width: 220px; font-size: 20px; color: #111; flex-shrink: 0; padding-right: 20px; font-family: 'Playfair Display', serif; font-weight: 700; }
         .section-content { flex-grow: 1; max-width: 100%; width: calc(100% - 220px); }
         
-        /* Floating Cards */
-        .card {
-            background: var(--card-bg);
-            border-radius: 12px;
-            padding: 24px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.03);
-            border: 1px solid rgba(0,0,0,0.04);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            margin-bottom: 20px;
-        }
-        .card:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 12px 30px rgba(0,0,0,0.06);
-        }
-
-        /* Specialized Card Elements */
+        /* Cards */
+        .card { background: var(--card-bg); border-radius: 12px; padding: 24px; box-shadow: 0 4px 15px rgba(0,0,0,0.03); border: 1px solid rgba(0,0,0,0.06); transition: transform 0.2s, box-shadow 0.2s; margin-bottom: 20px; }
+        .card:hover { transform: translateY(-2px); box-shadow: 0 8px 25px rgba(0,0,0,0.08); }
         .pub-border { border-left: 4px solid var(--accent-color); }
-        
-        /* Tags */
-        .tag {
-            padding: 4px 12px; 
-            background-color: #f1f3f5; 
-            color: #495057; 
-            border-radius: 16px; 
-            font-size: 13px; 
-            font-weight: 500;
-            display: inline-block;
-        }
 
-        /* Buttons */
-        .action-btn { display: inline-flex; align-items: center; justify-content: center; padding: 6px 14px; font-size: 12px; font-weight: 600; color: #ffffff; border-radius: 6px; text-decoration: none; cursor: pointer; border: none; transition: opacity 0.2s; }
+        /* Uniform Buttons */
+        .btn-container { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin-top: 12px;}
+        .action-btn { display: inline-flex; align-items: center; justify-content: center; min-width: 130px; height: 36px; padding: 0 16px; font-size: 13px; font-weight: 600; color: #fff; border-radius: 6px; text-decoration: none; border: none; cursor: pointer; transition: 0.2s; line-height: 1;}
         .action-btn:hover { opacity: 0.9; color: #fff; }
         .btn-kudos { background-color: #00A896; }
-        .btn-citation { background-color: #495057; }
+        .btn-citation { background-color: #343a40; }
+        .btn-osf { background-color: #337ab7; min-width: auto; }
 
-        /* Mobile View Rules */
+        /* Details / Abstract */
+        details { margin-top: 16px; padding-top: 12px; border-top: 1px dashed #eaeaea; }
+        summary { cursor: pointer; font-size: 14px; font-weight: 600; color: var(--accent-color); outline: none; }
+        summary:hover { text-decoration: underline; }
+        .abstract-text { margin: 10px 0 0 0; font-size: 14px; color: var(--text-muted); background: #f8f9fa; padding: 12px; border-radius: 6px; }
+
         @media (max-width: 768px) {
             .hero-section { flex-direction: column-reverse; text-align: center; gap: 20px; }
             .profile-links { justify-content: center; }
             .section-row { flex-direction: column; gap: 16px; margin-bottom: 40px; }
-            .section-title { width: 100%; padding-right: 0; padding-bottom: 4px; font-size: 24px; }
+            .section-title { width: 100%; border-bottom: 2px solid #eaeaea; padding-bottom: 8px; }
             .section-content { width: 100%; }
-            .card { padding: 16px; }
         }
     </style>
 
     <script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "qeuues54y2");
+    (function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "qeuues54y2");
     </script>
 </head>
 
 <body>
-
     <nav class="top-nav">
         <div class="container nav-links">
             <a href="#about">About</a>
@@ -166,38 +100,35 @@
             <a href="#publications">Publications</a>
             <a href="#conferences">Conferences</a>
             <a href="#engagement">Engagement</a>
-            <a href="#awards">Awards</a>
         </div>
     </nav>
 
     <div class="container">
-        
         <header class="hero-section" id="about">
             <div class="hero-text">
                 <h1>Dr. Hanna Gaweł</h1>
-                <p>Researcher at Jagiellonian University exploring the intersections of information ecology, digital resistance, and the evolution of counterculture media in the digital age.</p>
+                <p>Researcher at Jagiellonian University exploring the intersections of information ecology, digital resistance, and counterculture media in the digital age.</p>
                 <div class="profile-links">
                     <a href="https://scholar.google.com/citations?user=rxf11gEAAAAJ&hl=en" target="_blank">Google Scholar</a>
                     <a href="https://orcid.org/0000-0001-5714-0459" target="_blank">ORCID</a>
                     <a href="https://www.researchgate.net/profile/Hanna-Gawel" target="_blank">ResearchGate</a>
                     <a href="https://bsky.app/profile/hannagawel.bsky.social" target="_blank">Bluesky</a>
                     <a href="https://openreview.net/profile?id=~Hanna_Gawel1" target="_blank">OpenReview</a>
-                    <a href="#" style="background: var(--accent-color); color: white;">Download CV</a> 
+                    <a href="https://beacons.ai/hanna_gawel" target="_blank">Beacons.ai</a>
                 </div>
             </div>
-            <img src="https://i1.rgstatic.net/ii/profile.image/11431281936201918-1770898576228_Q128/Hanna-Gawel.jpg" alt="Profile Picture" class="profile-pic">
+            <img src="https://i1.rgstatic.net/ii/profile.image/11431281936201918-1770898576228_Q128/Hanna-Gawel.jpg" alt="Profile" class="profile-pic">
         </header>
 
         <div class="section-row">
             <div class="section-title">Current Focus</div>
             <div class="section-content">
-                <div style="padding: 14px 20px; background: rgba(0, 86, 179, 0.04); border-radius: 8px; font-size: 15px; font-weight: 500; color: #333; margin-bottom: 20px;">
-                    <span style="font-size: 18px; vertical-align: middle; margin-right: 8px;">🏛️</span> 
-                    Research Assistant at the <a href="https://www.uj.edu.pl/" target="_blank" style="color: var(--accent-color); text-decoration: underline;">Jagiellonian University</a> (Institute of Information Studies)
+                <div style="padding: 14px 20px; background: rgba(0, 86, 179, 0.04); border-radius: 8px; font-size: 15px; font-weight: 600; color: #333; margin-bottom: 20px; border-left: 4px solid var(--accent-color);">
+                    🏛️ Research Assistant at <a href="https://www.uj.edu.pl/" target="_blank" style="color: var(--accent-color);">Jagiellonian University</a> (Institute of Information Studies)
                 </div>
                 <div class="card">
-                    <p style="margin: 0; font-size: 16px;">
-                        My research focuses on the management of information within pirate radio and underground journalism, specifically how these communities navigate the digital age. Methodologically, I seek to bridge qualitative media studies with computational and AI-driven research to analyze digital trace data, AI-driven misinformation, and post-truth media environments. Additionally, I investigate the strategic intersection of knowledge management and automation, specifically how low-code/no-code platforms and DevOps frameworks can transform organisational information systems.
+                    <p style="margin: 0; font-size: 15px;">
+                        My research focuses on the management of information within pirate radio and underground journalism, specifically how these communities navigate the digital age. Methodologically, I seek to bridge qualitative media studies with computational and AI-driven research to analyze digital trace data, AI-driven misinformation, and post-truth media environments. I also investigate the strategic intersection of knowledge management and automation via low-code platforms.
                     </p>
                 </div>
             </div>
@@ -207,19 +138,17 @@
             <div class="section-title">Teaching</div>
             <div class="section-content">
                 <div class="card">
-                    <h4 class="serif-text" style="margin-bottom: 16px; font-size: 18px;">Information Management Program</h4>
-                    <ul style="margin: 0; padding-left: 20px; font-size: 15px;">
-                        <li style="margin-bottom: 8px;">Visual Communication <span style="color: #888; font-size: 13px;">(WZ.ZI-303)</span></li>
-                        <li style="margin-bottom: 8px;">Information Environment <span style="color: #888; font-size: 13px;">(WZ.ZI-074)</span></li>
-                        <li style="margin-bottom: 8px;">Customer Data Analysis: Data-Driven Marketing <span style="color: #888; font-size: 13px;">(WZ.ZI-168)</span></li>
-                        <li style="margin-bottom: 4px;">Basics of the Theory and Methodology of Information Studies <span style="color: #888; font-size: 13px;">(WZ.ZI-202)</span></li>
+                    <h4 class="serif-text" style="font-size: 18px; margin-bottom: 12px;">Information Management Program</h4>
+                    <ul style="margin: 0 0 20px 0; padding-left: 20px; font-size: 15px;">
+                        <li>Visual Communication <span style="color:#888; font-size:12px;">(WZ.ZI-303)</span></li>
+                        <li>Information Environment <span style="color:#888; font-size:12px;">(WZ.ZI-074)</span></li>
+                        <li>Customer Data Analysis: Data-Driven Marketing <span style="color:#888; font-size:12px;">(WZ.ZI-168)</span></li>
+                        <li>Theory and Methodology of Information Studies <span style="color:#888; font-size:12px;">(WZ.ZI-202)</span></li>
                     </ul>
-                </div>
-                <div class="card">
-                    <h4 class="serif-text" style="margin-bottom: 16px; font-size: 18px;">Digital Information Processing Program</h4>
+                    <h4 class="serif-text" style="font-size: 18px; margin-bottom: 12px;">Digital Information Processing Program</h4>
                     <ul style="margin: 0; padding-left: 20px; font-size: 15px;">
-                        <li style="margin-bottom: 8px;">Information Processing <span style="color: #888; font-size: 13px;">(WZ.KLK-PIWI)</span></li>
-                        <li style="margin-bottom: 4px;">Internet Technologies - Introduction <span style="color: #888; font-size: 13px;">(WZ.KLK-TI)</span></li>
+                        <li>Information Processing <span style="color:#888; font-size:12px;">(WZ.KLK-PIWI)</span></li>
+                        <li>Internet Technologies - Introduction <span style="color:#888; font-size:12px;">(WZ.KLK-TI)</span></li>
                     </ul>
                 </div>
             </div>
@@ -228,125 +157,643 @@
         <div class="section-row" id="publications">
             <div class="section-title">Publications</div>
             <div class="section-content">
-                
-                <div class="card pub-border publication-card">
-                    <p class="citation-text" style="margin: 0 0 16px 0; font-size: 16px;">
-                        <strong>Gaweł, Hanna</strong> <a href="https://orcid.org/0000-0001-5714-0459" target="_blank"><img src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16"></a> (2026). <em>Survival in the Information Smog: Digital Tradecraft as an Evolutionary Adaptation in Information Ecologies</em> [Preprint] (pp.1-15). SSRN. <a href="http://dx.doi.org/10.2139/ssrn.5917983" target="_blank">10.2139/ssrn.5917983</a>
-                    </p>
-                    <div style="display: flex; gap: 12px; align-items: center; flex-wrap: wrap;">
+
+                <div class="card pub-border js-ris-data" data-type="JOUR" data-year="2026" data-title="Survival in the Information Smog: Digital Tradecraft as an Evolutionary Adaptation in Information Ecologies" data-doi="10.2139/ssrn.5917983" data-url="http://dx.doi.org/10.2139/ssrn.5917983" data-publisher="SSRN">
+                    <p style="margin: 0 0 12px 0; font-size: 16px;"><strong>Gaweł, Hanna</strong> (2026). <em>Survival in the Information Smog: Digital Tradecraft as an Evolutionary Adaptation in Information Ecologies</em> [Preprint] (pp.1-15). SSRN. <a href="http://dx.doi.org/10.2139/ssrn.5917983" target="_blank">10.2139/ssrn.5917983</a></p>
+                    <div class="btn-container">
                         <div data-badge-popover="right" data-badge-type="donut" data-doi="10.2139/ssrn.5917983" class="altmetric-embed"></div>
-                        <div class="scite-badge" data-doi="10.2139/ssrn.5917983" data-layout="horizontal" data-show-zero="true" data-show-labels="true"></div>
-                        <span class="__dimensions_badge_embed__" data-doi="10.2139/ssrn.5917983" data-hide-zero-citations="true" data-style="small_rectangle"></span>
-                        <a href="https://plu.mx/plum/a/?doi=10.2139/ssrn.5917983" class="plumx-plum-print-popup" data-hide-when-empty="true" data-size="medium"></a>
-                        <button onclick="copyCitation(this)" class="action-btn btn-citation">📋 Cite</button>
+                        <div class="scite-badge" data-doi="10.2139/ssrn.5917983" data-layout="horizontal" data-show-zero="true"></div>
+                        <span class="__dimensions_badge_embed__" data-doi="10.2139/ssrn.5917983" data-style="small_rectangle"></span>
+                        <a href="https://plu.mx/plum/a/?doi=10.2139/ssrn.5917983" class="plumx-plum-print-popup" data-size="medium"></a>
                         <a href="https://www.growkudos.com/" target="_blank" class="action-btn btn-kudos">Kudos</a>
+                        <button onclick="downloadRIS(this)" class="action-btn btn-citation">📥 Export RIS</button>
                     </div>
+                    <details><summary>Read Abstract</summary><p class="abstract-text">[Abstract not provided in source]</p></details>
                 </div>
 
-                <div class="card pub-border publication-card">
-                    <p class="citation-text" style="margin: 0 0 16px 0; font-size: 16px;">
-                        <strong>Gaweł, Hanna</strong> <a href="https://orcid.org/0000-0001-5714-0459" target="_blank"><img src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16"></a> (2025). <em>From Pirated Signals to Platform Sovereignty: Lessons from Fifty Years of Media Disruption</em> [Preprint] (pp.1-37). Cambridge Open Engage. <a href="https://doi.org/10.33774/coe-2025-2hgdz" target="_blank">10.33774/coe-2025-2hgdz</a>
-                    </p>
-                    <div style="display: flex; gap: 12px; align-items: center; flex-wrap: wrap;">
+                <div class="card pub-border js-ris-data" data-type="JOUR" data-year="2025" data-title="From Pirated Signals to Platform Sovereignty: Lessons from Fifty Years of Media Disruption" data-doi="10.33774/coe-2025-2hgdz" data-url="https://doi.org/10.33774/coe-2025-2hgdz" data-publisher="Cambridge Open Engage">
+                    <p style="margin: 0 0 12px 0; font-size: 16px;"><strong>Gaweł, Hanna</strong> (2025). <em>From Pirated Signals to Platform Sovereignty: Lessons from Fifty Years of Media Disruption</em> [Preprint] (pp.1-37). Cambridge Open Engage. <a href="https://doi.org/10.33774/coe-2025-2hgdz" target="_blank">10.33774/coe-2025-2hgdz</a></p>
+                    <div class="btn-container">
                         <div data-badge-popover="right" data-badge-type="donut" data-doi="10.33774/coe-2025-2hgdz" class="altmetric-embed"></div>
-                        <div class="scite-badge" data-doi="10.33774/coe-2025-2hgdz" data-layout="horizontal" data-show-zero="true" data-show-labels="true"></div>
-                        <span class="__dimensions_badge_embed__" data-doi="10.33774/coe-2025-2hgdz" data-hide-zero-citations="true" data-style="small_rectangle"></span>
-                        <a href="https://plu.mx/plum/a/?doi=10.33774/coe-2025-2hgdz" class="plumx-plum-print-popup" data-hide-when-empty="true" data-size="medium"></a>
-                        <button onclick="copyCitation(this)" class="action-btn btn-citation">📋 Cite</button>
+                        <div class="scite-badge" data-doi="10.33774/coe-2025-2hgdz" data-layout="horizontal" data-show-zero="true"></div>
+                        <span class="__dimensions_badge_embed__" data-doi="10.33774/coe-2025-2hgdz" data-style="small_rectangle"></span>
+                        <a href="https://plu.mx/plum/a/?doi=10.33774/coe-2025-2hgdz" class="plumx-plum-print-popup" data-size="medium"></a>
+                        <a href="https://www.growkudos.com/" target="_blank" class="action-btn btn-kudos">Kudos</a>
+                        <button onclick="downloadRIS(this)" class="action-btn btn-citation">📥 Export RIS</button>
                     </div>
+                    <details><summary>Read Abstract</summary><p class="abstract-text">[Abstract not provided in source]</p></details>
                 </div>
 
-                <div class="card pub-border publication-card">
-                    <p class="citation-text" style="margin: 0 0 16px 0; font-size: 16px;">
-                        <strong>Gaweł, Hanna</strong> <a href="https://orcid.org/0000-0001-5714-0459" target="_blank"><img src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16"></a> (2024). <em>Hacktivism</em>. Internet Policy Review, 13(2). <a href="https://doi.org/10.14763/2024.2.1751" target="_blank">10.14763/2024.2.1751</a>
-                    </p>
-                    <div style="display: flex; gap: 12px; align-items: center; flex-wrap: wrap;">
+                <div class="card pub-border js-ris-data" data-type="JOUR" data-year="2024" data-title="Hacktivism" data-doi="10.14763/2024.2.1751" data-url="https://doi.org/10.14763/2024.2.1751" data-publisher="Internet Policy Review">
+                    <p style="margin: 0 0 12px 0; font-size: 16px;"><strong>Gaweł, Hanna</strong> (2024). <em>Hacktivism</em>. Internet Policy Review, 13(2). <a href="https://doi.org/10.14763/2024.2.1751" target="_blank">10.14763/2024.2.1751</a></p>
+                    <div class="btn-container">
                         <div data-badge-popover="right" data-badge-type="donut" data-doi="10.14763/2024.2.1751" class="altmetric-embed"></div>
-                        <div class="scite-badge" data-doi="10.14763/2024.2.1751" data-layout="horizontal" data-show-zero="true" data-show-labels="true"></div>
-                        <span class="__dimensions_badge_embed__" data-doi="10.14763/2024.2.1751" data-hide-zero-citations="true" data-style="small_rectangle"></span>
-                        <a href="https://plu.mx/plum/a/?doi=10.14763/2024.2.1751" class="plumx-plum-print-popup" data-hide-when-empty="true" data-size="medium"></a>
-                        <button onclick="copyCitation(this)" class="action-btn btn-citation">📋 Cite</button>
+                        <div class="scite-badge" data-doi="10.14763/2024.2.1751" data-layout="horizontal" data-show-zero="true"></div>
+                        <span class="__dimensions_badge_embed__" data-doi="10.14763/2024.2.1751" data-style="small_rectangle"></span>
+                        <a href="https://plu.mx/plum/a/?doi=10.14763/2024.2.1751" class="plumx-plum-print-popup" data-size="medium"></a>
+                        <a href="https://www.growkudos.com/" target="_blank" class="action-btn btn-kudos">Kudos</a>
+                        <button onclick="downloadRIS(this)" class="action-btn btn-citation">📥 Export RIS</button>
                     </div>
+                    <details><summary>Read Abstract</summary><p class="abstract-text">[Abstract not provided in source]</p></details>
                 </div>
 
-                <div class="card pub-border publication-card">
-                    <p class="citation-text" style="margin: 0 0 16px 0; font-size: 16px;">
-                        <strong>Gaweł, Hanna</strong> <a href="https://orcid.org/0000-0001-5714-0459" target="_blank"><img src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16"></a> (2023). <em>Results from a collective bound case studies analysis of researched Polish metropolises for inspecting information management regarding air quality in light of information ecology</em> [E-book]. In W. Babik & D. Pietruch-Reizes (Eds.), Wokół informacji i wiedzy w nauce (pp. 101–149). Biblioteka Jagiellońska. <a href="https://ruj.uj.edu.pl/xmlui/handle/item/325517" target="_blank">10.26106/9788367127486</a>
-                    </p>
-                    <div style="display: flex; gap: 12px; align-items: center; flex-wrap: wrap;">
+                <div class="card pub-border js-ris-data" data-type="CHAP" data-year="2023" data-title="Results from a collective bound case studies analysis of researched Polish metropolises for inspecting information management regarding air quality in light of information ecology" data-doi="10.26106/9788367127486" data-url="https://ruj.uj.edu.pl/xmlui/handle/item/325517" data-publisher="Biblioteka Jagiellońska">
+                    <p style="margin: 0 0 12px 0; font-size: 16px;"><strong>Gaweł, Hanna</strong> (2023). <em>Results from a collective bound case studies analysis of researched Polish metropolises...</em> [E-book]. In W. Babik & D. Pietruch-Reizes (Eds.), Wokół informacji i wiedzy w nauce (pp. 101–149). Biblioteka Jagiellońska. <a href="https://ruj.uj.edu.pl/xmlui/handle/item/325517" target="_blank">10.26106/9788367127486</a></p>
+                    <div class="btn-container">
                         <div data-badge-popover="right" data-badge-type="donut" data-doi="10.26106/9788367127486" class="altmetric-embed"></div>
-                        <div class="scite-badge" data-doi="10.26106/9788367127486" data-layout="horizontal" data-show-zero="true" data-show-labels="true"></div>
-                        <span class="__dimensions_badge_embed__" data-doi="10.26106/9788367127486" data-hide-zero-citations="true" data-style="small_rectangle"></span>
-                        <a href="https://plu.mx/plum/a/?doi=10.26106/9788367127486" class="plumx-plum-print-popup" data-hide-when-empty="true" data-size="medium"></a>
-                        <button onclick="copyCitation(this)" class="action-btn btn-citation">📋 Cite</button>
+                        <div class="scite-badge" data-doi="10.26106/9788367127486" data-layout="horizontal" data-show-zero="true"></div>
+                        <span class="__dimensions_badge_embed__" data-doi="10.26106/9788367127486" data-style="small_rectangle"></span>
+                        <a href="https://plu.mx/plum/a/?doi=10.26106/9788367127486" class="plumx-plum-print-popup" data-size="medium"></a>
+                        <a href="https://www.growkudos.com/" target="_blank" class="action-btn btn-kudos">Kudos</a>
+                        <button onclick="downloadRIS(this)" class="action-btn btn-citation">📥 Export RIS</button>
                     </div>
+                    <details><summary>Read Abstract</summary><p class="abstract-text">[Abstract not provided in source]</p></details>
                 </div>
 
+                <div class="card pub-border js-ris-data" data-type="SOUND" data-year="2023" data-title="Czy anonimowość w sieci jest możliwa?" data-url="http://podcasty.radiokrakow.pl/radiowy-wos/?play=3620637" data-publisher="Radio Kraków SA">
+                    <p style="margin: 0 0 12px 0; font-size: 16px;">Bożek, Mateusz; <strong>Gaweł, Hanna</strong> (2023). <em>Czy anonimowość w sieci jest możliwa?</em> [Radio podcast]. Radio Kraków SA, 19/12/2023. <a href="http://podcasty.radiokrakow.pl/radiowy-wos/?play=3620637" target="_blank">Listen</a></p>
+                    <div class="btn-container">
+                        <a href="https://www.growkudos.com/" target="_blank" class="action-btn btn-kudos">Kudos</a>
+                        <button onclick="downloadRIS(this)" class="action-btn btn-citation">📥 Export RIS</button>
+                    </div>
+                    <details><summary>Read Abstract</summary><p class="abstract-text">[Abstract not provided in source]</p></details>
                 </div>
+
+                <div class="card pub-border js-ris-data" data-type="JOUR" data-year="2022" data-title="Web 2.5 as a safe shift from Web 2.0 to Web 3.0: A definition of Web 2.5 in informatological approach" data-doi="10.33774/coe-2022-sj2w3" data-url="https://doi.org/10.33774/coe-2022-sj2w3" data-publisher="Cambridge Open Engage">
+                    <p style="margin: 0 0 12px 0; font-size: 16px;"><strong>Gaweł, Hanna</strong> (2022). <em>Web 2.5 as a safe shift from Web 2.0 to Web 3.0: A definition of Web 2.5 in informatological approach</em> [Preprint] (pp. 1-15). Cambridge Open Engage. <a href="https://doi.org/10.33774/coe-2022-sj2w3" target="_blank">10.33774/coe-2022-sj2w3</a></p>
+                    <div class="btn-container">
+                        <div data-badge-popover="right" data-badge-type="donut" data-doi="10.33774/coe-2022-sj2w3" class="altmetric-embed"></div>
+                        <div class="scite-badge" data-doi="10.33774/coe-2022-sj2w3" data-layout="horizontal" data-show-zero="true"></div>
+                        <span class="__dimensions_badge_embed__" data-doi="10.33774/coe-2022-sj2w3" data-style="small_rectangle"></span>
+                        <a href="https://www.growkudos.com/" target="_blank" class="action-btn btn-kudos">Kudos</a>
+                        <button onclick="downloadRIS(this)" class="action-btn btn-citation">📥 Export RIS</button>
+                    </div>
+                    <details><summary>Read Abstract</summary><p class="abstract-text">[Abstract not provided in source]</p></details>
+                </div>
+
+                <div class="card pub-border js-ris-data" data-type="JOUR" data-year="2022" data-title="Architektura informacji serwisów informujących o jakości powietrza w Polsce w świetle wyników badań ich użytkowników" data-doi="10.31219/osf.io/e2ufc" data-url="https://doi.org/10.31219/osf.io/e2ufc" data-publisher="OSF Preprints">
+                    <p style="margin: 0 0 12px 0; font-size: 16px;"><strong>Gaweł, Hanna</strong> (2022). <em>Architektura informacji serwisów informujących o jakości powietrza w Polsce w świetle wyników badań ich użytkowników</em>. <a href="https://doi.org/10.31219/osf.io/e2ufc" target="_blank">10.31219/osf.io/e2ufc</a></p>
+                    <div class="btn-container">
+                        <a href="https://osf.io/" target="_blank" class="action-btn btn-osf" title="Open Science Framework Badge">🔓 OSF Open Data</a>
+                        <div data-badge-popover="right" data-badge-type="donut" data-doi="10.31219/osf.io/e2ufc" class="altmetric-embed"></div>
+                        <div class="scite-badge" data-doi="10.31219/osf.io/e2ufc" data-layout="horizontal" data-show-zero="true"></div>
+                        <span class="__dimensions_badge_embed__" data-doi="10.31219/osf.io/e2ufc" data-style="small_rectangle"></span>
+                        <a href="https://www.growkudos.com/" target="_blank" class="action-btn btn-kudos">Kudos</a>
+                        <button onclick="downloadRIS(this)" class="action-btn btn-citation">📥 Export RIS</button>
+                    </div>
+                    <details><summary>Read Abstract</summary><p class="abstract-text">[Abstract not provided in source]</p></details>
+                </div>
+
+                <div class="card pub-border js-ris-data" data-type="CHAP" data-year="2021" data-title="Ekologia informacji w świecie cyfrowym – jak użytkownicy mediów społecznościowych radzą sobie z przeładowaniem informacyjnym?" data-url="https://ruj.uj.edu.pl/xmlui/handle/item/287474" data-publisher="Biblioteka Jagiellońska">
+                    <p style="margin: 0 0 12px 0; font-size: 16px;"><strong>Gaweł, Hanna</strong> (2021). <em>Ekologia informacji w świecie cyfrowym – jak użytkownicy mediów społecznościowych radzą sobie z przeładowaniem informacyjnym?</em> [E-book]. In P. Korycińska (Ed.), Horyzonty informacji 2 (pp. 47–65). <a href="https://ruj.uj.edu.pl/xmlui/handle/item/287474" target="_blank">RUJ Link</a></p>
+                    <div class="btn-container">
+                        <a href="https://www.growkudos.com/" target="_blank" class="action-btn btn-kudos">Kudos</a>
+                        <button onclick="downloadRIS(this)" class="action-btn btn-citation">📥 Export RIS</button>
+                    </div>
+                    <details><summary>Read Abstract</summary><p class="abstract-text">[Abstract not provided in source]</p></details>
+                </div>
+
+                <div class="card pub-border js-ris-data" data-type="CHAP" data-year="2021" data-title="Komunikacja naukowa 3.0 – nowe formuły komunikowania nauki w naukach społecznych dla naukowców i popularyzatorów nauki" data-url="https://ruj.uj.edu.pl/xmlui/bitstream/handle/item/285847/babik_pietruch-reizes_zarzadzanie_informacja_i_komunikacja_w_nauce_2021.pdf" data-publisher="Biblioteka Jagiellońska">
+                    <p style="margin: 0 0 12px 0; font-size: 16px;"><strong>Gaweł, Hanna</strong> (2021). <em>Komunikacja naukowa 3.0 – nowe formuły komunikowania nauki...</em> [E-book]. In W. Babik & D. Pietruch-Reizes (Eds.), Zarządzanie informacją i komunikacją w nauce (pp. 49–66). <a href="https://ruj.uj.edu.pl/" target="_blank">RUJ Link</a></p>
+                    <div class="btn-container">
+                        <a href="https://www.growkudos.com/" target="_blank" class="action-btn btn-kudos">Kudos</a>
+                        <button onclick="downloadRIS(this)" class="action-btn btn-citation">📥 Export RIS</button>
+                    </div>
+                    <details><summary>Read Abstract</summary><p class="abstract-text">[Abstract not provided in source]</p></details>
+                </div>
+
+                <div class="card pub-border js-ris-data" data-type="JOUR" data-year="2021" data-title="The Dark Side of Media and Technology: A 21st Century Guide to Media and Technological Literacy" data-doi="10.51548/joctec-2021-012" data-url="https://doi.org/10.51548/joctec-2021-012" data-publisher="Journal of Communication Technology">
+                    <p style="margin: 0 0 12px 0; font-size: 16px;"><strong>Gaweł, Hanna</strong> (2021). <em>The Dark Side of Media and Technology...</em> [Book Review]. Journal of Communication Technology, 4(2), pp. 106-110. <a href="https://doi.org/10.51548/joctec-2021-012" target="_blank">10.51548/joctec-2021-012</a></p>
+                    <div class="btn-container">
+                        <div data-badge-popover="right" data-badge-type="donut" data-doi="10.51548/joctec-2021-012" class="altmetric-embed"></div>
+                        <div class="scite-badge" data-doi="10.51548/joctec-2021-012" data-layout="horizontal" data-show-zero="true"></div>
+                        <span class="__dimensions_badge_embed__" data-doi="10.51548/joctec-2021-012" data-style="small_rectangle"></span>
+                        <a href="https://www.growkudos.com/" target="_blank" class="action-btn btn-kudos">Kudos</a>
+                        <button onclick="downloadRIS(this)" class="action-btn btn-citation">📥 Export RIS</button>
+                    </div>
+                    <details><summary>Read Abstract</summary><p class="abstract-text">[Abstract not provided in source]</p></details>
+                </div>
+
+                <div class="card pub-border js-ris-data" data-type="CHAP" data-year="2021" data-title="Bibliotekarze o bibliotekach przyszłości wedle koncepcji Paula Ladewiga" data-publisher="Wydawnictwo">
+                    <p style="margin: 0 0 12px 0; font-size: 16px;"><strong>Gaweł, Hanna</strong> (2021). <em>Bibliotekarze o bibliotekach przyszłości wedle koncepcji Paula Ladewiga</em>. W: Z. Gębołyś i K. Wodniak red. Wokół "Katechizmu biblioteki" Paula Ladewiga t.2, pp. 126-140.</p>
+                    <div class="btn-container">
+                        <a href="https://www.growkudos.com/" target="_blank" class="action-btn btn-kudos">Kudos</a>
+                        <button onclick="downloadRIS(this)" class="action-btn btn-citation">📥 Export RIS</button>
+                    </div>
+                    <details><summary>Read Abstract</summary><p class="abstract-text">[Abstract not provided in source]</p></details>
+                </div>
+
+                <div class="card pub-border js-ris-data" data-type="CHAP" data-year="2020" data-title="Koło Naukowe Bibliotekoznawców Uniwersytetu Kazimierza Wielkiego w Bydgoszczy w latach 2008–2019" data-doi="10.34616/129271" data-url="https://repozytorium.uni.wroc.pl/dlibra/publication/134254" data-publisher="Instytut Informacji Naukowej Uniwersytetu Wrocławskiego">
+                    <p style="margin: 0 0 12px 0; font-size: 16px;"><strong>Gaweł, Hanna</strong> (2020). <em>Koło Naukowe Bibliotekoznawców Uniwersytetu Kazimierza Wielkiego...</em> W: Student zawsze obecny (1960–2020), pp. 71-76. <a href="https://repozytorium.uni.wroc.pl/dlibra/publication/134254/edition/123685/content" target="_blank">PDF</a></p>
+                    <div class="btn-container">
+                        <div data-badge-popover="right" data-badge-type="donut" data-doi="10.34616/129271" class="altmetric-embed"></div>
+                        <div class="scite-badge" data-doi="10.34616/129271" data-layout="horizontal" data-show-zero="true"></div>
+                        <span class="__dimensions_badge_embed__" data-doi="10.34616/129271" data-style="small_rectangle"></span>
+                        <a href="https://www.growkudos.com/" target="_blank" class="action-btn btn-kudos">Kudos</a>
+                        <button onclick="downloadRIS(this)" class="action-btn btn-citation">📥 Export RIS</button>
+                    </div>
+                    <details><summary>Read Abstract</summary><p class="abstract-text">[Abstract not provided in source]</p></details>
+                </div>
+
+                <div class="card pub-border js-ris-data" data-type="JOUR" data-year="2020" data-title="Międzynarodowa Konferencja Naukowa w Katowicach: Przyszłość badań naukowych..." data-doi="10.12775/FT.2020.011" data-url="https://apcz.umk.pl/czasopisma/index.php/FT/article/view/FT.2020.011" data-publisher="Folia Toruniensia">
+                    <p style="margin: 0 0 12px 0; font-size: 16px;"><strong>Gaweł, Hanna</strong> (2020). <em>Międzynarodowa Konferencja Naukowa w Katowicach: „Przyszłość badań naukowych..."</em> Folia Toruniensia, 20, pp. 243-251. <a href="https://apcz.umk.pl/czasopisma/index.php/FT/article/view/FT.2020.011" target="_blank">PDF</a></p>
+                    <div class="btn-container">
+                        <div data-badge-popover="right" data-badge-type="donut" data-doi="10.12775/FT.2020.011" class="altmetric-embed"></div>
+                        <div class="scite-badge" data-doi="10.12775/FT.2020.011" data-layout="horizontal" data-show-zero="true"></div>
+                        <span class="__dimensions_badge_embed__" data-doi="10.12775/FT.2020.011" data-style="small_rectangle"></span>
+                        <a href="https://www.growkudos.com/" target="_blank" class="action-btn btn-kudos">Kudos</a>
+                        <button onclick="downloadRIS(this)" class="action-btn btn-citation">📥 Export RIS</button>
+                    </div>
+                    <details><summary>Read Abstract</summary><p class="abstract-text">[Abstract not provided in source]</p></details>
+                </div>
+
+                <div class="card pub-border js-ris-data" data-type="JOUR" data-year="2020" data-title="Zarządzanie Informacją" data-doi="10.12775/FT.2020.010" data-url="https://apcz.umk.pl/czasopisma/index.php/FT/article/view/FT.2020.010/27436" data-publisher="Folia Toruniensia">
+                    <p style="margin: 0 0 12px 0; font-size: 16px;"><strong>Gaweł, Hanna</strong> (2020). <em>Zarządzanie Informacją</em>. Seria: Nauka – Dydaktyka – Praktyka. Folia Toruniensia, 20, pp. 235-241. <a href="https://apcz.umk.pl/czasopisma/index.php/FT/article/view/FT.2020.010/27436" target="_blank">PDF</a></p>
+                    <div class="btn-container">
+                        <div data-badge-popover="right" data-badge-type="donut" data-doi="10.12775/FT.2020.010" class="altmetric-embed"></div>
+                        <div class="scite-badge" data-doi="10.12775/FT.2020.010" data-layout="horizontal" data-show-zero="true"></div>
+                        <span class="__dimensions_badge_embed__" data-doi="10.12775/FT.2020.010" data-style="small_rectangle"></span>
+                        <a href="https://www.growkudos.com/" target="_blank" class="action-btn btn-kudos">Kudos</a>
+                        <button onclick="downloadRIS(this)" class="action-btn btn-citation">📥 Export RIS</button>
+                    </div>
+                    <details><summary>Read Abstract</summary><p class="abstract-text">[Abstract not provided in source]</p></details>
+                </div>
+
+                <div class="card pub-border js-ris-data" data-type="JOUR" data-year="2019" data-title="Information Architecture (IA) design challenges for the Arabic-speaking user" data-doi="10.12775/TSB.2019.014" data-url="https://apcz.umk.pl/czasopisma/index.php/TSB/article/view/TSB.2019.014" data-publisher="Toruńskie Studia Bibliologiczne">
+                    <p style="margin: 0 0 12px 0; font-size: 16px;"><strong>Gaweł, Hanna</strong> (2019). <em>Information Architecture (IA) design challenges for the Arabic-speaking user</em>. Toruńskie Studia Bibliologiczne, 12(2), pp. 55-67. <a href="https://apcz.umk.pl/czasopisma/index.php/TSB/article/view/TSB.2019.014" target="_blank">PDF</a></p>
+                    <div class="btn-container">
+                        <div data-badge-popover="right" data-badge-type="donut" data-doi="10.12775/TSB.2019.014" class="altmetric-embed"></div>
+                        <div class="scite-badge" data-doi="10.12775/TSB.2019.014" data-layout="horizontal" data-show-zero="true"></div>
+                        <span class="__dimensions_badge_embed__" data-doi="10.12775/TSB.2019.014" data-style="small_rectangle"></span>
+                        <a href="https://www.growkudos.com/" target="_blank" class="action-btn btn-kudos">Kudos</a>
+                        <button onclick="downloadRIS(this)" class="action-btn btn-citation">📥 Export RIS</button>
+                    </div>
+                    <details><summary>Read Abstract</summary><p class="abstract-text">[Abstract not provided in source]</p></details>
+                </div>
+
+                <div class="card pub-border js-ris-data" data-type="JOUR" data-year="2019" data-title="II International Scientific Conference Concerning Paul Ladewig and his Library Catechism" data-doi="10.12775/FT.2019.017" data-url="http://dx.doi.org/10.12775/FT.2019.017" data-publisher="Folia Toruniensia">
+                    <p style="margin: 0 0 12px 0; font-size: 16px;"><strong>Gaweł, Hanna</strong> (2019). <em>II International Scientific Conference Concerning Paul Ladewig and his „Library Catechism”</em>. Folia Toruniensia, 19, pp. 255-264. <a href="http://dx.doi.org/10.12775/FT.2019.017" target="_blank">10.12775/FT.2019.017</a></p>
+                    <div class="btn-container">
+                        <div data-badge-popover="right" data-badge-type="donut" data-doi="10.12775/FT.2019.017" class="altmetric-embed"></div>
+                        <div class="scite-badge" data-doi="10.12775/FT.2019.017" data-layout="horizontal" data-show-zero="true"></div>
+                        <span class="__dimensions_badge_embed__" data-doi="10.12775/FT.2019.017" data-style="small_rectangle"></span>
+                        <a href="https://www.growkudos.com/" target="_blank" class="action-btn btn-kudos">Kudos</a>
+                        <button onclick="downloadRIS(this)" class="action-btn btn-citation">📥 Export RIS</button>
+                    </div>
+                    <details><summary>Read Abstract</summary><p class="abstract-text">[Abstract not provided in source]</p></details>
+                </div>
+
+                <div class="card pub-border js-ris-data" data-type="CHAP" data-year="2019" data-title="Ożywienie biblioteki uczelni polskiej poprzez kursy e-learningowe" data-publisher="Wydawnictwo Uniwersytetu Kazimierza Wielkiego">
+                    <p style="margin: 0 0 12px 0; font-size: 16px;"><strong>Gaweł, Hanna</strong> (2019). <em>Ożywienie biblioteki uczelni polskiej poprzez kursy e-learningowe</em>. W: Z. Gębołyś red. Wokół „Katechizmu bibiloteki” Paula Ladewiga, Bydgoszcz, pp. 268-280.</p>
+                    <div class="btn-container">
+                        <a href="https://www.growkudos.com/" target="_blank" class="action-btn btn-kudos">Kudos</a>
+                        <button onclick="downloadRIS(this)" class="action-btn btn-citation">📥 Export RIS</button>
+                    </div>
+                    <details><summary>Read Abstract</summary><p class="abstract-text">[Abstract not provided in source]</p></details>
+                </div>
+
+                <div class="card pub-border js-ris-data" data-type="JOUR" data-year="2017" data-title="Zarys dziejów Międzynarodowej Federacji Stowarzyszeń Bibliotekarskich [IFLA]" data-url="https://universitasgedanensis.wordpress.com/2017/06/24/universitas-gedanensis-t-52/" data-publisher="Universitas Gedanensis">
+                    <p style="margin: 0 0 12px 0; font-size: 16px;"><strong>Gaweł, Hanna</strong> (2017). <em>Zarys dziejów Międzynarodowej Federacji Stowarzyszeń Bibliotekarskich [IFLA]</em>. Universitas Gedanensis, R. 28, t. 52, pp. 53-82. <a href="https://universitasgedanensis.wordpress.com/2017/06/24/universitas-gedanensis-t-52/" target="_blank">Link</a></p>
+                    <div class="btn-container">
+                        <a href="https://www.growkudos.com/" target="_blank" class="action-btn btn-kudos">Kudos</a>
+                        <button onclick="downloadRIS(this)" class="action-btn btn-citation">📥 Export RIS</button>
+                    </div>
+                    <details><summary>Read Abstract</summary><p class="abstract-text">[Abstract not provided in source]</p></details>
+                </div>
+
+                <div class="card pub-border js-ris-data" data-type="CHAP" data-year="2017" data-title="Pomiędzy tekstem a technologią – Ngram Viewer" data-publisher="Wydawnictwo Naukowe Uniwersytetu Mikołaja Kopernika">
+                    <p style="margin: 0 0 12px 0; font-size: 16px;"><strong>Gaweł, Hanna</strong> (2017). <em>Pomiędzy tekstem a technologią – Ngram Viewer</em>. W: M. Kowalska, V. Osińska red. Wizualizacja informacji w humanistyce. Toruń, pp. 93-107.</p>
+                    <div class="btn-container">
+                        <a href="https://www.growkudos.com/" target="_blank" class="action-btn btn-kudos">Kudos</a>
+                        <button onclick="downloadRIS(this)" class="action-btn btn-citation">📥 Export RIS</button>
+                    </div>
+                    <details><summary>Read Abstract</summary><p class="abstract-text">[Abstract not provided in source]</p></details>
+                </div>
+
+                <div class="card pub-border js-ris-data" data-type="JOUR" data-year="2015" data-title="Nauka we współczesnym świecie arabskim" data-url="https://universitasgedanensis.wordpress.com/2015/06/19/universitas-gedanensis-t-49/" data-publisher="Universitas Gedanensis">
+                    <p style="margin: 0 0 12px 0; font-size: 16px;"><strong>Gaweł, Hanna</strong> (2015). <em>Nauka we współczesnym świecie arabskim</em>. Universitas Gedanensis, R. 26, t. 49, pp. 145-157. <a href="https://universitasgedanensis.wordpress.com/2015/06/19/universitas-gedanensis-t-49/" target="_blank">Link</a></p>
+                    <div class="btn-container">
+                        <a href="https://www.growkudos.com/" target="_blank" class="action-btn btn-kudos">Kudos</a>
+                        <button onclick="downloadRIS(this)" class="action-btn btn-citation">📥 Export RIS</button>
+                    </div>
+                    <details><summary>Read Abstract</summary><p class="abstract-text">[Abstract not provided in source]</p></details>
+                </div>
+
+                <div class="card pub-border js-ris-data" data-type="JOUR" data-year="2015" data-title="Biblioteka Główna Akademii Morskiej w Szczecinie" data-url="https://www.scribd.com/document/293799397/Mi%C4%99dzy-Rega%C5%82ami-2015-nr-3-22" data-publisher="Między Regałami">
+                    <p style="margin: 0 0 12px 0; font-size: 16px;"><strong>Gaweł, Hanna</strong> (2015). <em>Biblioteka Główna Akademii Morskiej w Szczecinie</em>. Między Regałami, nr 3 (22), pp. 14-15. <a href="https://www.scribd.com/document/293799397/Mi%C4%99dzy-Rega%C5%82ami-2015-nr-3-22" target="_blank">Link</a></p>
+                    <div class="btn-container">
+                        <a href="https://www.growkudos.com/" target="_blank" class="action-btn btn-kudos">Kudos</a>
+                        <button onclick="downloadRIS(this)" class="action-btn btn-citation">📥 Export RIS</button>
+                    </div>
+                    <details><summary>Read Abstract</summary><p class="abstract-text">[Abstract not provided in source]</p></details>
+                </div>
+
+            </div>
         </div>
 
         <div class="section-row" id="conferences">
             <div class="section-title">Conferences</div>
             <div class="section-content">
                 <div style="margin-bottom: 24px; display: flex; gap: 8px; flex-wrap: wrap;">
-                    <button onclick="filterYear('all')" class="tag" style="background:#0056b3; color:#fff; cursor:pointer; border:none;">All</button>
-                    <button onclick="filterYear('2026')" class="tag" style="cursor:pointer; border:none;">2026</button>
-                    <button onclick="filterYear('2025')" class="tag" style="cursor:pointer; border:none;">2025</button>
-                    <button onclick="filterYear('2024')" class="tag" style="cursor:pointer; border:none;">2024</button>
-                    <button onclick="filterYear('2023')" class="tag" style="cursor:pointer; border:none;">2023</button>
-                    <button onclick="filterYear('2022')" class="tag" style="cursor:pointer; border:none;">2022</button>
-                    <button onclick="filterYear('2021')" class="tag" style="cursor:pointer; border:none;">2021</button>
+                    <button onclick="filterYear('all')" class="tag filter-btn" style="background:var(--accent-color); color:#fff;">All</button>
+                    <button onclick="filterYear('2026')" class="tag filter-btn">2026</button>
+                    <button onclick="filterYear('2025')" class="tag filter-btn">2025</button>
+                    <button onclick="filterYear('2024')" class="tag filter-btn">2024</button>
+                    <button onclick="filterYear('2023')" class="tag filter-btn">2023</button>
+                    <button onclick="filterYear('2022')" class="tag filter-btn">2022</button>
+                    <button onclick="filterYear('2021')" class="tag filter-btn">2021</button>
+                    <button onclick="filterYear('2020')" class="tag filter-btn">2020</button>
+                    <button onclick="filterYear('2019')" class="tag filter-btn">2019</button>
+                    <button onclick="filterYear('2018')" class="tag filter-btn">2018</button>
+                    <button onclick="filterYear('2017')" class="tag filter-btn">2017</button>
+                    <button onclick="filterYear('2016')" class="tag filter-btn">2016</button>
+                    <button onclick="filterYear('2015')" class="tag filter-btn">2015</button>
                 </div>
 
                 <div id="conf-container">
                     
-                    <div class="card conf-card" data-year="2026">
+                    <div class="card conf-card js-ris-data" data-year="2026" data-type="CONF" data-title="Archiving Hacktivism: Derivative Collections for High-Risk Publics" data-publisher="Social Media Access Days 2026">
                         <div style="display: flex; gap: 16px; align-items: flex-start;">
                             <div style="font-size: 28px; line-height: 1;">🇩🇪</div>
-                            <div>
+                            <div style="flex-grow: 1;">
                                 <h4 class="serif-text" style="margin: 0 0 4px 0; font-size: 16px;">Social Media Access Days 2026</h4>
                                 <p style="margin: 0; font-size: 14px; color: var(--text-muted);">Frankfurt am Main, Germany | 17-19.03.2026</p>
-                                <p style="margin: 8px 0 0 0; font-style: italic; font-size: 14px;">"Archiving Hacktivism: Derivative Collections for High-Risk Publics"</p>
-                                <span class="tag" style="margin-top:12px; background: rgba(0,86,179,0.1); color: var(--accent-color); font-size:11px; text-transform: uppercase;">Paper Presenter</span>
+                                <p style="margin: 8px 0; font-style: italic; font-size: 14px;">"Archiving Hacktivism: Derivative Collections for High-Risk Publics"</p>
+                                <div class="btn-container">
+                                    <span class="tag" style="background: rgba(0,86,179,0.1); color: var(--accent-color); font-size:11px; text-transform: uppercase;">Paper Presenter</span>
+                                    <button onclick="downloadRIS(this)" class="action-btn btn-citation">📥 Export RIS</button>
+                                </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="card conf-card" data-year="2025">
+                    <div class="card conf-card js-ris-data" data-year="2025" data-type="CONF" data-title="The Gossiping Machine: Ethical Tensions in AI-Assisted Verification Systems" data-publisher="2nd European Congress on Disinformation">
                         <div style="display: flex; gap: 16px; align-items: flex-start;">
                             <div style="font-size: 28px; line-height: 1;">🇪🇸</div>
-                            <div>
+                            <div style="flex-grow: 1;">
                                 <h4 class="serif-text" style="margin: 0 0 4px 0; font-size: 16px;">2nd European Congress on Disinformation and Fact-Checking</h4>
                                 <p style="margin: 0; font-size: 14px; color: var(--text-muted);">Madrid, Spain | 29-30.10.2025</p>
-                                <p style="margin: 8px 0 0 0; font-style: italic; font-size: 14px;">"The Gossiping Machine: Ethical Tensions in AI-Assisted Verification Systems"</p>
-                                <span class="tag" style="margin-top:12px; background: rgba(0,86,179,0.1); color: var(--accent-color); font-size:11px; text-transform: uppercase;">Paper Presenter</span>
+                                <p style="margin: 8px 0; font-style: italic; font-size: 14px;">"The Gossiping Machine: Ethical Tensions in AI-Assisted Verification Systems"</p>
+                                <div class="btn-container">
+                                    <span class="tag" style="background: rgba(0,86,179,0.1); color: var(--accent-color); font-size:11px; text-transform: uppercase;">Paper Presenter</span>
+                                    <button onclick="downloadRIS(this)" class="action-btn btn-citation">📥 Export RIS</button>
+                                </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="card conf-card" data-year="2025">
+                    <div class="card conf-card js-ris-data" data-year="2025" data-type="CONF" data-title="From Pirated Signals to Platform Sovereignty" data-publisher="CAMRI">
                         <div style="display: flex; gap: 16px; align-items: flex-start;">
                             <div style="font-size: 28px; line-height: 1;">🇬🇧</div>
-                            <div>
+                            <div style="flex-grow: 1;">
                                 <h4 class="serif-text" style="margin: 0 0 4px 0; font-size: 16px;">CAMRI: Histories, Presents and Futures of Media</h4>
                                 <p style="margin: 0; font-size: 14px; color: var(--text-muted);">London, UK | 22-23.05.2025</p>
-                                <p style="margin: 8px 0 0 0; font-style: italic; font-size: 14px;">"From Pirated Signals to Platform Sovereignty"</p>
-                                <span class="tag" style="margin-top:12px; background: rgba(0,86,179,0.1); color: var(--accent-color); font-size:11px; text-transform: uppercase;">Paper Presenter</span>
+                                <p style="margin: 8px 0; font-style: italic; font-size: 14px;">"From Pirated Signals to Platform Sovereignty"</p>
+                                <div class="btn-container">
+                                    <span class="tag" style="background: rgba(0,86,179,0.1); color: var(--accent-color); font-size:11px; text-transform: uppercase;">Paper Presenter</span>
+                                    <button onclick="downloadRIS(this)" class="action-btn btn-citation">📥 Export RIS</button>
+                                </div>
                             </div>
                         </div>
                     </div>
 
+                    <div class="card conf-card js-ris-data" data-year="2024" data-type="CONF" data-title="Open access publications and the preprint phenomenon" data-publisher="Polish Open Science Conference">
+                        <div style="display: flex; gap: 16px; align-items: flex-start;">
+                            <div style="font-size: 28px; line-height: 1;">🇵🇱</div>
+                            <div style="flex-grow: 1;">
+                                <h4 class="serif-text" style="margin: 0 0 4px 0; font-size: 16px;">Polish Open Science Conference 2024</h4>
+                                <p style="margin: 0; font-size: 14px; color: var(--text-muted);">Kraków, Poland | 10-12.04.2024</p>
+                                <p style="margin: 8px 0; font-style: italic; font-size: 14px;">"Open access publications and the preprint phenomenon"</p>
+                                <div class="btn-container">
+                                    <span class="tag" style="background: rgba(0,86,179,0.1); color: var(--accent-color); font-size:11px; text-transform: uppercase;">Paper Presenter</span>
+                                    <button onclick="downloadRIS(this)" class="action-btn btn-citation">📥 Export RIS</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+
+                    <div class="card conf-card js-ris-data" data-year="2023" data-type="CONF" data-title="Analiza porównawcza modeli bibliotekarstwa" data-publisher="III Międzynarodowa Konferencja Naukowa">
+                        <div style="display: flex; gap: 16px; align-items: flex-start;">
+                            <div style="font-size: 28px; line-height: 1;">🇵🇱</div>
+                            <div style="flex-grow: 1;">
+                                <h4 class="serif-text" style="margin: 0 0 4px 0; font-size: 16px;">III Międzynarodowa Konferencja Naukowa - Wokół Paula Ladewiga</h4>
+                                <p style="margin: 0; font-size: 14px; color: var(--text-muted);">Bydgoszcz, Poland | 29-30.05.2023</p>
+                                <p style="margin: 8px 0; font-style: italic; font-size: 14px;">"Analiza porównawcza modeli bibliotekarstwa..."</p>
+                                <div class="btn-container">
+                                    <span class="tag" style="background: rgba(0,86,179,0.1); color: var(--accent-color); font-size:11px; text-transform: uppercase;">Paper Presenter</span>
+                                    <button onclick="downloadRIS(this)" class="action-btn btn-citation">📥 Export RIS</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card conf-card js-ris-data" data-year="2022" data-type="CONF" data-title="Birds of a feather boycott together" data-publisher="ECREA postconference">
+                        <div style="display: flex; gap: 16px; align-items: flex-start;">
+                            <div style="font-size: 28px; line-height: 1;">🇩🇰</div>
+                            <div style="flex-grow: 1;">
+                                <h4 class="serif-text" style="margin: 0 0 4px 0; font-size: 16px;">ECREA postconference 🌐</h4>
+                                <p style="margin: 0; font-size: 14px; color: var(--text-muted);">Aarhus, Denmark (Online) | 24.10.2022</p>
+                                <p style="margin: 8px 0; font-style: italic; font-size: 14px;">"Birds of a feather boycott together..."</p>
+                                <div class="btn-container">
+                                    <span class="tag" style="background: rgba(0,86,179,0.1); color: var(--accent-color); font-size:11px; text-transform: uppercase;">Paper Presenter</span>
+                                    <button onclick="downloadRIS(this)" class="action-btn btn-citation">📥 Export RIS</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card conf-card js-ris-data" data-year="2022" data-type="CONF" data-title="Rescuing the suffocated by information smog" data-publisher="4th International Media Studies Symposium">
+                        <div style="display: flex; gap: 16px; align-items: flex-start;">
+                            <div style="font-size: 28px; line-height: 1;">🇹🇷</div>
+                            <div style="flex-grow: 1;">
+                                <h4 class="serif-text" style="margin: 0 0 4px 0; font-size: 16px;">4th International Media Studies Symposium 🌐</h4>
+                                <p style="margin: 0; font-size: 14px; color: var(--text-muted);">Antalya, Turkey (Online) | 16-18.05.2022</p>
+                                <p style="margin: 8px 0; font-style: italic; font-size: 14px;">"Rescuing the suffocated by information smog..."</p>
+                                <div class="btn-container">
+                                    <span class="tag" style="background: rgba(0,86,179,0.1); color: var(--accent-color); font-size:11px; text-transform: uppercase;">Paper Presenter</span>
+                                    <button onclick="downloadRIS(this)" class="action-btn btn-citation">📥 Export RIS</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card conf-card js-ris-data" data-year="2022" data-type="CONF" data-title="Projektowanie komunikacji naukowej" data-publisher="WIAD22">
+                        <div style="display: flex; gap: 16px; align-items: flex-start;">
+                            <div style="font-size: 28px; line-height: 1;">🇵🇱</div>
+                            <div style="flex-grow: 1;">
+                                <h4 class="serif-text" style="margin: 0 0 4px 0; font-size: 16px;">WIAD22 🌐</h4>
+                                <p style="margin: 0; font-size: 14px; color: var(--text-muted);">Toruń, Poland (Online) | 05-06.03.2022</p>
+                                <p style="margin: 8px 0; font-style: italic; font-size: 14px;">"Projektowanie komunikacji naukowej na przykładzie nano-influencerów..."</p>
+                                <div class="btn-container">
+                                    <span class="tag" style="background: rgba(0,86,179,0.1); color: var(--accent-color); font-size:11px; text-transform: uppercase;">Paper Presenter</span>
+                                    <button onclick="downloadRIS(this)" class="action-btn btn-citation">📥 Export RIS</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card conf-card js-ris-data" data-year="2021" data-type="CONF" data-title="Love to Online Hate" data-publisher="WIAD21">
+                        <div style="display: flex; gap: 16px; align-items: flex-start;">
+                            <div style="font-size: 28px; line-height: 1;">🇵🇱</div>
+                            <div style="flex-grow: 1;">
+                                <h4 class="serif-text" style="margin: 0 0 4px 0; font-size: 16px;">WIAD21 🌐</h4>
+                                <p style="margin: 0; font-size: 14px; color: var(--text-muted);">Toruń, Poland (Online) | 28.02.2021</p>
+                                <p style="margin: 8px 0; font-style: italic; font-size: 14px;">"Love to Online Hate: How curiosity & IA of social media platforms support toxic communication"</p>
+                                <div class="btn-container">
+                                    <span class="tag" style="background: rgba(0,86,179,0.1); color: var(--accent-color); font-size:11px; text-transform: uppercase;">Paper Presenter</span>
+                                    <button onclick="downloadRIS(this)" class="action-btn btn-citation">📥 Export RIS</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card conf-card js-ris-data" data-year="2020" data-type="CONF" data-title="Komunikacja 3.0 - nowe propozycje" data-publisher="VII Ogólnopolska Konferencja Naukowa">
+                        <div style="display: flex; gap: 16px; align-items: flex-start;">
+                            <div style="font-size: 28px; line-height: 1;">🇵🇱</div>
+                            <div style="flex-grow: 1;">
+                                <h4 class="serif-text" style="margin: 0 0 4px 0; font-size: 16px;">VII Ogólnopolska Konferencja Naukowa "Zarządzanie informacją w nauce" 🌐</h4>
+                                <p style="margin: 0; font-size: 14px; color: var(--text-muted);">Kraków, Poland (Online) | 27.11.2020</p>
+                                <p style="margin: 8px 0; font-style: italic; font-size: 14px;">"Komunikacja 3.0 - nowe propozycje komunikowania nauki..."</p>
+                                <div class="btn-container">
+                                    <span class="tag" style="background: rgba(0,86,179,0.1); color: var(--accent-color); font-size:11px; text-transform: uppercase;">Paper Presenter</span>
+                                    <button onclick="downloadRIS(this)" class="action-btn btn-citation">📥 Export RIS</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card conf-card js-ris-data" data-year="2020" data-type="CONF" data-title="Architektura informacji serwisów informujących o jakości powietrza" data-publisher="III Konferencja AIDA2">
+                        <div style="display: flex; gap: 16px; align-items: flex-start;">
+                            <div style="font-size: 28px; line-height: 1;">🇵🇱</div>
+                            <div style="flex-grow: 1;">
+                                <h4 class="serif-text" style="margin: 0 0 4px 0; font-size: 16px;">III Konferencja AIDA2 🌐</h4>
+                                <p style="margin: 0; font-size: 14px; color: var(--text-muted);">Kraków, Poland (Online) | 4-5.06.2020</p>
+                                <p style="margin: 8px 0; font-style: italic; font-size: 14px;">"Architektura informacji serwisów informujących o jakości powietrza w Polsce"</p>
+                                <div class="btn-container">
+                                    <span class="tag" style="background: rgba(0,86,179,0.1); color: var(--accent-color); font-size:11px; text-transform: uppercase;">Paper Presenter</span>
+                                    <button onclick="downloadRIS(this)" class="action-btn btn-citation">📥 Export RIS</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card conf-card js-ris-data" data-year="2019" data-type="CONF" data-title="Biblioteki przyszłości" data-publisher="II Międzynarodowa Konferencja Naukowa">
+                        <div style="display: flex; gap: 16px; align-items: flex-start;">
+                            <div style="font-size: 28px; line-height: 1;">🇵🇱</div>
+                            <div style="flex-grow: 1;">
+                                <h4 class="serif-text" style="margin: 0 0 4px 0; font-size: 16px;">II Międzynarodowa Konferencja Naukowa "Wokół Paula Ladewiga"</h4>
+                                <p style="margin: 0; font-size: 14px; color: var(--text-muted);">Bydgoszcz, Poland | 3-4.06.2019</p>
+                                <p style="margin: 8px 0; font-style: italic; font-size: 14px;">"Biblioteki przyszłości wedle koncepcji Paula Ladewiga"</p>
+                                <div class="btn-container">
+                                    <span class="tag" style="background: rgba(0,86,179,0.1); color: var(--accent-color); font-size:11px; text-transform: uppercase;">Paper Presenter</span>
+                                    <button onclick="downloadRIS(this)" class="action-btn btn-citation">📥 Export RIS</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card conf-card js-ris-data" data-year="2019" data-type="CONF" data-title="Is man an information system?" data-publisher="Share & Inspire 2019">
+                        <div style="display: flex; gap: 16px; align-items: flex-start;">
+                            <div style="font-size: 28px; line-height: 1;">🇵🇱</div>
+                            <div style="flex-grow: 1;">
+                                <h4 class="serif-text" style="margin: 0 0 4px 0; font-size: 16px;">I Ogólnopolska Konferencja Naukowa Doktorantów</h4>
+                                <p style="margin: 0; font-size: 14px; color: var(--text-muted);">Kraków, Poland | 16.05.2019</p>
+                                <p style="margin: 8px 0; font-style: italic; font-size: 14px;">"Is man an information system? - an interdisciplinary approach"</p>
+                                <div class="btn-container">
+                                    <span class="tag" style="background: rgba(0,86,179,0.1); color: var(--accent-color); font-size:11px; text-transform: uppercase;">Paper Presenter</span>
+                                    <button onclick="downloadRIS(this)" class="action-btn btn-citation">📥 Export RIS</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card conf-card js-ris-data" data-year="2019" data-type="CONF" data-title="Wyzwania projektowania AI" data-publisher="WIAD19">
+                        <div style="display: flex; gap: 16px; align-items: flex-start;">
+                            <div style="font-size: 28px; line-height: 1;">🇵🇱</div>
+                            <div style="flex-grow: 1;">
+                                <h4 class="serif-text" style="margin: 0 0 4px 0; font-size: 16px;">I Ogólnopolska Konferencja Naukowa WIAD19</h4>
+                                <p style="margin: 0; font-size: 14px; color: var(--text-muted);">Toruń, Poland | 23.02.2019</p>
+                                <p style="margin: 8px 0; font-style: italic; font-size: 14px;">"Wyzwania projektowania AI dla arabskojęzycznego użytkownika"</p>
+                                <div class="btn-container">
+                                    <span class="tag" style="background: rgba(0,86,179,0.1); color: var(--accent-color); font-size:11px; text-transform: uppercase;">Paper Presenter</span>
+                                    <button onclick="downloadRIS(this)" class="action-btn btn-citation">📥 Export RIS</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card conf-card js-ris-data" data-year="2018" data-type="CONF" data-title="Zarządzanie informacją dotyczącą wytycznych..." data-publisher="XV Ogólnopolska Konferencja">
+                        <div style="display: flex; gap: 16px; align-items: flex-start;">
+                            <div style="font-size: 28px; line-height: 1;">🇵🇱</div>
+                            <div style="flex-grow: 1;">
+                                <h4 class="serif-text" style="margin: 0 0 4px 0; font-size: 16px;">XV Ogólnopolska Konferencja Naukowa Zarządzanie Informacją</h4>
+                                <p style="margin: 0; font-size: 14px; color: var(--text-muted);">Kraków, Poland | 14.12.2018</p>
+                                <p style="margin: 8px 0; font-style: italic; font-size: 14px;">"Zarządzanie informacją dotyczącą wytycznych praktyki klinicznej..."</p>
+                                <div class="btn-container">
+                                    <span class="tag" style="background: rgba(0,86,179,0.1); color: var(--accent-color); font-size:11px; text-transform: uppercase;">Paper Presenter</span>
+                                    <button onclick="downloadRIS(this)" class="action-btn btn-citation">📥 Export RIS</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card conf-card js-ris-data" data-year="2018" data-type="CONF" data-title="Wizualizacja danych" data-publisher="I Konferencja AIDA">
+                        <div style="display: flex; gap: 16px; align-items: flex-start;">
+                            <div style="font-size: 28px; line-height: 1;">🇵🇱</div>
+                            <div style="flex-grow: 1;">
+                                <h4 class="serif-text" style="margin: 0 0 4px 0; font-size: 16px;">I Konferencja AIDA</h4>
+                                <p style="margin: 0; font-size: 14px; color: var(--text-muted);">Kraków, Poland | 05-06.06.2018</p>
+                                <p style="margin: 8px 0; font-style: italic; font-size: 14px;">"Wizualizacja niepewnych, niekompletnych i brakujących danych"</p>
+                                <div class="btn-container">
+                                    <span class="tag" style="background: rgba(0,86,179,0.1); color: var(--accent-color); font-size:11px; text-transform: uppercase;">Paper Presenter</span>
+                                    <button onclick="downloadRIS(this)" class="action-btn btn-citation">📥 Export RIS</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card conf-card js-ris-data" data-year="2018" data-type="CONF" data-title="Modelowanie tematów a popularność badacza" data-publisher="III Ogólnopolska Konferencja">
+                        <div style="display: flex; gap: 16px; align-items: flex-start;">
+                            <div style="font-size: 28px; line-height: 1;">🇵🇱</div>
+                            <div style="flex-grow: 1;">
+                                <h4 class="serif-text" style="margin: 0 0 4px 0; font-size: 16px;">III Ogólnopolska Konferencja "Język jako świadectwo kultury"</h4>
+                                <p style="margin: 0; font-size: 14px; color: var(--text-muted);">Kielce, Poland | 24.04.2018</p>
+                                <p style="margin: 8px 0; font-style: italic; font-size: 14px;">"Modelowanie tematów a popularność badacza na polu naukowym"</p>
+                                <div class="btn-container">
+                                    <span class="tag" style="background: rgba(0,86,179,0.1); color: var(--accent-color); font-size:11px; text-transform: uppercase;">Paper Presenter</span>
+                                    <button onclick="downloadRIS(this)" class="action-btn btn-citation">📥 Export RIS</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card conf-card js-ris-data" data-year="2017" data-type="CONF" data-title="To już czas: nowy rodzaj mapy" data-publisher="XIV Studencko-Doktorancka">
+                        <div style="display: flex; gap: 16px; align-items: flex-start;">
+                            <div style="font-size: 28px; line-height: 1;">🇵🇱</div>
+                            <div style="flex-grow: 1;">
+                                <h4 class="serif-text" style="margin: 0 0 4px 0; font-size: 16px;">XIV Studencko-Doktorancka Konferencja Naukowa "Big Data"</h4>
+                                <p style="margin: 0; font-size: 14px; color: var(--text-muted);">Kraków, Poland | 01.12.2017</p>
+                                <p style="margin: 8px 0; font-style: italic; font-size: 14px;">"To już czas: nowy rodzaj mapy - przypadek krakowskiego turysty"</p>
+                                <div class="btn-container">
+                                    <span class="tag" style="background: rgba(0,86,179,0.1); color: var(--accent-color); font-size:11px; text-transform: uppercase;">Paper Presenter</span>
+                                    <button onclick="downloadRIS(this)" class="action-btn btn-citation">📥 Export RIS</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card conf-card js-ris-data" data-year="2017" data-type="CONF" data-title="Pomiędzy tekstem a technologią" data-publisher="Międzynarodowa Konferencja Toruńska">
+                        <div style="display: flex; gap: 16px; align-items: flex-start;">
+                            <div style="font-size: 28px; line-height: 1;">🇵🇱</div>
+                            <div style="flex-grow: 1;">
+                                <h4 class="serif-text" style="margin: 0 0 4px 0; font-size: 16px;">Międzynarodowa Konferencja Toruńska</h4>
+                                <p style="margin: 0; font-size: 14px; color: var(--text-muted);">Toruń, Poland | 23.04.2017</p>
+                                <p style="margin: 8px 0; font-style: italic; font-size: 14px;">"Pomiędzy tekstem a technologią - Ngram Viewer"</p>
+                                <div class="btn-container">
+                                    <span class="tag" style="background: rgba(0,86,179,0.1); color: var(--accent-color); font-size:11px; text-transform: uppercase;">Paper Presenter</span>
+                                    <button onclick="downloadRIS(this)" class="action-btn btn-citation">📥 Export RIS</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card conf-card js-ris-data" data-year="2017" data-type="CONF" data-title="Memy krzywym zwierciadle" data-publisher="II Ogólnopolska Konferencja">
+                        <div style="display: flex; gap: 16px; align-items: flex-start;">
+                            <div style="font-size: 28px; line-height: 1;">🇵🇱</div>
+                            <div style="flex-grow: 1;">
+                                <h4 class="serif-text" style="margin: 0 0 4px 0; font-size: 16px;">II Ogólnopolska Konferencja Naukowa "Człowiek - Informacja"</h4>
+                                <p style="margin: 0; font-size: 14px; color: var(--text-muted);">Toruń, Poland | 09.03.2017</p>
+                                <p style="margin: 8px 0; font-style: italic; font-size: 14px;">"Memy krzywym zwierciadle: nowa forma pastiszu, komunikacji..."</p>
+                                <div class="btn-container">
+                                    <span class="tag" style="background: rgba(0,86,179,0.1); color: var(--accent-color); font-size:11px; text-transform: uppercase;">Paper Presenter</span>
+                                    <button onclick="downloadRIS(this)" class="action-btn btn-citation">📥 Export RIS</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card conf-card js-ris-data" data-year="2016" data-type="CONF" data-title="Krótka historia książkomatów" data-publisher="VII Ogólnopolska Konferencja">
+                        <div style="display: flex; gap: 16px; align-items: flex-start;">
+                            <div style="font-size: 28px; line-height: 1;">🇵🇱</div>
+                            <div style="flex-grow: 1;">
+                                <h4 class="serif-text" style="margin: 0 0 4px 0; font-size: 16px;">VII Ogólnopolska Konferencja Bibliologicznych Kół Naukowych</h4>
+                                <p style="margin: 0; font-size: 14px; color: var(--text-muted);">Bydgoszcz, Poland | 22.04.2016</p>
+                                <p style="margin: 8px 0; font-style: italic; font-size: 14px;">"Krótka historia książkomatów"</p>
+                                <div class="btn-container">
+                                    <span class="tag" style="background: rgba(0,86,179,0.1); color: var(--accent-color); font-size:11px; text-transform: uppercase;">Paper Presenter</span>
+                                    <button onclick="downloadRIS(this)" class="action-btn btn-citation">📥 Export RIS</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card conf-card js-ris-data" data-year="2016" data-type="CONF" data-title="Co na daje 25 milionów książek" data-publisher="I Ogólnopolska Konferencja Naukowa">
+                        <div style="display: flex; gap: 16px; align-items: flex-start;">
+                            <div style="font-size: 28px; line-height: 1;">🇵🇱</div>
+                            <div style="flex-grow: 1;">
+                                <h4 class="serif-text" style="margin: 0 0 4px 0; font-size: 16px;">I Ogólnopolska Konferencja Naukowa "Człowiek - biblioteki"</h4>
+                                <p style="margin: 0; font-size: 14px; color: var(--text-muted);">Toruń, Poland | 17.03.2016</p>
+                                <p style="margin: 8px 0; font-style: italic; font-size: 14px;">"Co na daje 25 milionów książek"</p>
+                                <div class="btn-container">
+                                    <span class="tag" style="background: rgba(0,86,179,0.1); color: var(--accent-color); font-size:11px; text-transform: uppercase;">Paper Presenter</span>
+                                    <button onclick="downloadRIS(this)" class="action-btn btn-citation">📥 Export RIS</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card conf-card js-ris-data" data-year="2015" data-type="CONF" data-title="The Student Engagement Platform (SEP)" data-publisher="IV Ogólnopolska Konferencja">
+                        <div style="display: flex; gap: 16px; align-items: flex-start;">
+                            <div style="font-size: 28px; line-height: 1;">🇵🇱</div>
+                            <div style="flex-grow: 1;">
+                                <h4 class="serif-text" style="margin: 0 0 4px 0; font-size: 16px;">IV Ogólnopolska Konferencja Bibliologicznych Kół Naukowych</h4>
+                                <p style="margin: 0; font-size: 14px; color: var(--text-muted);">Bydgoszcz, Poland | 22.04.2015</p>
+                                <p style="margin: 8px 0; font-style: italic; font-size: 14px;">"The Student Engagement Platform (SEP)..."</p>
+                                <div class="btn-container">
+                                    <span class="tag" style="background: rgba(0,86,179,0.1); color: var(--accent-color); font-size:11px; text-transform: uppercase;">Paper Presenter</span>
+                                    <button onclick="downloadRIS(this)" class="action-btn btn-citation">📥 Export RIS</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card conf-card js-ris-data" data-year="2015" data-type="CONF" data-title="MOOC (Massive Online Open Course) w dobie Web 2.0" data-publisher="I Ogólnopolska Studencko-Doktorancka Konferencja">
+                        <div style="display: flex; gap: 16px; align-items: flex-start;">
+                            <div style="font-size: 28px; line-height: 1;">🇵🇱</div>
+                            <div style="flex-grow: 1;">
+                                <h4 class="serif-text" style="margin: 0 0 4px 0; font-size: 16px;">I Ogólnopolska Studencko-Doktorancka Konferencja Naukowa</h4>
+                                <p style="margin: 0; font-size: 14px; color: var(--text-muted);">Toruń, Poland | 20.03.2015</p>
+                                <p style="margin: 8px 0; font-style: italic; font-size: 14px;">"MOOC (Massive Online Open Course) w dobie Web 2.0 - porównanie platform"</p>
+                                <div class="btn-container">
+                                    <span class="tag" style="background: rgba(0,86,179,0.1); color: var(--accent-color); font-size:11px; text-transform: uppercase;">Paper Presenter</span>
+                                    <button onclick="downloadRIS(this)" class="action-btn btn-citation">📥 Export RIS</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card conf-card js-ris-data" data-year="2015" data-type="CONF" data-title="Bibliografia bydgoska 1801-1811" data-publisher="Sesja Naukowa">
+                        <div style="display: flex; gap: 16px; align-items: flex-start;">
+                            <div style="font-size: 28px; line-height: 1;">🇵🇱</div>
+                            <div style="flex-grow: 1;">
+                                <h4 class="serif-text" style="margin: 0 0 4px 0; font-size: 16px;">Sesja Naukowa "Przegląd badań licencjackich..."</h4>
+                                <p style="margin: 0; font-size: 14px; color: var(--text-muted);">Bydgoszcz, Poland | 25.02.2015</p>
+                                <p style="margin: 8px 0; font-style: italic; font-size: 14px;">"Bibliografia bydgoska 1801-1811 - wstępne omówienie pracy"</p>
+                                <div class="btn-container">
+                                    <span class="tag" style="background: rgba(0,86,179,0.1); color: var(--accent-color); font-size:11px; text-transform: uppercase;">Paper Presenter</span>
+                                    <button onclick="downloadRIS(this)" class="action-btn btn-citation">📥 Export RIS</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
 
                 <script>
                 function filterYear(year) {
                     const buttons = document.querySelectorAll('.filter-btn');
-                    buttons.forEach(btn => {
-                        btn.style.background = '#f1f3f5';
-                        btn.style.color = '#495057';
-                    });
-                    event.target.style.background = '#0056b3';
-                    event.target.style.color = 'white';
+                    buttons.forEach(btn => { btn.style.background = '#f1f3f5'; btn.style.color = '#495057'; });
+                    event.target.style.background = '#0056b3'; event.target.style.color = 'white';
 
                     const cards = document.querySelectorAll('.conf-card');
                     cards.forEach(card => {
@@ -360,15 +807,16 @@
         <div class="section-row" id="engagement">
             <div class="section-title">Public Engagement</div>
             <div class="section-content">
-                <div class="card" style="border-left: 4px solid #f39c12;">
+                <div class="card js-ris-data" data-type="SOUND" data-year="2023" data-title="Czy anonimowość w sieci jest możliwa?" data-url="http://podcasty.radiokrakow.pl/radiowy-wos/?play=3620637" style="border-left: 4px solid #f39c12;">
                     <div style="display: flex; gap: 16px; align-items: center;">
                         <div style="font-size: 32px;">🎙️</div>
                         <div>
-                            <p style="margin: 0 0 4px 0; font-size: 16px;">
-                                Bożek, Mateusz; <strong>Gaweł, Hanna</strong> (2023). <em>Czy anonimowość w sieci jest możliwa?</em>
-                            </p>
-                            <p style="margin: 0 0 8px 0; font-size: 14px; color: var(--text-muted);">Radio Kraków SA.</p>
-                            <a href="http://podcasty.radiokrakow.pl/radiowy-wos/?play=3620637" target="_blank" class="action-btn" style="background-color: #f39c12;">Listen to Broadcast</a>
+                            <p style="margin: 0 0 4px 0; font-size: 16px;">Bożek, Mateusz; <strong>Gaweł, Hanna</strong> (2023). <em>Czy anonimowość w sieci jest możliwa?</em></p>
+                            <p style="margin: 0 0 12px 0; font-size: 14px; color: var(--text-muted);">Radio Kraków SA.</p>
+                            <div class="btn-container">
+                                <a href="http://podcasty.radiokrakow.pl/radiowy-wos/?play=3620637" target="_blank" class="action-btn" style="background-color: #f39c12;">Listen to Broadcast</a>
+                                <button onclick="downloadRIS(this)" class="action-btn btn-citation">📥 Export RIS</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -380,22 +828,16 @@
             <div class="section-content">
                 <div class="card">
                     <div style="display: flex; flex-direction: column; gap: 16px; font-size: 15px;">
-                        <div style="display: flex; gap: 20px; padding-bottom: 12px; border-bottom: 1px solid #f1f3f5;">
-                            <div style="font-weight: 700; color: var(--accent-color); min-width: 80px;">2022</div>
-                            <div>EU TalentOn (Hackathon) – Team: Urbolution</div>
-                        </div>
-                        <div style="display: flex; gap: 20px; padding-bottom: 12px; border-bottom: 1px solid #f1f3f5;">
-                            <div style="font-weight: 700; color: var(--accent-color); min-width: 80px;">2018—19</div>
-                            <div>Scholarship of the Ministry of Science and Higher Education for Students</div>
-                        </div>
-                        <div style="display: flex; gap: 20px; padding-bottom: 12px; border-bottom: 1px solid #f1f3f5;">
-                            <div style="font-weight: 700; color: var(--accent-color); min-width: 80px;">2017—19</div>
-                            <div>Jagiellonian University Rector’s Scholarship for the Best Students</div>
-                        </div>
-                        <div style="display: flex; gap: 20px;">
-                            <div style="font-weight: 700; color: var(--accent-color); min-width: 80px;">2017</div>
-                            <div>Honour Kazimierz Wielki University Rector’s Award for scientific achievements</div>
-                        </div>
+                        <div style="display: flex; gap: 20px; padding-bottom: 12px; border-bottom: 1px solid #f1f3f5;"><div style="font-weight: 700; color: var(--accent-color); min-width: 80px;">2022</div><div>EU TalentOn (Hackathon) – Team: Urbolution</div></div>
+                        <div style="display: flex; gap: 20px; padding-bottom: 12px; border-bottom: 1px solid #f1f3f5;"><div style="font-weight: 700; color: var(--accent-color); min-width: 80px;">2018—19</div><div>Scholarship of the Ministry of Science and Higher Education for Students</div></div>
+                        <div style="display: flex; gap: 20px; padding-bottom: 12px; border-bottom: 1px solid #f1f3f5;"><div style="font-weight: 700; color: var(--accent-color); min-width: 80px;">2017—19</div><div>Jagiellonian University Rector’s Scholarship for the Best Students</div></div>
+                        <div style="display: flex; gap: 20px; padding-bottom: 12px; border-bottom: 1px solid #f1f3f5;"><div style="font-weight: 700; color: var(--accent-color); min-width: 80px;">2017</div><div>Honour Kazimierz Wielki University Rector’s Award for scientific achievements</div></div>
+                        <div style="display: flex; gap: 20px; padding-bottom: 12px; border-bottom: 1px solid #f1f3f5;"><div style="font-weight: 700; color: var(--accent-color); min-width: 80px;">2017</div><div>Award for Best Graduate Student, Faculty of Administration and Social Sciences (KWU)</div></div>
+                        <div style="display: flex; gap: 20px; padding-bottom: 12px; border-bottom: 1px solid #f1f3f5;"><div style="font-weight: 700; color: var(--accent-color); min-width: 80px;">2017</div><div>Best Diploma Thesis Award, Faculty of Administration and Social Sciences</div></div>
+                        <div style="display: flex; gap: 20px; padding-bottom: 12px; border-bottom: 1px solid #f1f3f5;"><div style="font-weight: 700; color: var(--accent-color); min-width: 80px;">2016—17</div><div>Scholarship of the Ministry of Science and Higher Education for Students</div></div>
+                        <div style="display: flex; gap: 20px; padding-bottom: 12px; border-bottom: 1px solid #f1f3f5;"><div style="font-weight: 700; color: var(--accent-color); min-width: 80px;">2016</div><div>The Best Student of the Kazimierz Wielki University Award</div></div>
+                        <div style="display: flex; gap: 20px; padding-bottom: 12px; border-bottom: 1px solid #f1f3f5;"><div style="font-weight: 700; color: var(--accent-color); min-width: 80px;">2016</div><div>The Best Student at the Faculty of Administration and Social Sciences Award</div></div>
+                        <div style="display: flex; gap: 20px;"><div style="font-weight: 700; color: var(--accent-color); min-width: 80px;">2015—16</div><div>Kazimierz Wielki University Rector’s Scholarship for the Best Students</div></div>
                     </div>
                 </div>
             </div>
@@ -408,7 +850,7 @@
                     <span class="tag" style="background: rgba(0,86,179,0.08); color: var(--accent-color);">Data Analysis</span>
                     <span class="tag" style="background: rgba(0,86,179,0.08); color: var(--accent-color);">Data Science</span>
                     <span class="tag" style="background: rgba(0,86,179,0.08); color: var(--accent-color);">R Programming</span>
-                    <span class="tag" style="background: rgba(0,86,179,0.08); color: var(--accent-color);">OSINT & Deep Web Research</span>
+                    <span class="tag" style="background: rgba(0,86,179,0.08); color: var(--accent-color);">OSINT & Deep Web</span>
                 </div>
             </div>
         </div>
@@ -432,19 +874,40 @@
     </div>
 
     <footer style="background: #ffffff; padding: 40px 0; text-align: center; border-top: 1px solid rgba(0,0,0,0.05); color: var(--text-muted);">
-        <p style="margin: 0 0 12px 0; font-size: 14px;">Built with <span style="color: #e25555; font-size: 18px; vertical-align: middle;">♥</span></p>
+        <p style="margin: 0 0 12px 0; font-size: 14px;">Built with <span style="color: #e25555; font-size: 18px; vertical-align: middle;">♥</span> by Hanna</p>
         <div id="wcb" class="carbonbadge"></div>
     </footer>
 
     <script>
-    function copyCitation(btn) {
-        const container = btn.closest('.publication-card');
-        const citationText = container.querySelector('.citation-text').innerText;
-        navigator.clipboard.writeText(citationText).then(() => {
-            const originalText = btn.innerText;
-            btn.innerText = "✓ Copied!";
-            setTimeout(() => { btn.innerText = originalText; }, 2000);
-        });
+    function downloadRIS(btn) {
+        const card = btn.closest('.js-ris-data');
+        const type = card.getAttribute('data-type') || 'JOUR';
+        const title = card.getAttribute('data-title') || '';
+        const year = card.getAttribute('data-year') || '';
+        const author = "Gaweł, Hanna";
+        const doi = card.getAttribute('data-doi') || '';
+        const url = card.getAttribute('data-url') || '';
+        const publisher = card.getAttribute('data-publisher') || '';
+
+        let ris = `TY  - ${type}\r\nAU  - ${author}\r\nPY  - ${year}\r\nTI  - ${title}\r\n`;
+        if (publisher) ris += `PB  - ${publisher}\r\n`;
+        if (doi) ris += `DO  - ${doi}\r\n`;
+        if (url) ris += `UR  - ${url}\r\n`;
+        ris += `ER  - \r\n`;
+
+        const blob = new Blob([ris], { type: 'text/plain;charset=utf-8' });
+        const link = document.createElement('a');
+        link.href = URL.createObjectURL(blob);
+        const safeTitle = title.substring(0, 15).replace(/[^a-z0-9]/gi, '_').toLowerCase();
+        link.download = `Gawel_${year}_${safeTitle}.ris`;
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+        
+        // Button Feedback
+        const originalText = btn.innerText;
+        btn.innerText = "✓ Exported!";
+        setTimeout(() => { btn.innerText = originalText; }, 2000);
     }
     </script>
     
