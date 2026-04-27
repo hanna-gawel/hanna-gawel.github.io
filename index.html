@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Hanna Gawel, PhD - Researcher</title>
-    <meta name="description" content="Personal website of Dr. Hanna Gawel - Information Manager, Technical Analyst & Researcher.">
+    <title>⚯ Hanna Gawel, PhD</title>
+    <meta name="description" content="Personal website of Hanna Gawel, PhD - Information Manager, Technical Analyst & Researcher">
     
     <!-- Google Scholar SEO (Highwire Press Meta Tags) -->
     <meta name="citation_author" content="Gawel, Hanna">
@@ -24,7 +24,7 @@
     <meta name="citation_date" content="2022">
     <meta name="citation_doi" content="10.33774/coe-2022-sj2w3">
 
-    <!-- CSS Resets & Modern Fonts (Plus Jakarta Sans + Inter) -->
+    <!-- CSS Resets & Modern Fonts -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -39,7 +39,7 @@
         })(window, document, "clarity", "script", "qeuues54y2");
     </script>
 
-    <!-- Widget Scripts (Scite, Dimensions, PlumX, ORCID) -->
+    <!-- Widget Scripts -->
     <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js' async></script>
     <script async type="application/javascript" src="https://cdn.scite.ai/badge/scite-badge-latest.min.js"></script>
     <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
@@ -47,25 +47,27 @@
 
     <style>
         :root {
-            /* Exact Requested Color Palette */
-            --sakura-mist: #FCF8F9;
-            --sakura-pink: #E5A9B4;
-            --sakura-pink-light: #F8DDE3;
-            --hydrangea-blue: #A2B5E5;
-            --hydrangea-blue-hover: #8C9FCE;
+            /* Dynamic Palette - Defaults to April/Cherry Blossom but changes via JS */
+            --bg-color: #FCF8F9;
+            --primary-accent: #E5A9B4;
+            --primary-accent-light: #F8DDE3;
+            --secondary-accent: #A2B5E5;
+            --secondary-accent-hover: #8C9FCE;
+            
             --text-main: #334155;
             --text-light: #64748B;
             --card-bg: #FFFFFF;
         }
 
         body {
-            background-color: var(--sakura-mist);
+            background-color: var(--bg-color);
             font-family: 'Inter', sans-serif;
             color: var(--text-main);
             line-height: 1.7;
             margin: 0;
             padding: 0;
             overflow-x: hidden; 
+            transition: background-color 1s ease;
         }
 
         h1, h2, h3, h4, h5, h6, .card-title {
@@ -75,14 +77,15 @@
         }
 
         h2.section-title {
-            color: var(--sakura-pink);
+            color: var(--primary-accent);
             font-weight: 800;
             font-size: 1.9rem;
-            border-bottom: 2px solid var(--sakura-pink-light);
+            border-bottom: 2px solid var(--primary-accent-light);
             padding-bottom: 0.5rem;
             margin-top: 4rem;
             margin-bottom: 1.5rem;
             letter-spacing: -0.5px;
+            transition: color 1s ease, border-color 1s ease;
         }
 
         .container {
@@ -110,8 +113,8 @@
         .header-links { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
         .header-links a {
             background: var(--card-bg);
-            border: 1px solid var(--sakura-pink);
-            color: #C37A80;
+            border: 1px solid var(--primary-accent);
+            color: var(--primary-accent);
             padding: 6px 14px;
             border-radius: 20px;
             font-family: 'Plus Jakarta Sans', sans-serif;
@@ -123,9 +126,9 @@
             align-items: center;
         }
         .header-links a:hover {
-            background: var(--sakura-pink);
+            background: var(--primary-accent);
             color: white;
-            box-shadow: 0 4px 10px rgba(229, 169, 180, 0.3);
+            box-shadow: 0 4px 10px var(--primary-accent-light);
             transform: translateY(-1px);
         }
 
@@ -138,7 +141,7 @@
             padding: 26px 32px;
             margin-bottom: 20px;
             box-shadow: 0 4px 20px rgba(0,0,0,0.02);
-            border: 1px solid rgba(229, 169, 180, 0.2);
+            border: 1px solid rgba(0,0,0,0.05);
             transition: transform 0.2s ease, box-shadow 0.2s ease;
         }
         .card:hover {
@@ -159,7 +162,7 @@
             font-weight: 500;
         }
 
-        /* STRICT 120px BUTTONS */
+        /* BUTTONS */
         .btn-row {
             display: flex;
             flex-wrap: wrap;
@@ -173,7 +176,7 @@
             display: inline-flex;
             justify-content: center;
             align-items: center;
-            background-color: var(--hydrangea-blue);
+            background-color: var(--secondary-accent);
             color: white;
             border-radius: 8px;
             padding: 8px 0;
@@ -181,28 +184,23 @@
             font-size: 0.85rem;
             font-weight: 700;
             text-decoration: none;
-            border: 2px solid var(--hydrangea-blue);
+            border: 2px solid var(--secondary-accent);
             cursor: pointer;
             transition: all 0.2s;
         }
         .btn:hover {
-            background-color: var(--hydrangea-blue-hover);
-            border-color: var(--hydrangea-blue-hover);
+            background-color: var(--secondary-accent-hover);
+            border-color: var(--secondary-accent-hover);
         }
         .btn-outline {
             background-color: transparent;
-            color: var(--hydrangea-blue);
+            color: var(--secondary-accent);
         }
         .btn-outline:hover {
-            background-color: var(--hydrangea-blue);
+            background-color: var(--secondary-accent);
             color: white;
         }
         
-        .btn-wide {
-            width: auto !important;
-            padding: 10px 20px;
-        }
-
         /* TOGGLE BLOCKS (BIB & ABS) */
         .toggle-box {
             display: none;
@@ -212,8 +210,11 @@
             border-radius: 12px;
             font-size: 0.9rem;
             margin-top: 15px;
-            border-left: 4px solid var(--sakura-pink);
-            border: 1px solid #E2E8F0;
+            border-left: 4px solid var(--primary-accent);
+            border-right: 1px solid #E2E8F0;
+            border-top: 1px solid #E2E8F0;
+            border-bottom: 1px solid #E2E8F0;
+            transition: border-color 1s ease;
         }
         .bib-code {
             font-family: 'Courier New', monospace;
@@ -230,74 +231,67 @@
             gap: 15px;
             margin-top: 15px;
             padding-top: 15px;
-            border-top: 1px dashed var(--sakura-pink-light);
+            border-top: 1px dashed var(--primary-accent-light);
             min-height: 24px;
         }
 
         /* LISTS & TEXT LINKS */
         .info-list { list-style: none; padding: 0; margin: 0; }
-        .info-list li {
-            margin-bottom: 1rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(0,0,0,0.04);
-        }
+        .info-list li { margin-bottom: 1rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(0,0,0,0.04); }
         .info-list li:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
 
-        a.text-link {
-            color: var(--hydrangea-blue);
-            text-decoration: none;
-            font-weight: 600;
-        }
-        a.text-link:hover { text-decoration: underline; color: var(--hydrangea-blue-hover); }
+        a.text-link { color: var(--secondary-accent); text-decoration: none; font-weight: 600; }
+        a.text-link:hover { text-decoration: underline; color: var(--secondary-accent-hover); }
 
-        .sdg-link {
-            color: var(--sakura-pink);
-            font-weight: 700;
-            text-decoration: none;
-        }
+        .sdg-link { color: var(--primary-accent); font-weight: 700; text-decoration: none; }
         .sdg-link:hover { text-decoration: underline; }
 
-        /* CANVA EMBED */
         .canva-container {
             position: relative; width: 100%; height: 0; padding-top: 56.25%;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.06); margin: 2rem 0; overflow: hidden;
-            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.06); margin: 2rem 0; overflow: hidden; border-radius: 16px;
         }
 
-        .footer {
-            margin-top: 5rem;
-            text-align: center;
-            color: var(--text-light);
-            font-size: 0.9rem;
-        }
+        .footer { margin-top: 5rem; text-align: center; color: var(--text-light); font-size: 0.9rem; }
 
-        /* CHERRY BLOSSOM ANIMATION */
-        .petal {
+        /* DYNAMIC PARTICLES */
+        #particle-container {
             position: fixed;
-            top: -10%;
-            z-index: 1; 
-            pointer-events: none;
-            background: linear-gradient(135deg, #ffc0cb, #f7dadd);
-            border-radius: 15px 0 15px 0;
-            opacity: 0.6;
+            top: 0; left: 0; width: 100vw; height: 100vh;
+            pointer-events: none; z-index: 1; overflow: hidden;
+        }
+
+        .particle {
+            position: absolute;
+            top: -10vh;
+            opacity: 0.7;
             animation: fall linear forwards;
+            transform-origin: center;
         }
+        
         @keyframes fall {
-            0% { top: -10%; transform: translateX(0) rotate(0deg); opacity: 0; }
-            10% { opacity: 0.6; }
-            90% { opacity: 0.6; }
-            100% { top: 110%; transform: translateX(100px) rotate(360deg); opacity: 0; }
+            0% { top: -10vh; }
+            100% { top: 110vh; }
         }
-        @keyframes sway {
+        
+        /* Smooth lazy sway */
+        @keyframes sway-petal {
             0% { transform: translateX(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg); }
-            33% { transform: translateX(30px) rotateX(70deg) rotateY(45deg) rotateZ(40deg); }
-            66% { transform: translateX(-30px) rotateX(140deg) rotateY(90deg) rotateZ(80deg); }
-            100% { transform: translateX(0px) rotateX(210deg) rotateY(135deg) rotateZ(120deg); }
+            33% { transform: translateX(20px) rotateX(60deg) rotateY(30deg) rotateZ(45deg); }
+            66% { transform: translateX(-20px) rotateX(120deg) rotateY(60deg) rotateZ(90deg); }
+            100% { transform: translateX(0px) rotateX(180deg) rotateY(90deg) rotateZ(135deg); }
+        }
+
+        @keyframes sway-snow {
+            0% { transform: translateX(0px) rotate(0deg); }
+            50% { transform: translateX(15px) rotate(180deg); }
+            100% { transform: translateX(-15px) rotate(360deg); }
         }
     </style>
 </head>
 
 <body>
-    <!-- Cherry Blossom Container -->
-    <div id="cherry-blossom-container"></div>
+    <!-- Subtle Seasonal Particles -->
+    <div id="particle-container"></div>
 
     <div class="container">
         
@@ -309,16 +303,16 @@
             <div class="header-links">
                 <a href="https://orcid.org/0000-0001-5714-0459" target="_blank" id="orcid-id">
                     <img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" class="orcid-icon" alt="ORCID iD icon">
-                    0000-0001-5714-0459
+                    
                 </a>
                 <a href="https://scholar.google.com/citations?user=rxf11gEAAAAJ&hl=en" target="_blank">Google Scholar</a>
                 <a href="https://www.researchgate.net/profile/Hanna-Gawel" target="_blank">Researchgate</a>
                 <a href="https://bsky.app/profile/hannagawel.bsky.social" target="_blank">Bluesky</a>
                 <a href="https://www.linkedin.com/in/hannagawel/" target="_blank">LinkedIn</a>
                 <a href="https://openreview.net/profile?id=~Hanna_Gawel1" target="_blank">OpenReview</a>
-                <a href="https://beacons.ai/hanna_gawel" target="_blank">Website</a>
+               
                 <a href="https://github.com/hanna-gawel" target="_blank">GitHub</a>
-                <a href="https://drive.google.com/file/d/1QbKaGxA0yCJ7e_VEJfFx5WHLC1fj6koi/view?usp=sharing" target="_blank">CV</a>
+                <a href="" target="_blank">CV</a>
             </div>
         </header>
 
@@ -374,8 +368,8 @@
         <h2 class="section-title">Service & Memberships</h2>
         <div class="card">
             <ul class="info-list">
-                <li><strong>AOIR2022 (May - June 2022)</strong>: Conferences (ad hoc reviewing).</li>
-                <li><strong>AOIR2021 (May - June 2021)</strong>: Conferences (ad hoc reviewing).</li>
+                <li><strong>AOIR2022 (May - June 2022)</strong>: Conferences (ad hoc reviewing)</li>
+                <li><strong>AOIR2021 (May - June 2021)</strong>: Conferences (ad hoc reviewing)</li>
                 <li><strong>2019: Europeana</strong> &gt;&gt;&gt; <a href="https://pro.europeana.eu/person/hanna-gawel" target="_blank" class="text-link">Europeana Profile</a></li>
                 <li><strong>2020: Association of Internet Researchers</strong> &gt;&gt;&gt; <a href="https://members.aoir.org/Sys/PublicProfile/55476902" target="_blank" class="text-link">AoIR Profile</a></li>
                 <li><strong>2020: NordMedia Network</strong> &gt;&gt;&gt; <a href="https://nordmedianetwork.org/researchers/hanna-gawel/" target="_blank" class="text-link">NordMedia Network Profile</a></li>
@@ -389,7 +383,7 @@
                 <li>
                     <strong>L’Indipendente (Kraków, Poland | Dec 2025)</strong><br>
                     <em>Guerrieri digitali per una causa: morte e resurrezione dell’attivismo hacker</em><br>
-                    Provided expert commentary in W. Ferri's article. The analysis concerned the ethical dimensions and definitional boundaries of modern hacktivism in the era of hybrid warfare (case study: IT Army of Ukraine) and the impact of social media evolution on the attention economy and public perception of hacking activities. <a href="#" class="text-link">Available at: L’Indipendente.</a>
+                    Provided expert commentary in W. Ferri's article. The analysis concerned the ethical dimensions and definitional boundaries of modern hacktivism in the era of hybrid warfare (case study: IT Army of Ukraine) and the impact of social media evolution on the attention economy and public perception of hacking activities. <a href="https://www.lindipendente.online/2025/12/21/guerrieri-digitali-per-una-causa-morte-e-resurrezione-dellattivismo-hacker/" class="text-link">Available at: L’Indipendente.</a>
                 </li>
                 <li>
                     <strong>Radio Kraków (Kraków, Poland | Dec 2023)</strong><br>
@@ -399,18 +393,9 @@
                 <li>
                     <strong>Podcasty ISI UJ (Kraków, Poland | Jul 2022)</strong><br>
                     <em>Informing about air quality.</em><br>
-                    Interview for the ISI UJ Podcast regarding air quality information and information management in Polish cities. Available on Spotify.
+                    Interview for the ISI UJ Podcast regarding air quality information and information management in Polish cities.<a href="https://open.spotify.com/episode/1bBLyjpYsNKCv74P5NTDAV?si=aourqUTbTm6L5cZ5XAkCHg&nd=1&dlsi=5b2e89e09b8a4cf9" class="text-link" target="_blank">Available on: Spotify.</a>
                 </li>
             </ul>
-        </div>
-
-        <!-- RESEARCH METRICS / RG STATS -->
-        <h2 class="section-title">Research Metrics & Impact</h2>
-        <div class="card" style="text-align: center;">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/ResearchGate_icon_SVG.svg/1200px-ResearchGate_icon_SVG.svg.png" alt="ResearchGate" style="width: 50px; margin-bottom: 15px;">
-            <div class="card-title">ResearchGate Citation Dashboard</div>
-            <p style="color: var(--text-light); max-width: 600px; margin: 0 auto 20px auto;">To view real-time interactive citations, reads, recommendations, and Research Interest (RI) scores globally, please visit my official ResearchGate statistics page.</p>
-            <a href="https://www.researchgate.net/profile/Hanna-Gawel/stats" target="_blank" class="btn btn-wide">View Full RG Stats &rarr;</a>
         </div>
 
         <!-- PUBLICATIONS -->
@@ -526,7 +511,7 @@
         <div class="card">
             <div class="card-title">Web 2.5 as a safe shift from Web 2.0 to Web 3.0: A definition of Web 2.5 in informatological approach</div>
             <div class="card-meta">Preprint (2022) | Cambridge Open Engage</div>
-            <p>Gaweł, Hanna (2022). Web 2.5 as a safe shift from Web 2.0 to Web 3.0: A definition of Web 2.5 in informatological approach [Preprint] (pp. 1-15). Cambridge Open Engage.</p>
+            <p>Gaweł, Hanna (2022). Web 2.5 as a safe shift from Web 2.0 to Web 3.0: A definition of Web 2.5 in informatological approach[Preprint] (pp. 1-15). Cambridge Open Engage.</p>
             <div class="btn-row">
                 <a href="https://doi.org/10.33774/coe-2022-sj2w3" target="_blank" class="btn">DOI</a>
                 <button class="btn btn-outline" onclick="toggleElement(this, '.bib-code')">BIB</button>
@@ -838,7 +823,7 @@
                 <button class="btn btn-outline" onclick="toggleElement(this, '.abstract-text')">ABS</button>
             </div>
             <div class="toggle-box bib-code">@article{gawel2017zarys,
-  title={Zarys dziejów Międzynarodowej Federacji Stowarzyszeń Bibliotekarskich [IFLA]},
+  title={Zarys dziejów Międzynarodowej Federacji Stowarzyszeń Bibliotekarskich[IFLA]},
   author={Gawel, Hanna},
   journal={Universitas Gedanensis},
   year={2017}
@@ -1061,7 +1046,8 @@
         <h2 class="section-title">Hackathons, Scholarships & Awards</h2>
         <div class="card">
             <ul class="info-list">
-                <li><strong>2022:</strong> EU TalentOn (hackaton) - team: Urbolution</li>
+                <li><strong>2022:</strong> EU TalentOn (hackaton)</li>
+                <li><strong>2021:</strong> OSCAR & PAUL BATTLEWEEKS (hackaton)</li>
                 <li><strong>2017:</strong> Award for Best Graduate Student of the Faculty of Administration and Social Sciences of the Kazimierz Wielki University in Bydgoszcz in the academic year 2016/2017</li>
                 <li><strong>2017:</strong> Honour Kazimierz Wielki University Rector’s Award for scientific achievements and an exemplary student conduct</li>
                 <li><strong>2017:</strong> The Best Diploma Thesis of the Faculty of Administration and Social Sciences Award in the academic year 2016/2017</li>
@@ -1076,7 +1062,7 @@
 
         <!-- CONTACT & INFO -->
         <div class="card" style="margin-top: 3rem;">
-            <p><strong>Office hours in 2025-26 (summer semester):</strong> Room: 3.212 | Mon/Pon - 15:00 - 15:45 [on-line] ; Thr/Czw - 15:00 - 15:45 [on-site - zapisy min. 2 dni wcześniej przez Microsoft Booking] <br><br> <a href="https://isi.uj.edu.pl/studenci/dyzury/isi" class="text-link" target="_blank">Office hours for Institute of Information Studies &rarr;</a></p>
+            <p><strong>Office hours in 2025-26 (summer semester):</strong> Room: 3.212 | Mon/Pon - 15:00 - 15:45 [on- line] ; Thr/Czw - 15:00 - 15:45 [on-site - zapisy min. 2 dni wcześniej przez Microsoft Booking] <br><br> <a href="https://isi.uj.edu.pl/studenci/dyzury/isi" class="text-link" target="_blank">Office hours for Institute of Information Studies &rarr;</a></p>
         </div>
 
         <div class="footer">
@@ -1089,7 +1075,7 @@
         </div>
     </div>
 
-    <!-- UI Scripts (Toggle Blocks & Cherry Blossoms) -->
+    <!-- JS Logic: Monthly Dynamic Themes & Animations -->
     <script>
         // Toggle BIB and ABS blocks completely independent
         function toggleElement(btn, selector) {
@@ -1099,40 +1085,122 @@
             if(target.style.display === "block") {
                 target.style.display = "none";
                 btn.style.backgroundColor = "transparent";
-                btn.style.color = "var(--hydrangea-blue)";
+                btn.style.color = "var(--secondary-accent)";
             } else {
                 target.style.display = "block";
-                btn.style.backgroundColor = "var(--hydrangea-blue)";
+                btn.style.backgroundColor = "var(--secondary-accent)";
                 btn.style.color = "white";
             }
         }
 
-        // Optimized subtle cherry blossom twirling effect
-        function createPetal() {
-            const petal = document.createElement('div');
-            petal.classList.add('petal');
+        /* ----- DYNAMIC MONTHLY THEMES ----- */
+        const themes =[
+            { // 0: January
+                bg: "#F4F9F9", primary: "#8CA0D7", primaryLight: "#D9E2F8", sec: "#7A90C2", secHover: "#607AA8",
+                particleType: 'snow', color1: '#E0F0FF', color2: '#ADD8E6'
+            },
+            { // 1: February
+                bg: "#F2FAFA", primary: "#6AB3B8", primaryLight: "#D2EFF0", sec: "#5A9EA3", secHover: "#4A8489",
+                particleType: 'snow', color1: '#E0FFFF', color2: '#AFEEEE'
+            },
+            { // 2: March
+                bg: "#F5FAF5", primary: "#8CBA8C", primaryLight: "#DAEFDA", sec: "#A08CBA", secHover: "#8672A0",
+                particleType: 'petal', color1: '#D0F0C0', color2: '#DDA0DD'
+            },
+            { // 3: April (Cherry Blossom)
+                bg: "#FCF8F9", primary: "#E5A9B4", primaryLight: "#F8DDE3", sec: "#A2B5E5", secHover: "#8C9FCE",
+                particleType: 'petal', color1: '#FFC0CB', color2: '#F7DADD'
+            },
+            { // 4: May (Peony)
+                bg: "#FCF5F7", primary: "#E89EAE", primaryLight: "#F8DADD", sec: "#D48C9E", secHover: "#B87586",
+                particleType: 'petal', color1: '#FFB6C1', color2: '#DB7093'
+            },
+            { // 5: June (Rose)
+                bg: "#FCF4F4", primary: "#DE8A96", primaryLight: "#F8D6D9", sec: "#C97A86", secHover: "#A8626C",
+                particleType: 'petal', color1: '#FFC0CB', color2: '#CD5C5C'
+            },
+            { // 6: July (Larkspur/Delphinium)
+                bg: "#F4F6FC", primary: "#8E9BCE", primaryLight: "#D8DDF2", sec: "#7A89C2", secHover: "#606EA3",
+                particleType: 'petal', color1: '#B0C4DE', color2: '#7B68EE'
+            },
+            { // 7: August (Poppy)
+                bg: "#FCF6F4", primary: "#E59383", primaryLight: "#F8D6CF", sec: "#D67A68", secHover: "#B8604F",
+                particleType: 'petal', color1: '#FFA07A', color2: '#FF6347'
+            },
+            { // 8: September (Morning Glory)
+                bg: "#F6F4FC", primary: "#9E8CD4", primaryLight: "#DED6F2", sec: "#8A7AC2", secHover: "#7260A3",
+                particleType: 'petal', color1: '#D8BFD8', color2: '#8A2BE2'
+            },
+            { // 9: October (Marigold)
+                bg: "#FCF9F2", primary: "#DCA052", primaryLight: "#F8E2C4", sec: "#C99042", secHover: "#A87532",
+                particleType: 'petal', color1: '#FFD700', color2: '#DAA520'
+            },
+            { // 10: November (Chrysanthemum)
+                bg: "#FCFAF2", primary: "#C9B25A", primaryLight: "#F2E8CD", sec: "#B8A048", secHover: "#9A853A",
+                particleType: 'petal', color1: '#F0E68C', color2: '#B8860B'
+            },
+            { // 11: December (Narcissus + Snow)
+                bg: "#F8F9FA", primary: "#A2A9B5", primaryLight: "#E2E5E8", sec: "#8C95A3", secHover: "#707886",
+                particleType: 'mixed', color1: '#FFFFFF', color2: '#E6E6FA'
+            }
+        ];
+
+        // Apply theme based on current month
+        const currentMonth = new Date().getMonth();
+        const theme = themes[currentMonth];
+
+        document.documentElement.style.setProperty('--bg-color', theme.bg);
+        document.documentElement.style.setProperty('--primary-accent', theme.primary);
+        document.documentElement.style.setProperty('--primary-accent-light', theme.primaryLight);
+        document.documentElement.style.setProperty('--secondary-accent', theme.sec);
+        document.documentElement.style.setProperty('--secondary-accent-hover', theme.secHover);
+
+        // Particle generation logic
+        function createParticle() {
+            const particle = document.createElement('div');
+            particle.classList.add('particle');
             
+            let pType = theme.particleType;
+            if (pType === 'mixed') {
+                pType = Math.random() > 0.5 ? 'petal' : 'snow';
+            }
+
             const size = Math.random() * 6 + 10; 
-            petal.style.width = `${size}px`;
-            petal.style.height = `${size}px`;
-            petal.style.left = `${Math.random() * 100}vw`;
+            particle.style.width = `${size}px`;
+            particle.style.height = `${size}px`;
+            particle.style.left = `${Math.random() * 100}vw`;
+
+            if (pType === 'petal') {
+                particle.style.borderRadius = '15px 0 15px 0';
+                particle.style.background = `linear-gradient(135deg, ${theme.color1}, ${theme.color2})`;
+                particle.style.boxShadow = `0 1px 3px ${theme.color1}`;
+            } else {
+                // Snow
+                particle.style.borderRadius = '50%';
+                particle.style.background = `radial-gradient(circle, ${theme.color1} 0%, ${theme.color2} 100%)`;
+                particle.style.boxShadow = `0 0 5px ${theme.color1}`;
+            }
             
-            const fallDuration = Math.random() * 10 + 15; 
-            const swayDuration = Math.random() * 4 + 4; 
+            const fallDuration = Math.random() * 15 + 20; // 20s to 35s (super lazy)
+            const swayDuration = Math.random() * 5 + 5;   // 5s to 10s
             
-            petal.style.animation = `fall ${fallDuration}s linear forwards, sway ${swayDuration}s ease-in-out infinite alternate`;
+            const swayAnim = pType === 'petal' ? 'sway-petal' : 'sway-snow';
+            particle.style.animation = `fall ${fallDuration}s linear forwards, ${swayAnim} ${swayDuration}s ease-in-out infinite alternate`;
             
-            document.getElementById('cherry-blossom-container').appendChild(petal);
+            document.getElementById('cherry-blossom-container').appendChild(particle);
             
             setTimeout(() => {
-                petal.remove();
+                particle.remove();
             }, fallDuration * 1000);
         }
         
+        // Spawn interval: extremely lazy, 1 per 6 seconds
         function spawnLoop() {
-            createPetal();
-            setTimeout(spawnLoop, Math.random() * 2000 + 3000);
+            createParticle();
+            setTimeout(spawnLoop, Math.random() * 2000 + 6000); // 6s to 8s
         }
+        
+        // Start animation
         spawnLoop();
     </script>
 </body>
