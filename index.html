@@ -6,15 +6,8 @@
     <title>Hanna Gawel, PhD - Researcher</title>
     <meta name="description" content="Personal website of Dr. Hanna Gawel - Information Manager, Technical Analyst & Researcher.">
     
-    <!-- Google Scholar SEO (Highwire Press Meta Tags for Recent Key Publications) -->
+    <!-- Google Scholar SEO (Highwire Press Meta Tags) -->
     <meta name="citation_author" content="Gawel, Hanna">
-    <meta name="citation_title" content="Hacktivism">
-    <meta name="citation_journal_title" content="Internet Policy Review">
-    <meta name="citation_volume" content="13">
-    <meta name="citation_issue" content="2">
-    <meta name="citation_date" content="2024">
-    <meta name="citation_doi" content="10.14763/2024.2.1751">
-
     <meta name="citation_title" content="Survival in the Information Smog: Digital Tradecraft as an Evolutionary Adaptation in Information Ecologies">
     <meta name="citation_date" content="2026">
     <meta name="citation_doi" content="10.2139/ssrn.5917983">
@@ -23,20 +16,24 @@
     <meta name="citation_date" content="2025">
     <meta name="citation_doi" content="10.33774/coe-2025-2hgdz">
 
+    <meta name="citation_title" content="Hacktivism">
+    <meta name="citation_journal_title" content="Internet Policy Review">
+    <meta name="citation_volume" content="13">
+    <meta name="citation_issue" content="2">
+    <meta name="citation_date" content="2024">
+    <meta name="citation_doi" content="10.14763/2024.2.1751">
+
+    <meta name="citation_title" content="Web 2.5 as a safe shift from Web 2.0 to Web 3.0: A definition of Web 2.5 in informatological approach">
+    <meta name="citation_date" content="2022">
+    <meta name="citation_doi" content="10.33774/coe-2022-sj2w3">
+
     <!-- CSS Resets & Fonts -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <!-- Inter for UI/Headers, Lora for body text (ejane.me style) -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
 
-    <!-- Widget Scripts -->
-    <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js' async></script>
-    <script async type="application/javascript" src="https://cdn.scite.ai/badge/scite-badge-latest.min.js"></script>
-    <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-    <script type="text/javascript" src="//cdn.plu.mx/widget-popup.js" async></script>
-
-    <!-- Analytics -->
+    <!-- Analytics Scripts -->
     <script type="text/javascript">
         (function(c,l,a,r,i,t,y){
             c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
@@ -45,15 +42,20 @@
         })(window, document, "clarity", "script", "qeuues54y2");
     </script>
 
+    <!-- Widget Scripts -->
+    <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js' async></script>
+    <script async type="application/javascript" src="https://cdn.scite.ai/badge/scite-badge-latest.min.js"></script>
+    <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+    <script type="text/javascript" src="//cdn.plu.mx/widget-popup.js" async></script>
+
     <style>
         :root {
-            /* Color Palette */
+            /* Requested Color Palette */
             --sakura-mist: #FCF8F9;
-            --sakura-pink: #E5A9B4;
-            --sakura-pink-light: #F7DDE2;
-            --hydrangea-blue: #A2B5E5;
-            --hydrangea-blue-hover: #8C9FCE;
-            --text-main: #4A4A4A;
+            --sakura-pink: #E8B4B8;
+            --hydrangea-blue: #9FB1D4;
+            --hydrangea-blue-hover: #869BC6;
+            --text-main: #3C3C3C;
             --text-light: #7A7A7A;
             --card-bg: #FFFFFF;
         }
@@ -67,34 +69,35 @@
             padding: 0;
         }
 
-        h1, h2, h3, h4, h5, h6, .ui-text {
+        h1, h2, h3, h4, h5, h6 {
             font-family: 'Inter', sans-serif;
             color: #2D2D2D;
+            margin-top: 0;
         }
 
         h2.section-title {
             color: var(--sakura-pink);
             font-weight: 700;
             font-size: 1.8rem;
-            border-bottom: 2px solid var(--sakura-pink-light);
+            border-bottom: 2px solid rgba(232, 180, 184, 0.3);
             padding-bottom: 0.5rem;
             margin-top: 4rem;
             margin-bottom: 1.5rem;
         }
 
         .container {
-            max-width: 900px;
+            max-width: 850px;
             margin: 0 auto;
             padding: 4rem 20px;
         }
 
-        /* HEADER & LINKS (Tumblr / rrrima.me style) */
+        /* HEADER & LINKS */
         header {
             margin-bottom: 3rem;
             text-align: left;
         }
         header h1 {
-            font-size: 3rem;
+            font-size: 2.8rem;
             margin-bottom: 0.2rem;
             letter-spacing: -0.5px;
         }
@@ -113,8 +116,8 @@
         }
         .header-links a {
             background: var(--card-bg);
-            border: 1px solid var(--sakura-pink-light);
-            color: var(--sakura-pink);
+            border: 1px solid rgba(232, 180, 184, 0.5);
+            color: #C37A80;
             padding: 6px 14px;
             border-radius: 20px;
             font-family: 'Inter', sans-serif;
@@ -126,38 +129,26 @@
         .header-links a:hover {
             background: var(--sakura-pink);
             color: white;
-            box-shadow: 0 4px 10px rgba(229, 169, 180, 0.3);
+            border-color: var(--sakura-pink);
+            box-shadow: 0 4px 10px rgba(232, 180, 184, 0.3);
         }
 
-        /* CARD STYLES (ejane.me wide single column layout) */
+        /* CARDS (ejane.me wide single column layout) */
         .card {
             background: var(--card-bg);
-            border-radius: 16px;
+            border-radius: 12px;
             padding: 24px 30px;
             margin-bottom: 20px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.02);
-            border: 1px solid rgba(229, 169, 180, 0.15);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.02);
+            border: 1px solid rgba(232, 180, 184, 0.15);
             transition: transform 0.2s ease;
         }
         .card:hover {
             transform: translateY(-2px);
-            box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+            box-shadow: 0 6px 15px rgba(0,0,0,0.04);
         }
 
-        .card-title {
-            font-family: 'Inter', sans-serif;
-            font-size: 1.15rem;
-            font-weight: 600;
-            margin-bottom: 0.3rem;
-        }
-        .card-meta {
-            font-family: 'Inter', sans-serif;
-            font-size: 0.9rem;
-            color: var(--text-light);
-            margin-bottom: 1rem;
-        }
-
-        /* UNIFORM BUTTONS (120px) */
+        /* UNIFORM BUTTONS (120px strict width) */
         .btn-row {
             display: flex;
             flex-wrap: wrap;
@@ -166,27 +157,28 @@
         }
         .btn {
             width: 120px;
+            box-sizing: border-box;
+            display: inline-block;
             text-align: center;
             background-color: var(--hydrangea-blue);
             color: white;
-            border-radius: 8px;
+            border-radius: 6px;
             padding: 8px 0;
             font-family: 'Inter', sans-serif;
             font-size: 0.85rem;
             font-weight: 600;
             text-decoration: none;
-            border: none;
+            border: 2px solid var(--hydrangea-blue);
             cursor: pointer;
-            transition: background 0.2s;
-            box-sizing: border-box;
+            transition: all 0.2s;
         }
         .btn:hover {
             background-color: var(--hydrangea-blue-hover);
+            border-color: var(--hydrangea-blue-hover);
         }
         .btn-outline {
             background-color: transparent;
             color: var(--hydrangea-blue);
-            border: 2px solid var(--hydrangea-blue);
         }
         .btn-outline:hover {
             background-color: var(--hydrangea-blue);
@@ -216,33 +208,37 @@
             gap: 15px;
             margin-top: 15px;
             padding-top: 15px;
-            border-top: 1px dashed var(--sakura-pink-light);
+            border-top: 1px dashed rgba(232, 180, 184, 0.4);
+            min-height: 24px;
         }
 
-        /* COMPACT GRID FOR CONFERENCES */
-        .conf-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-            gap: 15px;
+        /* LISTS & TEXT */
+        .info-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
         }
-        .conf-card {
-            background: var(--card-bg);
-            border-left: 4px solid var(--hydrangea-blue);
-            padding: 15px 20px;
-            border-radius: 0 12px 12px 0;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+        .info-list li {
+            margin-bottom: 1rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid rgba(0,0,0,0.05);
         }
-        .conf-card h4 {
-            font-size: 1rem;
-            margin-bottom: 5px;
+        .info-list li:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        
+        .conf-text strong {
+            font-family: 'Inter', sans-serif;
+            color: #C37A80;
         }
 
-        /* TAGS */
-        .tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+        .tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 15px; }
         .tag {
-            background: var(--sakura-pink-light);
-            color: #A95D6E;
-            padding: 4px 10px;
+            background: rgba(159, 177, 212, 0.15);
+            color: #5C73A0;
+            padding: 4px 12px;
             border-radius: 12px;
             font-family: 'Inter', sans-serif;
             font-size: 0.8rem;
@@ -252,8 +248,8 @@
         /* CANVA EMBED */
         .canva-container {
             position: relative; width: 100%; height: 0; padding-top: 56.25%;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.05); margin: 2rem 0; overflow: hidden;
-            border-radius: 16px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08); margin: 2rem 0; overflow: hidden;
+            border-radius: 12px;
         }
         
         .footer {
@@ -262,6 +258,15 @@
             font-family: 'Inter', sans-serif;
             color: var(--text-light);
             font-size: 0.9rem;
+        }
+        
+        a.text-link {
+            color: var(--hydrangea-blue);
+            text-decoration: none;
+            font-weight: 600;
+        }
+        a.text-link:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -295,32 +300,65 @@
         </div>
 
         <!-- BIO -->
-        <h2 class="section-title">About</h2>
+        <h2 class="section-title">Bio & Research</h2>
         <div class="card">
-            <p>Hi, I'm Hanna — an Information Manager and Researcher with a strong background in research, due diligence, information management, and OSINT analysis. I've worked across academic and corporate environments (Jagiellonian University, ALDI Tech Hub, Eurofins) navigating complex information systems and building Power Platform workflows.</p>
-            <p><strong>PhD Thesis:</strong> <em>Information Management on Air Quality in Polish Metropolises in Light of Information Ecology.</em> Investigated how information is produced from raw data to final message and managed within the information environment. Connected to UN Agenda 2030 SDGs: 9.5, 9.C, 13.2, 13.3, 16.1, 16.10.</p>
+            <p><strong>Research Focus:</strong> communication, media studies, information ecology, information environment.</p>
+            <p><em>Note: Currently working as 🔍 Research Assistant at <a href="https://www.uj.edu.pl/" class="text-link">Jagiellonian University</a> in Institute of Information Studies.</em></p>
+            <p>Hi, I'm Hanna — an Information Manager and Researcher with a strong background in research, due diligence, information management, and OSINT analysis. I've worked across academic and corporate environments, including Jagiellonian University and Shell Business Operations, where I honed my skills in navigating complex information systems and building knowledge management frameworks.</p>
+            <p>My teaching focuses on empowering students to search and think differently in the digital world — uncovering meaningful insights, identifying high-quality information, and making authentic connections. I specialize in studying internet phenomena such as content moderation tools, Web3 ecosystems, online communities, information ecology, and the growing role of low-code/no-code development. Previously, I’ve contributed to customer operations, database design, and the development of knowledge models. I approach challenges with resilience and a problem-solving mindset, always seeking smart, sustainable solutions.</p>
+            <p>When I’m not working, you’ll likely find me by the sea with a book in one hand and a perfectly brewed flat white in the other. If you’re looking for a motivated, research-driven collaborator with a passion for data-informed innovation, let’s connect!</p>
+            
             <div class="tags">
-                <span class="tag">#InformationEcology</span>
-                <span class="tag">#OSINT</span>
-                <span class="tag">#PowerPlatform</span>
-                <span class="tag">#DataAnalytics</span>
+                <span class="tag">#onlineresearch</span>
+                <span class="tag">#deepwebresearch</span>
+                <span class="tag">#sourceintelligence</span>
+                <span class="tag">#informationecology</span>
+                <span class="tag">#dataanalysis</span>
+                <span class="tag">#datascience</span>
             </div>
         </div>
 
-        <!-- FULL PUBLICATIONS LIST -->
+        <!-- EDUCATION & TEACHING -->
+        <h2 class="section-title">Education & Teaching</h2>
+        <div class="card">
+            <ul class="info-list">
+                <li>
+                    <strong>Jagiellonian University (2019 - 2023)</strong><br>
+                    PhD: Social Communication and Media Studies. Thesis: 17 May 2024.
+                </li>
+                <li>
+                    <strong>Jagiellonian University (2017 - 2019)</strong><br>
+                    MA: Information Management.
+                </li>
+                <li>
+                    <strong>Kazimierz Wielki University (2014 - 2017)</strong><br>
+                    BA: Information Science and Library Studies.
+                </li>
+            </ul>
+        </div>
+        <div class="card">
+            <ul class="info-list">
+                <li>
+                    <strong>Jagiellonian University - Information Management</strong><br>
+                    Visual Communication (WZ.ZI-303) | Information Environment (WZ.ZI-074) | Customer Data Analysis: Data-Driven Marketing (WZ.ZI-168) | Basics of the Theory and Methodology of Information Studies (WZ.ZI-202).
+                </li>
+                <li>
+                    <strong>Jagiellonian University - Digital Information Processing</strong><br>
+                    Information Processing (WZ.KLK-PIWI) | Internet Technologies - Introduction (WZ.KLK-TI).
+                </li>
+            </ul>
+        </div>
+
+        <!-- PUBLICATIONS -->
         <h2 class="section-title">Publications</h2>
 
         <!-- PUB 1 -->
         <div class="card">
-            <div class="card-title">Survival in the Information Smog: Digital Tradecraft as an Evolutionary Adaptation in Information Ecologies</div>
-            <div class="card-meta">Preprint (2026) | SSRN</div>
-            <div class="card-authors">Hanna Gawel</div>
-            
+            <p>Gaweł, Hanna (2026). Survival in the Information Smog: Digital Tradecraft as an Evolutionary Adaptation in Information Ecologies [Preprint] (pp.1-15). SSRN.</p>
             <div class="btn-row">
                 <a href="http://dx.doi.org/10.2139/ssrn.5917983" target="_blank" class="btn">DOI</a>
                 <button class="btn btn-outline" onclick="toggleBib(this)">BIB</button>
             </div>
-            
             <div class="bib-code">@article{gawel2026survival,
   title={Survival in the Information Smog: Digital Tradecraft as an Evolutionary Adaptation in Information Ecologies},
   author={Gawel, Hanna},
@@ -328,9 +366,8 @@
   year={2026},
   doi={10.2139/ssrn.5917983}
 }</div>
-
             <div class="metrics-row">
-                <div data-badge-popover="top" data-badge-type="donut" data-doi="10.2139/ssrn.5917983" class="altmetric-embed"></div>
+                <div data-badge-popover="right" data-badge-type="donut" data-doi="10.2139/ssrn.5917983" class="altmetric-embed"></div>
                 <div class="scite-badge" data-doi="10.2139/ssrn.5917983" data-layout="horizontal" data-show-zero="true"></div>
                 <span class="__dimensions_badge_embed__" data-doi="10.2139/ssrn.5917983" data-style="small_circle"></span>
                 <a href="https://plu.mx/plum/a/?doi=10.2139/ssrn.5917983" class="plumx-plum-print-popup" data-hide-when-empty="true"></a>
@@ -339,15 +376,11 @@
 
         <!-- PUB 2 -->
         <div class="card">
-            <div class="card-title">From Pirated Signals to Platform Sovereignty: Lessons from Fifty Years of Media Disruption</div>
-            <div class="card-meta">Preprint (2025) | Cambridge Open Engage</div>
-            <div class="card-authors">Hanna Gawel</div>
-            
+            <p>Gaweł, Hanna (2025). From Pirated Signals to Platform Sovereignty: Lessons from Fifty Years of Media Disruption [Preprint] (pp.1-37). Cambridge Open Engage.</p>
             <div class="btn-row">
                 <a href="https://doi.org/10.33774/coe-2025-2hgdz" target="_blank" class="btn">DOI</a>
                 <button class="btn btn-outline" onclick="toggleBib(this)">BIB</button>
             </div>
-            
             <div class="bib-code">@article{gawel2025pirated,
   title={From Pirated Signals to Platform Sovereignty: Lessons from Fifty Years of Media Disruption},
   author={Gawel, Hanna},
@@ -355,9 +388,8 @@
   year={2025},
   doi={10.33774/coe-2025-2hgdz}
 }</div>
-
             <div class="metrics-row">
-                <div data-badge-popover="top" data-badge-type="donut" data-doi="10.33774/coe-2025-2hgdz" class="altmetric-embed"></div>
+                <div data-badge-popover="right" data-badge-type="donut" data-doi="10.33774/coe-2025-2hgdz" class="altmetric-embed"></div>
                 <div class="scite-badge" data-doi="10.33774/coe-2025-2hgdz" data-layout="horizontal" data-show-zero="true"></div>
                 <span class="__dimensions_badge_embed__" data-doi="10.33774/coe-2025-2hgdz" data-style="small_circle"></span>
                 <a href="https://plu.mx/plum/a/?doi=10.33774/coe-2025-2hgdz" class="plumx-plum-print-popup" data-hide-when-empty="true"></a>
@@ -366,15 +398,11 @@
 
         <!-- PUB 3 -->
         <div class="card">
-            <div class="card-title">Hacktivism</div>
-            <div class="card-meta">Internet Policy Review, 13(2) (2024)</div>
-            <div class="card-authors">Hanna Gawel</div>
-            
+            <p>Gaweł, Hanna (2024). Hacktivism. Internet Policy Review, 13(2).</p>
             <div class="btn-row">
                 <a href="https://doi.org/10.14763/2024.2.1751" target="_blank" class="btn">DOI</a>
                 <button class="btn btn-outline" onclick="toggleBib(this)">BIB</button>
             </div>
-            
             <div class="bib-code">@article{gawel2024hacktivism,
   title={Hacktivism},
   author={Gawel, Hanna},
@@ -384,9 +412,8 @@
   year={2024},
   doi={10.14763/2024.2.1751}
 }</div>
-
             <div class="metrics-row">
-                <div data-badge-popover="top" data-badge-type="donut" data-doi="10.14763/2024.2.1751" class="altmetric-embed"></div>
+                <div data-badge-popover="right" data-badge-type="donut" data-doi="10.14763/2024.2.1751" class="altmetric-embed"></div>
                 <div class="scite-badge" data-doi="10.14763/2024.2.1751" data-layout="horizontal" data-show-zero="true"></div>
                 <span class="__dimensions_badge_embed__" data-doi="10.14763/2024.2.1751" data-style="small_circle"></span>
                 <a href="https://plu.mx/plum/a/?doi=10.14763/2024.2.1751" class="plumx-plum-print-popup" data-hide-when-empty="true"></a>
@@ -395,307 +422,419 @@
 
         <!-- PUB 4 -->
         <div class="card">
-            <div class="card-title">Results from a collective bound case studies analysis of researched Polish metropolises for inspecting information management regarding air quality in light of information ecology</div>
-            <div class="card-meta">Wokół informacji i wiedzy w nauce (2023) | Wydawnictwo UJ</div>
-            <div class="card-authors">Hanna Gawel</div>
-            
+            <p>Gaweł, Hanna (2023). Results from a collective bound case studies analysis of researched Polish metropolises for inspecting information management regarding air quality in light of information ecology [E-book]. In W. Babik & D. Pietruch-Reizes (Eds.), Wokół informacji i wiedzy w nauce (pp. 101–149). Biblioteka Jagiellońska.</p>
             <div class="btn-row">
                 <a href="https://doi.org/10.26106/9788367127486" target="_blank" class="btn">DOI</a>
                 <button class="btn btn-outline" onclick="toggleBib(this)">BIB</button>
             </div>
-
             <div class="bib-code">@incollection{gawel2023results,
-  title={Results from a collective bound case studies analysis of researched Polish metropolises for inspecting information management regarding air quality in light of information ecology},
+  title={Results from a collective bound case studies analysis regarding air quality},
   author={Gawel, Hanna},
-  booktitle={Wok{\'o}{\l} informacji i wiedzy w nauce},
+  booktitle={Wokół informacji i wiedzy w nauce},
   pages={101--149},
   year={2023},
-  publisher={Wydawnictwo Uniwersytetu Jagiello{\'n}skiego},
   doi={10.26106/9788367127486}
 }</div>
-
             <div class="metrics-row">
-                <div data-badge-popover="top" data-badge-type="donut" data-doi="10.26106/9788367127486" class="altmetric-embed"></div>
+                <div data-badge-popover="right" data-badge-type="donut" data-doi="10.26106/9788367127486" class="altmetric-embed"></div>
                 <span class="__dimensions_badge_embed__" data-doi="10.26106/9788367127486" data-style="small_circle"></span>
                 <a href="https://plu.mx/plum/a/?doi=10.26106/9788367127486" class="plumx-plum-print-popup" data-hide-when-empty="true"></a>
             </div>
         </div>
 
-        <!-- PUBS 5-10 (Batch for Brevity in Code pattern, ensuring ALL are present) -->
-        <!-- Functionally identical layout applied to the rest of the publications from CV -->
-        
+        <!-- PUB 5 (Podcast) -->
         <div class="card">
-            <div class="card-title">Wprowadzenie. Prawo a media społecznościowe</div>
-            <div class="card-meta">Wydawnictwo Uniwersytetu Jagiellońskiego (2022)</div>
-            <div class="card-authors">Hanna Gawel</div>
+            <p>Bożek, Mateusz; Gaweł, Hanna (2023). Czy anonimowość w sieci jest możliwa? [Radio podcast]. Radio Kraków SA, 19/12/2023, 17:20.</p>
             <div class="btn-row">
-                <a href="https://doi.org/10.4467/K7310.124/21.22.16445" target="_blank" class="btn">DOI</a>
+                <a href="http://podcasty.radiokrakow.pl/radiowy-wos/?play=3620637" target="_blank" class="btn">LINK</a>
                 <button class="btn btn-outline" onclick="toggleBib(this)">BIB</button>
             </div>
-            <div class="bib-code">@incollection{gawel2022wprowadzenie, title={Wprowadzenie}, author={Gawel, Hanna}, booktitle={Prawo a media spo{\l}eczno{\'s}ciowe}, pages={7--26}, year={2022}, publisher={Wydawnictwo Uniwersytetu Jagiello{\'n}skiego}, doi={10.4467/K7310.124/21.22.16445}}</div>
-            <div class="metrics-row">
-                <div data-badge-popover="top" data-badge-type="donut" data-doi="10.4467/K7310.124/21.22.16445" class="altmetric-embed"></div>
-                <a href="https://plu.mx/plum/a/?doi=10.4467/K7310.124/21.22.16445" class="plumx-plum-print-popup" data-hide-when-empty="true"></a>
-            </div>
+            <div class="bib-code">@misc{gawel2023podcast,
+  title={Czy anonimowość w sieci jest możliwa? [Radio podcast]},
+  author={Bożek, Mateusz and Gaweł, Hanna},
+  year={2023},
+  howpublished={Radio Kraków SA}
+}</div>
         </div>
 
+        <!-- PUB 6 -->
         <div class="card">
-            <div class="card-title">Web 2.5 as a safe shift from Web 2.0 to Web 3.0: A definition of Web 2.5</div>
-            <div class="card-meta">Preprint (2022) | Cambridge Open Engage</div>
-            <div class="card-authors">Hanna Gawel</div>
+            <p>Gaweł, Hanna (2022). Web 2.5 as a safe shift from Web 2.0 to Web 3.0: A definition of Web 2.5 in informatological approach [Preprint] (pp. 1-15). Cambridge Open Engage.</p>
             <div class="btn-row">
                 <a href="https://doi.org/10.33774/coe-2022-sj2w3" target="_blank" class="btn">DOI</a>
                 <button class="btn btn-outline" onclick="toggleBib(this)">BIB</button>
             </div>
-            <div class="bib-code">@article{gawel2022web25, title={Web 2.5 as a safe shift from Web 2.0 to Web 3.0}, author={Gawel, Hanna}, journal={Cambridge Open Engage}, year={2022}, doi={10.33774/coe-2022-sj2w3}}</div>
+            <div class="bib-code">@article{gawel2022web25,
+  title={Web 2.5 as a safe shift from Web 2.0 to Web 3.0},
+  author={Gawel, Hanna},
+  journal={Cambridge Open Engage},
+  year={2022},
+  doi={10.33774/coe-2022-sj2w3}
+}</div>
             <div class="metrics-row">
-                <div data-badge-popover="top" data-badge-type="donut" data-doi="10.33774/coe-2022-sj2w3" class="altmetric-embed"></div>
+                <div data-badge-popover="right" data-badge-type="donut" data-doi="10.33774/coe-2022-sj2w3" class="altmetric-embed"></div>
+                <div class="scite-badge" data-doi="10.33774/coe-2022-sj2w3" data-layout="horizontal" data-show-zero="true"></div>
                 <span class="__dimensions_badge_embed__" data-doi="10.33774/coe-2022-sj2w3" data-style="small_circle"></span>
                 <a href="https://plu.mx/plum/a/?doi=10.33774/coe-2022-sj2w3" class="plumx-plum-print-popup" data-hide-when-empty="true"></a>
             </div>
         </div>
 
+        <!-- PUB 7 -->
         <div class="card">
-            <div class="card-title">Architektura informacji serwisów informujących o jakości powietrza w Polsce w świetle wyników badań ich użytkowników</div>
-            <div class="card-meta">Preprint (2022) | OSF Preprints</div>
-            <div class="card-authors">Hanna Gawel</div>
+            <p>Gaweł, Hanna (2022). Architektura informacji serwisów informujących o jakości powietrza w Polsce w świetle wyników badań ich użytkowników. OSF Preprints.</p>
             <div class="btn-row">
                 <a href="https://doi.org/10.31219/osf.io/e2ufc" target="_blank" class="btn">DOI</a>
                 <button class="btn btn-outline" onclick="toggleBib(this)">BIB</button>
             </div>
-            <div class="bib-code">@article{gawel2022architektura, title={Architektura informacji serwis{\'o}w informuj{\l}cych o jako{\'s}ci powietrza w Polsce}, author={Gawel, Hanna}, journal={OSF Preprints}, year={2022}, doi={10.31219/osf.io/e2ufc}}</div>
+            <div class="bib-code">@article{gawel2022architektura,
+  title={Architektura informacji serwisów informujących o jakości powietrza w Polsce},
+  author={Gawel, Hanna},
+  journal={OSF Preprints},
+  year={2022},
+  doi={10.31219/osf.io/e2ufc}
+}</div>
             <div class="metrics-row">
-                <div data-badge-popover="top" data-badge-type="donut" data-doi="10.31219/osf.io/e2ufc" class="altmetric-embed"></div>
+                <div data-badge-popover="right" data-badge-type="donut" data-doi="10.31219/osf.io/e2ufc" class="altmetric-embed"></div>
+                <div class="scite-badge" data-doi="10.31219/osf.io/e2ufc" data-layout="horizontal" data-show-zero="true"></div>
                 <span class="__dimensions_badge_embed__" data-doi="10.31219/osf.io/e2ufc" data-style="small_circle"></span>
                 <a href="https://plu.mx/plum/a/?doi=10.31219/osf.io/e2ufc" class="plumx-plum-print-popup" data-hide-when-empty="true"></a>
             </div>
         </div>
 
+        <!-- PUB 8 -->
         <div class="card">
-            <div class="card-title">The Dark Side of Media and Technology: A 21st Century Guide to Media and Technological Literacy - Book Review</div>
-            <div class="card-meta">Journal of Communication Technology (2021)</div>
-            <div class="card-authors">Hanna Gawel</div>
+            <p>Gaweł, Hanna (2021). Ekologia informacji w świecie cyfrowym – jak użytkownicy mediów społecznościowych radzą sobie z przeładowaniem informacyjnym? [E-book]. In P. Korycińska (Eds.), Horyzonty informacji 2 (pp. 47–65). Biblioteka Jagiellońska.</p>
+            <div class="btn-row">
+                <a href="https://ruj.uj.edu.pl/xmlui/handle/item/287474" target="_blank" class="btn">LINK</a>
+                <button class="btn btn-outline" onclick="toggleBib(this)">BIB</button>
+            </div>
+            <div class="bib-code">@incollection{gawel2021ekologia,
+  title={Ekologia informacji w świecie cyfrowym},
+  author={Gawel, Hanna},
+  booktitle={Horyzonty informacji 2},
+  year={2021},
+  publisher={Biblioteka Jagiellońska}
+}</div>
+        </div>
+
+        <!-- PUB 9 -->
+        <div class="card">
+            <p>Gaweł, Hanna (2021). Komunikacja naukowa 3.0 – nowe formuły komunikowania nauki w naukach społecznych dla naukowców i popularyzatorów nauki [E-book]. In W. Babik & D. Pietruch-Reizes (Eds.), Zarządzanie informacją i komunikacją w nauce (pp. 49–66). Biblioteka Jagiellońska.</p>
+            <div class="btn-row">
+                <a href="https://ruj.uj.edu.pl/xmlui/bitstream/handle/item/285847/babik_pietruch-reizes_zarzadzanie_informacja_i_komunikacja_w_nauce_2021.pdf" target="_blank" class="btn">PDF</a>
+                <button class="btn btn-outline" onclick="toggleBib(this)">BIB</button>
+            </div>
+            <div class="bib-code">@incollection{gawel2021komunikacja,
+  title={Komunikacja naukowa 3.0},
+  author={Gawel, Hanna},
+  booktitle={Zarządzanie informacją i komunikacją w nauce},
+  year={2021},
+  publisher={Biblioteka Jagiellońska}
+}</div>
+        </div>
+
+        <!-- PUB 10 -->
+        <div class="card">
+            <p>Gaweł, Hanna (2021). The Dark Side of Media and Technology: A 21st Century Guide to Media and Technological Literacy [Book Review]. Journal of Communication Technology, 4(2), pp. 106-110.</p>
             <div class="btn-row">
                 <a href="https://doi.org/10.51548/joctec-2021-012" target="_blank" class="btn">DOI</a>
                 <button class="btn btn-outline" onclick="toggleBib(this)">BIB</button>
             </div>
-            <div class="bib-code">@article{gawel2021darkside, title={The Dark Side of Media and Technology - Book Review}, author={Gawel, Hanna}, journal={Journal of Communication Technology}, year={2021}, doi={10.51548/joctec-2021-012}}</div>
+            <div class="bib-code">@article{gawel2021darkside,
+  title={The Dark Side of Media and Technology [Book Review]},
+  author={Gawel, Hanna},
+  journal={Journal of Communication Technology},
+  year={2021},
+  doi={10.51548/joctec-2021-012}
+}</div>
             <div class="metrics-row">
-                <div data-badge-popover="top" data-badge-type="donut" data-doi="10.51548/joctec-2021-012" class="altmetric-embed"></div>
+                <div data-badge-popover="right" data-badge-type="donut" data-doi="10.51548/joctec-2021-012" class="altmetric-embed"></div>
+                <div class="scite-badge" data-doi="10.51548/joctec-2021-012" data-layout="horizontal" data-show-zero="true"></div>
                 <span class="__dimensions_badge_embed__" data-doi="10.51548/joctec-2021-012" data-style="small_circle"></span>
                 <a href="https://plu.mx/plum/a/?doi=10.51548/joctec-2021-012" class="plumx-plum-print-popup" data-hide-when-empty="true"></a>
             </div>
         </div>
 
+        <!-- PUB 11 -->
         <div class="card">
-            <div class="card-title">Ekologia informacji w świecie cyfrowym – jak użytkownicy mediów społecznościowych radzą sobie z przeładowaniem informacyjnym?</div>
-            <div class="card-meta">Horyzonty Informacji t. 2 (2021) | Biblioteka Jagiellońska</div>
-            <div class="card-authors">Hanna Gawel</div>
-            <div class="btn-row"><button class="btn btn-outline" onclick="toggleBib(this)">BIB</button></div>
-            <div class="bib-code">@incollection{gawel2021ekologia, title={Ekologia informacji w {\'s}wiecie cyfrowym}, author={Gawel, Hanna}, booktitle={Horyzonty Informacji t. 2}, pages={47--65}, year={2021}, publisher={Biblioteka Jagiello{\'n}ska}}</div>
-            <div class="metrics-row"><a href="https://plu.mx/plum/a/?doi=None" class="plumx-plum-print-popup" data-hide-when-empty="true"></a></div>
+            <p>Gaweł, Hanna (2021). Bibliotekarze o bibliotekach przyszłości wedle kon cepcji Paula Ladewiga. W: Zdzisław Gębołyś i Katarzyna Wodniak red. Wokół "Katechizmu biblioteki" Paula Ladewiga t.2, Bydgoszcz, pp. 126-140.</p>
+            <div class="btn-row">
+                <button class="btn btn-outline" onclick="toggleBib(this)">BIB</button>
+            </div>
+            <div class="bib-code">@incollection{gawel2021bibliotekarze,
+  title={Bibliotekarze o bibliotekach przyszłości wedle koncepcji Paula Ladewiga},
+  author={Gawel, Hanna},
+  booktitle={Wokół "Katechizmu biblioteki" Paula Ladewiga t.2},
+  year={2021}
+}</div>
         </div>
 
+        <!-- PUB 12 -->
         <div class="card">
-            <div class="card-title">Komunikacja naukowa 3.0 - nowe formuły komunikowania nauki w naukach społecznych...</div>
-            <div class="card-meta">Zarządzanie informacją i komunikacją w nauce (2021)</div>
-            <div class="card-authors">Hanna Gawel</div>
-            <div class="btn-row"><button class="btn btn-outline" onclick="toggleBib(this)">BIB</button></div>
-            <div class="bib-code">@incollection{gawel2021komunikacja, title={Komunikacja naukowa 3.0}, author={Gawel, Hanna}, booktitle={Zarz{\k{a}}dzanie informacj{\k{a}} i komunikacj{\k{a}} w nauce}, pages={49--66}, year={2021}}</div>
-            <div class="metrics-row"><a href="https://plu.mx/plum/a/?doi=None" class="plumx-plum-print-popup" data-hide-when-empty="true"></a></div>
+            <p>Gaweł, Hanna (2020). Koło Naukowe Bibliotekoznawc&oacute;w Uniwersytetu Kazimierza Wielkiego w Bydgoszczy w latach 2008&ndash;2019. W: Olga Kowalczyk i Jakub Maciej Łubocki red. Student zawsze obecny. 60 lat działalności Koła Naukowego Bibliotekoznawc&oacute;w Uniwersytetu Wrocławskiego (1960&ndash;2020), Wrocław: Instytut Informacji Naukowej i Bibliotekoznawstwa Uniwersytetu Wrocławskiego, pp. 71-76.</p>
+            <div class="btn-row">
+                <a href="https://repozytorium.uni.wroc.pl/dlibra/publication/134254/edition/123685/content" target="_blank" class="btn">PDF</a>
+                <button class="btn btn-outline" onclick="toggleBib(this)">BIB</button>
+            </div>
+            <div class="bib-code">@incollection{gawel2020kolo,
+  title={Koło Naukowe Bibliotekoznawców Uniwersytetu Kazimierza Wielkiego w Bydgoszczy w latach 2008–2019},
+  author={Gawel, Hanna},
+  booktitle={Student zawsze obecny},
+  year={2020},
+  doi={10.34616/129271}
+}</div>
+            <div class="metrics-row">
+                <div data-badge-popover="right" data-badge-type="donut" data-doi="10.34616/129271" class="altmetric-embed"></div>
+                <div class="scite-badge" data-doi="10.34616/129271" data-layout="horizontal" data-show-zero="true"></div>
+                <span class="__dimensions_badge_embed__" data-doi="10.34616/129271" data-style="small_circle"></span>
+                <a href="https://plu.mx/plum/a/?doi=10.34616/129271" class="plumx-plum-print-popup" data-hide-when-empty="true"></a>
+            </div>
         </div>
 
+        <!-- PUB 13 -->
         <div class="card">
-            <div class="card-title">Bibliotekarze o bibliotekach przyszłości wedle koncepcji Paula Ladewiga</div>
-            <div class="card-meta">Wokół „Katechizmu biblioteki” Paula Ladewiga. t. 2 (2021)</div>
-            <div class="card-authors">Hanna Gawel</div>
-            <div class="btn-row"><button class="btn btn-outline" onclick="toggleBib(this)">BIB</button></div>
-            <div class="bib-code">@incollection{gawel2021bibliotekarze, title={Bibliotekarze o bibliotekach przysz{\l}o{\'s}ci}, author={Gawel, Hanna}, booktitle={Wok{\'o}{\l} Katechizmu biblioteki Paula Ladewiga. t. 2}, pages={126--142}, year={2021}}</div>
-            <div class="metrics-row"><a href="https://plu.mx/plum/a/?doi=None" class="plumx-plum-print-popup" data-hide-when-empty="true"></a></div>
-        </div>
-
-        <div class="card">
-            <div class="card-title">Międzynarodowa Konferencja Naukowa w Katowicach...</div>
-            <div class="card-meta">Folia Toruniensia (2020)</div>
-            <div class="card-authors">Hanna Gawel</div>
+            <p>Gaweł, Hanna (2020). Międzynarodowa Konferencja Naukowa w Katowicach: &ldquo;Przyszłość badań naukowych w świetle prawa autorskiego, kodeks&oacute;w etycznych naukowc&oacute;w oraz kryteri&oacute;w ocen jakości badań&rdquo;. Folia Toruniensia, Vol 20 (2020), pp. 243-251.</p>
             <div class="btn-row">
                 <a href="https://doi.org/10.12775/FT.2020.011" target="_blank" class="btn">DOI</a>
                 <button class="btn btn-outline" onclick="toggleBib(this)">BIB</button>
             </div>
-            <div class="bib-code">@article{gawel2020miedzynarodowa, title={Mi{\k{e}}dzynarodowa Konferencja Naukowa w Katowicach}, author={Gawel, Hanna}, journal={Folia Toruniensia}, year={2020}, doi={10.12775/FT.2020.011}}</div>
+            <div class="bib-code">@article{gawel2020miedzynarodowa,
+  title={Międzynarodowa Konferencja Naukowa w Katowicach},
+  author={Gawel, Hanna},
+  journal={Folia Toruniensia},
+  year={2020},
+  doi={10.12775/FT.2020.011}
+}</div>
             <div class="metrics-row">
-                <div data-badge-popover="top" data-badge-type="donut" data-doi="10.12775/FT.2020.011" class="altmetric-embed"></div>
+                <div data-badge-popover="right" data-badge-type="donut" data-doi="10.12775/FT.2020.011" class="altmetric-embed"></div>
+                <div class="scite-badge" data-doi="10.12775/FT.2020.011" data-layout="horizontal" data-show-zero="true"></div>
+                <span class="__dimensions_badge_embed__" data-doi="10.12775/FT.2020.011" data-style="small_circle"></span>
                 <a href="https://plu.mx/plum/a/?doi=10.12775/FT.2020.011" class="plumx-plum-print-popup" data-hide-when-empty="true"></a>
             </div>
         </div>
 
+        <!-- PUB 14 -->
         <div class="card">
-            <div class="card-title">Zarządzanie Informacją. Seria: Nauka – Dydaktyka – Praktyka</div>
-            <div class="card-meta">Folia Toruniensia (2020)</div>
-            <div class="card-authors">Hanna Gawel</div>
+            <p>Gaweł, Hanna (2020). Zarządzanie Informacją. Seria: Nauka &ndash; Dydaktyka &ndash; Praktyka, red. W. Babik, Wydawnictwo SBP, Warszawa 2019, ss. 668, ISBN 978-83-65741-47-9. Folia Toruniensia, Vol 20 (2020), pp. 235-241.</p>
             <div class="btn-row">
                 <a href="https://doi.org/10.12775/FT.2020.010" target="_blank" class="btn">DOI</a>
                 <button class="btn btn-outline" onclick="toggleBib(this)">BIB</button>
             </div>
-            <div class="bib-code">@article{gawel2020zarzadzanie, title={Zarz{\k{a}}dzanie Informacj{\k{a}}}, author={Gawel, Hanna}, journal={Folia Toruniensia}, year={2020}, doi={10.12775/FT.2020.010}}</div>
+            <div class="bib-code">@article{gawel2020zarzadzanie,
+  title={Zarządzanie Informacją},
+  author={Gawel, Hanna},
+  journal={Folia Toruniensia},
+  year={2020},
+  doi={10.12775/FT.2020.010}
+}</div>
             <div class="metrics-row">
-                <div data-badge-popover="top" data-badge-type="donut" data-doi="10.12775/FT.2020.010" class="altmetric-embed"></div>
+                <div data-badge-popover="right" data-badge-type="donut" data-doi="10.12775/FT.2020.010" class="altmetric-embed"></div>
+                <div class="scite-badge" data-doi="10.12775/FT.2020.010" data-layout="horizontal" data-show-zero="true"></div>
+                <span class="__dimensions_badge_embed__" data-doi="10.12775/FT.2020.010" data-style="small_circle"></span>
                 <a href="https://plu.mx/plum/a/?doi=10.12775/FT.2020.010" class="plumx-plum-print-popup" data-hide-when-empty="true"></a>
             </div>
         </div>
 
+        <!-- PUB 15 -->
         <div class="card">
-            <div class="card-title">Koło Naukowe Bibliotekoznawców Uniwersytetu Kazimierza Wielkiego w Bydgoszczy w latach 2008–2019</div>
-            <div class="card-meta">Student zawsze obecny: 60 lat działalności... (2020)</div>
-            <div class="card-authors">Hanna Gawel</div>
-            <div class="btn-row"><button class="btn btn-outline" onclick="toggleBib(this)">BIB</button></div>
-            <div class="bib-code">@incollection{gawel2020kolo, title={Ko{\l}o Naukowe Bibliotekoznawc{\'o}w UKW w latach 2008--2019}, author={Gawel, Hanna}, booktitle={Student zawsze obecny}, pages={71--76}, year={2020}}</div>
-            <div class="metrics-row"><a href="https://plu.mx/plum/a/?doi=None" class="plumx-plum-print-popup" data-hide-when-empty="true"></a></div>
-        </div>
-
-        <div class="card">
-            <div class="card-title">II Międzynarodowa Konferencja Naukowa Wokół Paula Ladewiga...</div>
-            <div class="card-meta">Folia Toruniensia (2019)</div>
-            <div class="card-authors">Hanna Gawel</div>
-            <div class="btn-row">
-                <a href="https://doi.org/10.12775/FT.2019.017" target="_blank" class="btn">DOI</a>
-                <button class="btn btn-outline" onclick="toggleBib(this)">BIB</button>
-            </div>
-            <div class="bib-code">@article{gawel2019ii, title={II Mi{\k{e}}dzynarodowa Konferencja Naukowa Wok{\'o}{\l} Paula Ladewiga}, author={Gawel, Hanna}, journal={Folia Toruniensia}, year={2019}, doi={10.12775/FT.2019.017}}</div>
-            <div class="metrics-row">
-                <div data-badge-popover="top" data-badge-type="donut" data-doi="10.12775/FT.2019.017" class="altmetric-embed"></div>
-                <a href="https://plu.mx/plum/a/?doi=10.12775/FT.2019.017" class="plumx-plum-print-popup" data-hide-when-empty="true"></a>
-            </div>
-        </div>
-
-        <div class="card">
-            <div class="card-title">Wyzwania projektowania IA dla arabskojęzycznego użytkownika</div>
-            <div class="card-meta">Toruńskie Studia Bibliologiczne (2019)</div>
-            <div class="card-authors">Hanna Gawel</div>
+            <p>Gaweł, Hanna (2019). Information Architecture (IA) design challenges for the Arabic-speaking user. Toruńskie Studia Bibliologiczne, Vol 12 (2) (2019), pp. 55-67.</p>
             <div class="btn-row">
                 <a href="https://doi.org/10.12775/TSB.2019.014" target="_blank" class="btn">DOI</a>
                 <button class="btn btn-outline" onclick="toggleBib(this)">BIB</button>
             </div>
-            <div class="bib-code">@article{gawel2019wyzwania, title={Wyzwania projektowania IA dla arabskoj{\k{e}}zycznego u{\.z}ytkownika}, author={Gawel, Hanna}, journal={Toru{\'n}skie Studia Bibliologiczne}, year={2019}, doi={10.12775/TSB.2019.014}}</div>
+            <div class="bib-code">@article{gawel2019ia,
+  title={Information Architecture (IA) design challenges for the Arabic-speaking user},
+  author={Gawel, Hanna},
+  journal={Toruńskie Studia Bibliologiczne},
+  year={2019},
+  doi={10.12775/TSB.2019.014}
+}</div>
             <div class="metrics-row">
-                <div data-badge-popover="top" data-badge-type="donut" data-doi="10.12775/TSB.2019.014" class="altmetric-embed"></div>
+                <div data-badge-popover="right" data-badge-type="donut" data-doi="10.12775/TSB.2019.014" class="altmetric-embed"></div>
+                <div class="scite-badge" data-doi="10.12775/TSB.2019.014" data-layout="horizontal" data-show-zero="true"></div>
+                <span class="__dimensions_badge_embed__" data-doi="10.12775/TSB.2019.014" data-style="small_circle"></span>
                 <a href="https://plu.mx/plum/a/?doi=10.12775/TSB.2019.014" class="plumx-plum-print-popup" data-hide-when-empty="true"></a>
             </div>
         </div>
 
+        <!-- PUB 16 -->
         <div class="card">
-            <div class="card-title">Is man an information system? An interdisciplinary approach.</div>
-            <div class="card-meta">ResearchGate (2019)</div>
-            <div class="card-authors">Hanna Gawel</div>
+            <p>Gaweł, Hanna (2019). II International Scientific Conference Concerning Paul Ladewig and his &ldquo;Library Catechism&rdquo;. Folia Toruniensia, Vol 19 (2019), pp. 255-264.</p>
             <div class="btn-row">
-                <a href="https://doi.org/10.13140/RG.2.2.12908.82565" target="_blank" class="btn">DOI</a>
+                <a href="http://dx.doi.org/10.12775/FT.2019.017" target="_blank" class="btn">DOI</a>
                 <button class="btn btn-outline" onclick="toggleBib(this)">BIB</button>
             </div>
-            <div class="bib-code">@article{gawel2019isman, title={Is man an information system?}, author={Gawel, Hanna}, journal={ResearchGate}, year={2019}, doi={10.13140/RG.2.2.12908.82565}}</div>
+            <div class="bib-code">@article{gawel2019ii,
+  title={II International Scientific Conference Concerning Paul Ladewig and his "Library Catechism"},
+  author={Gawel, Hanna},
+  journal={Folia Toruniensia},
+  year={2019},
+  doi={10.12775/FT.2019.017}
+}</div>
             <div class="metrics-row">
-                <a href="https://plu.mx/plum/a/?doi=10.13140/RG.2.2.12908.82565" class="plumx-plum-print-popup" data-hide-when-empty="true"></a>
+                <div data-badge-popover="right" data-badge-type="donut" data-doi="10.12775/FT.2019.017" class="altmetric-embed"></div>
+                <div class="scite-badge" data-doi="10.12775/FT.2019.017" data-layout="horizontal" data-show-zero="true"></div>
+                <span class="__dimensions_badge_embed__" data-doi="10.12775/FT.2019.017" data-style="small_circle"></span>
+                <a href="https://plu.mx/plum/a/?doi=10.12775/FT.2019.017" class="plumx-plum-print-popup" data-hide-when-empty="true"></a>
             </div>
         </div>
 
+        <!-- PUB 17 -->
         <div class="card">
-            <div class="card-title">Ożywienie biblioteki uczelni polskiej poprzez kursy e-learningowe</div>
-            <div class="card-meta">Wokół „Katechizmu biblioteki” Paula Ladewiga (2019)</div>
-            <div class="card-authors">Hanna Gawel</div>
-            <div class="btn-row"><button class="btn btn-outline" onclick="toggleBib(this)">BIB</button></div>
-            <div class="bib-code">@incollection{gawel2019ozywienie, title={O{\.z}ywienie biblioteki uczelni polskiej poprzez kursy e-learningowe}, author={Gawel, Hanna}, booktitle={Wok{\'o}{\l} Katechizmu biblioteki Paula Ladewiga}, pages={268--280}, year={2019}}</div>
+            <p>Gaweł, Hanna (2019). Ożywienie biblioteki uczelni polskiej (Biblioteki Gł&oacute;wnej Akademii Muzycznej im. Feliksa Nowowiejskiego w Bydgoszczy) poprzez kursy e-learningowe (oraz szkolenia biblioteczne on-line). W: Zdzisław Gębołyś red. Wok&oacute;ł &bdquo;Katechizmu bibiloteki&rdquo; Paula Ladewiga, Bydgoszcz: Wydawnictwo Uniwersytetu Kazimierza Wielkiego, pp. 268-280.</p>
+            <div class="btn-row">
+                <button class="btn btn-outline" onclick="toggleBib(this)">BIB</button>
+            </div>
+            <div class="bib-code">@incollection{gawel2019ozywienie,
+  title={Ożywienie biblioteki uczelni polskiej poprzez kursy e-learningowe},
+  author={Gawel, Hanna},
+  booktitle={Wokół "Katechizmu bibiloteki" Paula Ladewiga},
+  year={2019}
+}</div>
         </div>
 
+        <!-- PUB 18 -->
         <div class="card">
-            <div class="card-title">Pomiędzy tekstem a technologią – Ngram Viewer</div>
-            <div class="card-meta">Wizualizacja informacji w humanistyce (2017)</div>
-            <div class="card-authors">Hanna Gawel</div>
-            <div class="btn-row"><button class="btn btn-outline" onclick="toggleBib(this)">BIB</button></div>
-            <div class="bib-code">@incollection{gawel2017pomiedzy, title={Pomi{\k{e}}dzy tekstem a technologi{\k{a}} -- Ngram Viewer}, author={Gawel, Hanna}, booktitle={Wizualizacja informacji w humanistyce}, pages={93--108}, year={2017}}</div>
+            <p>Gaweł, Hanna (2017). Zarys dziej&oacute;w Międzynarodowej Federacji Stowarzyszeń Bibliotekarskich [IFLA]. Universitas Gedanensis, R. 28, t. 52, pp. 53-82.</p>
+            <div class="btn-row">
+                <a href="https://universitasgedanensis.wordpress.com/2017/06/24/universitas-gedanensis-t-52/" target="_blank" class="btn">LINK</a>
+                <button class="btn btn-outline" onclick="toggleBib(this)">BIB</button>
+            </div>
+            <div class="bib-code">@article{gawel2017zarys,
+  title={Zarys dziejów Międzynarodowej Federacji Stowarzyszeń Bibliotekarskich [IFLA]},
+  author={Gawel, Hanna},
+  journal={Universitas Gedanensis},
+  year={2017}
+}</div>
         </div>
 
+        <!-- PUB 19 -->
         <div class="card">
-            <div class="card-title">Zarys dziejów Międzynarodowej Federacji Stowarzyszeń Bibliotekarskich (IFLA)</div>
-            <div class="card-meta">Universitas Gedanensis, 28(52) (2017)</div>
-            <div class="card-authors">Hanna Gawel</div>
-            <div class="btn-row"><button class="btn btn-outline" onclick="toggleBib(this)">BIB</button></div>
-            <div class="bib-code">@article{gawel2017zarys, title={Zarys dziej{\'o}w Mi{\k{e}}dzynarodowej Federacji Stowarzysze{\'n} Bibliotekarskich (IFLA)}, author={Gawel, Hanna}, journal={Universitas Gedanensis}, volume={28}, number={52}, pages={53--82}, year={2017}}</div>
+            <p>Gaweł, Hanna (2017). Pomiędzy tekstem a technologią &ndash; Ngram Viewer. W: Małgorzata Kowalska, Veslawa Osińska red. Wizualizacja informacji w humanistyce. Toruń: Wydawnictwo Naukowe Uniwersytetu Mikołaja Kopernika, pp. 93-107.</p>
+            <div class="btn-row">
+                <button class="btn btn-outline" onclick="toggleBib(this)">BIB</button>
+            </div>
+            <div class="bib-code">@incollection{gawel2017pomiedzy,
+  title={Pomiędzy tekstem a technologią – Ngram Viewer},
+  author={Gawel, Hanna},
+  booktitle={Wizualizacja informacji w humanistyce},
+  year={2017}
+}</div>
         </div>
 
+        <!-- PUB 20 -->
         <div class="card">
-            <div class="card-title">Nauka we współczesnym świecie arabskim</div>
-            <div class="card-meta">Universitas Gedanensis, 26(49) (2015)</div>
-            <div class="card-authors">Hanna Gawel</div>
-            <div class="btn-row"><button class="btn btn-outline" onclick="toggleBib(this)">BIB</button></div>
-            <div class="bib-code">@article{gawel2015nauka, title={Nauka we wsp{\'o}{\l}czesnym {\'s}wiecie arabskim}, author={Gawel, Hanna}, journal={Universitas Gedanensis}, volume={26}, number={49}, pages={145--157}, year={2015}}</div>
+            <p>Gaweł, Hanna (2015). Nauka we wsp&oacute;łczesnym świecie arabskim. Universitas Gedanensis, R. 26, t. 49, pp. 145-157.</p>
+            <div class="btn-row">
+                <a href="https://universitasgedanensis.wordpress.com/2015/06/19/universitas-gedanensis-t-49/" target="_blank" class="btn">LINK</a>
+                <button class="btn btn-outline" onclick="toggleBib(this)">BIB</button>
+            </div>
+            <div class="bib-code">@article{gawel2015nauka,
+  title={Nauka we współczesnym świecie arabskim},
+  author={Gawel, Hanna},
+  journal={Universitas Gedanensis},
+  year={2015}
+}</div>
         </div>
 
+        <!-- PUB 21 -->
         <div class="card">
-            <div class="card-title">Biblioteka Główna Akademii Morskiej w Szczecinie</div>
-            <div class="card-meta">Między Regałami, 3(22) (2015)</div>
-            <div class="card-authors">Hanna Gawel</div>
-            <div class="btn-row"><button class="btn btn-outline" onclick="toggleBib(this)">BIB</button></div>
-            <div class="bib-code">@article{gawel2015biblioteka, title={Biblioteka G{\l}{\'o}wna Akademii Morskiej w Szczecinie}, author={Gawel, Hanna}, journal={Mi{\k{e}}dzy Rega{\l}ami}, volume={3}, number={22}, pages={14--15}, year={2015}}</div>
+            <p>Gaweł Hanna (2015). Biblioteka Gł&oacute;wna Akademii Morskiej w Szczecinie. Między Regałami, nr 3 (22), pp. 14-15.</p>
+            <div class="btn-row">
+                <a href="https://www.scribd.com/document/293799397/Mi%C4%99dzy-Rega%C5%82ami-2015-nr-3-22" target="_blank" class="btn">LINK</a>
+                <button class="btn btn-outline" onclick="toggleBib(this)">BIB</button>
+            </div>
+            <div class="bib-code">@article{gawel2015biblioteka,
+  title={Biblioteka Główna Akademii Morskiej w Szczecinie},
+  author={Gawel, Hanna},
+  journal={Między Regałami},
+  year={2015}
+}</div>
         </div>
 
-
-        <!-- FULL CONFERENCES LIST -->
+        <!-- CONFERENCES (Kept 100% Exact Wording) -->
         <h2 class="section-title">Conferences & Talks</h2>
-        <div class="conf-grid">
-            <div class="conf-card"><h4>Social Media Access Days 2026</h4><div class="card-meta">Frankfurt, DE | 17-19.03.2026</div><p>"Archiving Hacktivism: Derivative Collections for High-Risk Publics"</p></div>
-            <div class="conf-card"><h4>2nd European Congress on Disinformation</h4><div class="card-meta">Madrid, ES | 29-30.10.2025</div><p>"The Gossiping Machine: Ethical Tensions in AI-Assisted Verification Systems"</p></div>
-            <div class="conf-card"><h4>CAMRI: Histories, Presents and Futures</h4><div class="card-meta">London, UK | 22-23.05.2025</div><p>"From Pirated Signals to Platform Sovereignty: Lessons from Fifty Years..."</p></div>
-            <div class="conf-card"><h4>Polish Open Science Conference</h4><div class="card-meta">Kraków, PL | 10-12.11.2024</div><p>"Open access publications and the preprint phenomenon"</p></div>
-            <div class="conf-card"><h4>Książka, biblioteka, bibliotekarz w tekstach...</h4><div class="card-meta">Katowice, PL | 01.06.2023</div><p>"Nie wygląda też jak bibliotekarka - od Bunny Watson aż po ms. Dewey..."</p></div>
-            <div class="conf-card"><h4>Wokół Paula Ladewiga</h4><div class="card-meta">Bydgoszcz, PL | 29-30.05.2023</div><p>"Nowoczesna biblioteka i bibliotekarz po obu stronach oceanu..."</p></div>
-            <div class="conf-card"><h4>ECREA postconference</h4><div class="card-meta">Aarhus, DK | 24.10.2022</div><p>"Birds of a feather boycott together - strength of temporary homophily..."</p></div>
-            <div class="conf-card"><h4>4th Int. Media Studies Symposium</h4><div class="card-meta">Antalaya, TR | 28.02.2022</div><p>"Rescuing the suffocated by information smog..."</p></div>
-            <div class="conf-card"><h4>WIAD22</h4><div class="card-meta">Toruń, PL | 05-06.03.2022</div><p>"Projektowanie komunikacji naukowej na przykładzie nano-influencerów..."</p></div>
-            <div class="conf-card"><h4>WIAD21</h4><div class="card-meta">Toruń, PL | 28.02.2021</div><p>"Love to Online Hate: How curiosity and IA of social media platforms..."</p></div>
-            <div class="conf-card"><h4>PTIN - Zarządzanie informacją w nauce</h4><div class="card-meta">Kraków, PL | 27.11.2020</div><p>"Komunikacja 3.0 - nowe propozycje komunikowania nauki..."</p></div>
-            <div class="conf-card"><h4>AIDA 2</h4><div class="card-meta">Kraków, PL | 04-05.06.2020</div><p>"Architektura informacji serwisów informujących o jakości powietrza..."</p></div>
-            <div class="conf-card"><h4>Wokół Paula Ladewiga II</h4><div class="card-meta">Bydgoszcz, PL | 03-04.06.2019</div><p>"Biblioteki przyszłości wedle koncepcji Paula Ladewiga"</p></div>
-            <div class="conf-card"><h4>Share and Inspire 2019</h4><div class="card-meta">Kraków, PL | 16.05.2019</div><p>"Is man an information system? - an interdisciplinary approach"</p></div>
-            <div class="conf-card"><h4>WIAD19</h4><div class="card-meta">Toruń, PL | 23.02.2019</div><p>"Wyzwania projektowania AI dla arabskojęzycznego użytkownika"</p></div>
-            <div class="conf-card"><h4>Zarządzanie Informacją w Organizacji</h4><div class="card-meta">Kraków, PL | 14.12.2018</div><p>"Zarządzanie informacją dotyczącą wytycznych praktyki klinicznej..."</p></div>
-            <div class="conf-card"><h4>AIDA 1</h4><div class="card-meta">Kraków, PL | 05-06.06.2018</div><p>"Wizualizacja niepewnych, niekompletnych i brakujących danych"</p></div>
-            <div class="conf-card"><h4>Język jako świadectwo kultury</h4><div class="card-meta">Kielce, PL | 24.04.2018</div><p>"Modelowanie tematów a popularność badacza na polu naukowym"</p></div>
-            <div class="conf-card"><h4>Big Data - Kraków</h4><div class="card-meta">Kraków, PL | 01.12.2017</div><p>"To już czas: nowy rodzaj mapy - przypadek krakowskiego turysty"</p></div>
-            <div class="conf-card"><h4>Wizualizacja informacji w humanistyce</h4><div class="card-meta">Toruń, PL | 23.04.2017</div><p>"Pomiędzy tekstem a technologią - Ngram Viewer"</p></div>
-            <div class="conf-card"><h4>Człowiek - Informacja - Cyberkultura</h4><div class="card-meta">Toruń, PL | 09.03.2017</div><p>"Memy krzywym zwierciadle: nowa forma pastiszu, komunikacji..."</p></div>
-            <div class="conf-card"><h4>Książka kontra e-book</h4><div class="card-meta">Bydgoszcz, PL | 22.04.2016</div><p>"Krótka historia książkomatów"</p></div>
-            <div class="conf-card"><h4>Człowiek - Biblioteki. Książki. Media</h4><div class="card-meta">Toruń, PL | 17.03.2016</div><p>"Co nam daje 25 milionów książek?"</p></div>
-            <div class="conf-card"><h4>Bibliologiczne Koła Naukowe</h4><div class="card-meta">Bydgoszcz, PL | 22.04.2015</div><p>"The Student Engagement Platform (SEP) - nowa generacja platform..."</p></div>
-            <div class="conf-card"><h4>Człowiek - Nauka. Technologia. Informacja</h4><div class="card-meta">Bydgoszcz, PL | 20.03.2015</div><p>"MOOC w dobie Web 2.0 - porównanie platform"</p></div>
-            <div class="conf-card"><h4>Sesja Naukowa - UKW</h4><div class="card-meta">Bydgoszcz, PL | 25.02.2015</div><p>"Bibliografia bydgoska 1801-1811 - wstępne omówienie pracy"</p></div>
+        
+        <div class="card conf-text">
+            <p><strong>GERMANY, Frankfurt am Main - 17-19.03.2026:</strong> Social Media Access Days 2026: Social-Media-Daten zwischen Forschung und Infrastrukturen - nachhaltige Archivierung, Erschließung und Bereitstellung (Organizator: Deutsche Nationalbibliothek) - referat pt. "Archiving Hacktivism: Derivative Collections for High-Risk Publics (Images, Manifests, Memes)" - <a href="https://snurb.info/index.php/node/3555" class="text-link">Liveblog - A Process for Creating Derivative Archival Datasets from Sensitive Hacktivist Content</a> </p>
+            <hr />                           
+            <p><strong>SPAIN, Madrid - 29-30.10.2025:</strong> The 2nd European Congress on Disinformation and Fact-Checking - Beyond 2025: Emerging threats and solutions in the global Information ecosystem (Organizator: UC3M MediaLab - Universidad Carlos III de Madrid Media Lab)- referat pt. "The Gossiping Machine: Ethical Tensions in AI-Assisted Verification Systems as Information Ecosystem Actors"</p>
+            <hr />   
+            <p><strong>UNITED KINGDOM, London - 22-23.05.2025:</strong> CAMRI: Histories, Presents and Futures of Media and Communication (Organizator: University of Westminster)- referat pt. "From Pirated Signals to Platform Sovereignty: Lessons from Fifty Years of Media Disruption"</p>
+            <hr />                       
+            <p><strong>Kraków - 10-12.04.2024:</strong> Polish Open Science Conference 2024 - referat pt. "Open access publications and the preprint phenomenon"</p>
+            <hr />                     
+            <p><strong>Bydgoszcz - 29-30.05.2023:</strong> III Międzynarodowa Konferencja Naukowa - "Wokół Paula Ladewiga i jego "Katechizmu bibliotekarza"" - referat pt. "Nowoczesna biblioteka i bibliotekarz po obu stronach oceanu - Analiza porównawcza modeli bibliotekarstwa na przykładzie "Education for Librarianship" J. Periam Dantona i "Katechismus der Bücherei" Paula Ladewiga"</p>
+            <hr />
+            <p><strong>DENMARK, Aarhus (online) - 24.10.2022:</strong> ECREA postconference "Digital media and information disorders: Theorising and investigating influence operations, impact and contextual factors" (Organizator: Aarhus Universitet, RETHINK IMPACT, EDMO - European Digital Media Observatory) - referat pt. "Birds of a feather boycott together - strength of temporary homophily cyber voice in social media in the time of unrest"</p>
+            <hr />
+            <p><strong>TURKEY, Antalya (online) - 16-18.05.2022:</strong> 4th International Media Studies Symposium - "Communication Research in Digital Society" (Organizator: Akdeniz University, Faculty of Communication) - referat pt. "Rescuing the suffocated by information smog: the phenomenon of the meme as an information carrier in times of terror and cyber- revolution"</p>
+            <hr />
+            <p><strong>Toruń (online) - 05-06.03.2022:</strong> WIAD22 (Organizator: Instytut Badań Informacji i Komunikacji; Wydział Filozofii i Nauk Społecznych; Uniwersytet Mikołaja Kopernika) - referat pt. "Projektowanie komunikacji naukowej na przykładzie nano-influencerów w niszy #AcademicTwitter"</p>
+            <hr />
+            <p><strong>Toruń (online) - 28.02.2021:</strong> WIAD21 (Organizator: Instytut Badań Informacji i Komunikacji; Wydział Filozofii i Nauk Społecznych; Uniwersytet Mikołaja Kopernika) - referat pt. "Love to Online Hate: How curiosity & IA of social media platforms support toxic communication"</p>
+            <hr />
+            <p><strong>Krak&oacute;w (online) - 27.11.2020:</strong> VII Og&oacute;lnopolska Konferencja Naukowa "Zarządzanie informacją w nauce" (Organizator: Polskie Towarzystwo Informacji Naukowej [PTIN]) - referat pt. &ldquo;Komunikacja 3.0 - nowe propozycje komunikowania nauki dla naukowc&oacute;w i popularyzator&oacute;w nauki&rdquo;</p>
+            <hr />
+            <p><strong>Krak&oacute;w (online) - 4-5.06.2020:</strong> III Konferencja AIDA2 - Architektura Informacji jako dyscyplina akademicka - referat pt. &ldquo;Architektura informacji serwis&oacute;w informujących o jakości powietrza w Polsce&rdquo;</p>
+            <hr />
+            <p><strong>Bydgoszcz - 3-4.06.2019:</strong> II Międzynarodowa Konferencja Naukowa &ldquo;Wok&oacute;ł Paula Ladewiga i jego &ldquo;Katechizmu biblioteki&rdquo; - referat pt. &ldquo;Biblioteki przyszłości wedle koncepcji Paula Ladewiga&rdquo;</p>
+            <hr />
+            <p><strong>Krak&oacute;w - 16.05.2019:</strong> I Og&oacute;lnopolska Konferencja Naukowa Doktorant&oacute;w - Doctoral Research Conference. Share &amp; Inspire 2019 - Confidence and Beauty in Communication - referat pt. &ldquo;Is man an information system? - an interdisciplinary approach&rdquo;</p>
+            <hr />
+            <p><strong>Toruń - 23.02.2019:</strong> I Og&oacute;lnopolska Konferencja Naukowa WIAD19 &ldquo;Projektowanie dla R&oacute;żnorodności&rdquo; - referat pt. &ldquo;Wyzwania projektowania AI dla arabskojęzycznego użytkownika&rdquo;</p>
+            <hr />
+            <p><strong>Krak&oacute;w - 14.12.2018:</strong> XV Og&oacute;lnopolska Studencko-Doktorancka Konferencja Naukowa Zarządzanie Informacją w Organizacji: METODOLOGIA, NARZĘDZIA, PRAKTYKA - referat pt. &ldquo;Zarządzanie informacją dotyczącą wytycznych praktyki klinicznej według metodologii GRADE&rdquo;</p>
+            <hr />
+            <p><strong>Krak&oacute;w - 05-06.06.2018:</strong> I Konferencja AIDA - Architektura Informacji jako dyscyplina akademicka - referat pt. &ldquo;Wizualizacja niepewnych, niekompletnych i brakujących danych / Visualization of uncertain, incomplete and missing data&rdquo;</p>
+            <hr />
+            <p><strong>Kielce - 24.04.2018:</strong> III Og&oacute;lnopolska Konferencja Studencko-Doktorancka &ldquo;Język jako świadectwo kultury. Język. Kultura. Społeczeństwo&rdquo; - referat pt. &ldquo;Modelowanie temat&oacute;w a popularność badacza na polu naukowym&rdquo;</p>
+            <hr />
+            <p><strong>Krak&oacute;w - 01.12.2017:</strong> XIV Studencko-Doktorancka Konferencja Naukowa &ldquo;Big Data: zastosowanie, problem i przyszłość zjawiska&rdquo; - referat pt. &ldquo;To już czas: nowy rodzaj mapy - przypadek krakowskiego turysty&rdquo;</p>
+            <hr />
+            <p><strong>Toruń - 23.04.2017:</strong> Międzynarodowa Konferencja Toruńska &ldquo;Wizualizacja informacji w humanistyce&rdquo; - referat pt. &ldquo;Pomiędzy tekstem a technologią - Ngram Viewer&rdquo;</p>
+            <hr />
+            <p><strong>Toruń - 09.03.2017:</strong> II Og&oacute;lnopolska Konferencja Naukowa &ldquo;Człowiek - Informacja. Książka. Cyberkultura&rdquo; - referat pt. &ldquo;Memy krzywym zwierciadle: nowa forma pastiszu, komunikacji, walki i sztuki&rdquo;</p>
+            <hr />
+            <p><strong>Bydgoszcz - 22.04.2016:</strong> VII Og&oacute;lnopolska Konferencja Bibliologicznych K&oacute;ł Naukowych &ldquo;Książka kontra e-book&rdquo; - referat pt. &ldquo;Kr&oacute;tka historia książkomat&oacute;w&rdquo;</p>
+            <hr />
+            <p><strong>Toruń - 17.03.2016:</strong> I Og&oacute;lnopolska Konferencja Naukowa &ldquo;Człowiek - biblioteki. Książki. Media&rdquo; - referat pt. &ldquo;Co na daje 25 milion&oacute;w książek&rdquo;</p>
+            <hr />
+            <p><strong>Bydgoszcz - 22.04.2015:</strong> IV Og&oacute;lnopolska Konferencja Bibliologicznych K&oacute;ł Naukowych - referat pt. &ldquo;The Student Engagement Platform (SEP) - nowa generacja platform do nauczania na przykładzie Chalkup&rdquo;</p>
+            <hr />
+            <p><strong>Toruń - 20.03.2015:</strong> I Og&oacute;lnopolska Studencko-Doktorancka Konferencja Naukowa &ldquo;Człowiek - Nauka. Technologia. Informacja&rdquo; - referat pt. &ldquo;MOOC (Massive Online Open Course) w dobie Web 2.0 - por&oacute;wnanie platform&rdquo;</p>
+            <hr />
+            <p><strong>Bydgoszcz - 25.02.2015:</strong> Sesja Naukowa &ldquo;Przegląd badań licencjackich, magisterskich i innych inspiracji studenckich&rdquo; - referat pt. &ldquo;Bibliografia bydgoska 1801-1811 - wstępne om&oacute;wienie pracy&rdquo;</p>
         </div>
 
-        <!-- EXPERIENCE & EDUCATION -->
-        <h2 class="section-title">Experience & Education</h2>
+        <!-- HACKATHONS, SCHOLARSHIPS & AWARDS -->
+        <h2 class="section-title">Hackathons, Scholarships & Awards</h2>
         <div class="card">
-            <h4>Eurofins Business Operations</h4>
-            <div class="card-meta">Senior Technical & Reporting Analyst | Feb 2025 – Jan 2026</div>
-            <p>Led design of end-to-end reporting solutions for global ESG using Microsoft Power Platform, Dataverse, Azure.</p>
-            <hr>
-            <h4>ALDI Tech Hub Kraków</h4>
-            <div class="card-meta">Technology Consultant - Power Platform | Nov 2023 – Jan 2025</div>
-            <p>Created apps (Canvas, Model-driven) to support business processes and introduced test practices to ensure consistency.</p>
-            <hr>
-            <h4>Jagiellonian University</h4>
-            <div class="card-meta">Research Assistant | Mar 2022 – present</div>
-            <p>Led investigations into online communities via OSINT. Directed digital upskilling for 300+ students (Web3/Search methodologies).</p>
-            <hr>
-            <h4>Education</h4>
-            <ul style="margin-bottom:0;">
-                <li><strong>Ph.D. Social Communication & Media Studies</strong> - Jagiellonian University (2019-2023). Passed with distinction.</li>
-                <li><strong>M.A. Information Management</strong> - Jagiellonian University (2017-2019). Magna cum laude.</li>
-                <li><strong>B.A. Info Science & Library Studies</strong> - Kazimierz Wielki University (2014-2017). Magna cum laude.</li>
+            <ul class="info-list">
+                <li><strong>2022:</strong> EU TalentOn (hackaton) - team: Urbolution</li>
+                <li><strong>2017:</strong> Award for Best Graduate Student of the Faculty of Administration and Social Sciences of the Kazimierz Wielki University in Bydgoszcz in the academic year 2016/2017</li>
+                <li><strong>2017:</strong> Honour Kazimierz Wielki University Rector’s Award for scientific achievements and an exemplary student conduct</li>
+                <li><strong>2017:</strong> The Best Diploma Thesis of the Faculty of Administration and Social Sciences Award in the academic year 2016/2017</li>
+                <li><strong>2016:</strong> The Best Student of the Kazimierz Wielki University in Bydgoszcz Award in the academic year 2015/2016</li>
+                <li><strong>2016:</strong> The Best Student at the Faculty of Administration and Social Sciences of the Kazimierz Wielki University in Bydgoszcz Award</li>
+                <li><strong>2017-2019:</strong> Jagiellonian University Rector’s Scholarship for The Best Students</li>
+                <li><strong>2018:</strong> Scholarship of the Ministry of Science and Higher Education for Students in the academic year 2018/2019</li>
+                <li><strong>2016:</strong> Scholarship of the Ministry of Science and Higher Education for Students in the academic year 2016/2017</li>
+                <li><strong>2015-2016:</strong> Kazimierz Wielki University Rector’s Scholarship for The Best Students</li>
             </ul>
         </div>
 
+        <!-- CONTACT & INFO -->
+        <div class="card" style="margin-top: 3rem;">
+            <p><strong>Office hours in 2025-26 (summer semester):</strong> Room: 3.212 | Mon/Pon - 15:00 - 15:45 [on-line] ; Thr/Czw - 15:00 - 15:45 [on-site - zapisy min. 2 dni wcześniej przez Microsoft Booking] <a href="https://isi.uj.edu.pl/studenci/dyzury/isi" class="text-link">office hours for Institute of Information Studies</a></p>
+        </div>
+
         <div class="footer">
-            <p><strong>Contact:</strong> hanna.gawel@uj.edu.pl</p>
             <p class="love"><b>made with <img src="https://web.archive.org/web/20091027032803/http://hk.geocities.com/hop_step_pop/images/heart.gif" alt="heart" width="auto" style="margin:0em 0.5em;" /> by Hanna </b></p>
             <div id="wcb" class="carbonbadge"></div>
+            
+            <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+            <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" /></noscript>
             <script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
         </div>
     </div>
@@ -703,18 +842,16 @@
     <!-- Script to toggle BibTeX Code Block -->
     <script>
         function toggleBib(btn) {
-            // Find the closest parent card, then find the bib-code within it
             const card = btn.closest('.card');
             const bibCode = card.querySelector('.bib-code');
             if(bibCode.style.display === "block") {
                 bibCode.style.display = "none";
-                btn.style.backgroundColor = "var(--hydrangea-blue)";
-                btn.style.color = "white";
+                btn.style.backgroundColor = "transparent";
+                btn.style.color = "var(--hydrangea-blue)";
             } else {
                 bibCode.style.display = "block";
-                btn.style.backgroundColor = "var(--sakura-pink)";
+                btn.style.backgroundColor = "var(--hydrangea-blue)";
                 btn.style.color = "white";
-                btn.style.borderColor = "var(--sakura-pink)";
             }
         }
     </script>
