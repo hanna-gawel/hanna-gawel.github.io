@@ -6,6 +6,7 @@
     
     <title>Dr. Hanna Gaweł | Academic Portfolio</title>
     
+    <meta name="description" content="Academic researcher at Jagiellonian University specializing in information ecology and digital resistance.">
     <meta name="citation_author" content="Gaweł, Hanna">
     <meta name="citation_title" content="Survival in the Information Smog: Digital Tradecraft as an Evolutionary Adaptation">
     <meta name="citation_publication_date" content="2026">
@@ -45,7 +46,7 @@
             border-bottom: 1px solid rgba(230, 168, 179, 0.2);
             padding: 15px 0; z-index: 1000; margin-bottom: 50px;
         }
-        .nav-links { display: flex; gap: 25px; font-family: 'JetBrains Mono', monospace; font-size: 12px; text-transform: uppercase; letter-spacing: 1px; }
+        .nav-links { display: flex; gap: 25px; font-family: 'JetBrains Mono', monospace; font-size: 12px; text-transform: uppercase; letter-spacing: 1px; overflow-x: auto; }
         .nav-links a { color: var(--text-muted); text-decoration: none; transition: 0.2s; font-weight: 500; }
         .nav-links a:hover { color: var(--sakura-accent); border-bottom: 1px solid var(--sakura-accent); }
 
@@ -55,7 +56,6 @@
         .hero-text h1 { font-size: 3.8rem; margin-bottom: 5px; }
         .hero-subtitle { font-family: 'JetBrains Mono', monospace; color: var(--sakura-accent); font-weight: 500; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 20px; }
 
-        /* Modern Typography Section Headers */
         .section-header { 
             border-bottom: 1px solid rgba(230, 168, 179, 0.4); 
             margin: 80px 0 30px 0; padding-bottom: 10px;
@@ -77,7 +77,7 @@
         .btn-row { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 15px; align-items: center; }
         .btn-base { 
             display: inline-flex; align-items: center; justify-content: center; 
-            min-width: 120px; height: 34px; 
+            min-width: 120px; height: 36px; 
             padding: 0 15px; font-family: 'JetBrains Mono', monospace; font-size: 10px; 
             font-weight: 500; text-transform: uppercase; border-radius: 2px;
             cursor: pointer; transition: 0.2s; text-decoration: none;
@@ -85,26 +85,24 @@
         }
         .btn-base:hover { background: var(--text-dark); color: #fff; }
         .btn-filled { background: var(--sakura-accent); color: #fff; border: none; }
-        .btn-filled:hover { background: var(--sakura-dark); }
 
         /* Inline Expanding Panels (ejane.me style) */
         .expand-panel { display: none; margin-top: 20px; padding: 20px; border-radius: 4px; font-size: 12px; border: 1px solid #eee; }
         .bib-box { background: #fafafa; color: #333; font-family: 'JetBrains Mono', monospace; white-space: pre-wrap; overflow-x: auto; line-height: 1.5; border: 1px solid #ddd; }
         .abstract-box { background: #fff; color: var(--text-muted); font-style: italic; border-left: 3px solid var(--sakura-petal); }
 
-        /* Mature Points */
         .mature-point { color: var(--sakura-accent); margin-right: 12px; font-size: 14px; }
         .tag { padding: 4px 12px; background: #f1f3f5; color: #495057; border-radius: 4px; font-size: 11px; font-weight: 600; font-family: 'JetBrains Mono'; text-transform: uppercase; }
+
+        /* Canva Embed Styles */
+        .canva-container { position: relative; width: 100%; height: 0; padding-top: 56.25%; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin: 2em 0; overflow: hidden; border-radius: 8px; }
+        .canva-iframe { position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; }
 
         @media (max-width: 768px) {
             .hero-section { flex-direction: column-reverse; text-align: center; }
             .hero-text h1 { font-size: 2.5rem; }
         }
     </style>
-
-    <script type="text/javascript">
-    (function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "qeuues54y2");
-    </script>
 </head>
 
 <body>
@@ -112,6 +110,7 @@
     <nav class="top-nav">
         <div class="container nav-links">
             <a href="#about">About</a>
+            <a href="#education">Education</a>
             <a href="#publications">Publications</a>
             <a href="#conferences">Conferences</a>
             <a href="#awards">Awards</a>
@@ -124,45 +123,49 @@
         <header class="hero-section" id="about">
             <div class="hero-text">
                 <h1>Dr. Hanna Gaweł</h1>
-                <div class="hero-subtitle">Researcher • Information Manager</div>
-                <p class="mono" style="font-size: 14px; color: var(--text-muted);">Jagiellonian University • Institute of Information Studies</p>
-                <p style="margin-top: 15px;">Exploring the intersections of information ecology, digital resistance, and counterculture media. Bridging qualitative media studies with computational and AI-driven research.</p>
+                <div class="hero-subtitle">Information Manager • Academic Researcher</div>
+                <p>Hi, I'm Hanna — an Information Manager and Researcher with a strong background in due diligence, information management, and OSINT analysis. My research specializes in internet phenomena, Web3 ecosystems, and information ecology.</p>
                 <div style="display: flex; gap: 10px; flex-wrap: wrap; margin-top: 20px;">
                     <a href="https://orcid.org/0000-0001-5714-0459" target="_blank" class="tag">ORCID</a>
                     <a href="https://scholar.google.com/citations?user=rxf11gEAAAAJ" target="_blank" class="tag">Google Scholar</a>
                     <a href="https://github.com/hanna-gawel" target="_blank" class="tag">GitHub</a>
+                    <a href="https://drive.google.com/file/d/1QbKaGxA0yCJ7e_VEJfFx5WHLC1fj6koi/view?usp=sharing" target="_blank" class="btn-base btn-filled">CV (Google Drive)</a>
                 </div>
             </div>
             <img src="https://i1.rgstatic.net/ii/profile.image/11431281936201918-1770898576228_Q128/Hanna-Gawel.jpg" alt="Hanna Gaweł" class="profile-pic">
         </header>
 
+        <div class="canva-container">
+            <iframe loading="lazy" class="canva-iframe" src="https://www.canva.com/design/DAGFM8Op63U/4fOdgAo4PnoHG5J-mz4KMw/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen"></iframe>
+        </div>
+        <p class="mono" style="font-size: 11px; text-align: center;"><a href="https://www.canva.com/design/DAGFM8Op63U/4fOdgAo4PnoHG5J-mz4KMw/view" target="_blank">17-5-2024 - viva voce Hanna Gaweł</a></p>
+
         <h2 class="section-header" id="education">Academic Education</h2>
         <div class="card pub-accent">
-            <div style="display: flex; flex-direction: column; gap: 20px; font-size: 14px;">
-                <div><span class="mono" style="color:var(--sakura-accent);">2019 — 2023</span><br><strong>PhD, Social Communication and Media Studies</strong><br>Jagiellonian University (Defense: 17 May 2024)</div>
-                <div><span class="mono" style="color:var(--sakura-accent);">2017 — 2019</span><br><strong>MA, Information Management</strong><br>Jagiellonian University</div>
-                <div><span class="mono" style="color:var(--sakura-accent);">2014 — 2017</span><br><strong>BA, Information Science and Library Studies</strong><br>Kazimierz Wielki University</div>
+            <div style="display: flex; flex-direction: column; gap: 15px; font-size: 14px;">
+                <div><span class="mono" style="color:var(--sakura-accent);">2019 — 2023</span><br><strong>PhD, Social Communication and Media Studies</strong><br>Jagiellonian University (Passed with distinction, 17 May 2024) [cite: 24, 27, 37]</div>
+                <div><span class="mono" style="color:var(--sakura-accent);">2017 — 2019</span><br><strong>MA, Information Management (magna cum laude)</strong><br>Jagiellonian University [cite: 28, 38]</div>
+                <div><span class="mono" style="color:var(--sakura-accent);">2014 — 2017</span><br><strong>BA, Information Science and Library Studies (magna cum laude)</strong><br>Kazimierz Wielki University [cite: 32, 39]</div>
             </div>
         </div>
 
         <h2 class="section-header" id="publications">Scholarly Publications</h2>
 
         <div class="card pub-accent">
-            <p style="font-size: 15px;">Gaweł, Hanna (2026). Survival in the Information Smog: Digital Tradecraft as an Evolutionary Adaptation in Information Ecologies [Preprint] (pp.1-15). SSRN. DOI:10.2139/ssrn.5917983.</p>
+            <p style="font-size: 15px;">Gaweł, Hanna (2026). Survival in the Information Smog: Digital Tradecraft as an Evolutionary Adaptation in Information Ecologies [Preprint] (pp.1-15). SSRN. DOI:10.2139/ssrn.5917983. [cite: 77]</p>
             <div class="btn-row">
                 <button class="btn-base" onclick="toggle('bib1')">BIB</button>
                 <button class="btn-base" onclick="toggle('abs1')">Abstract</button>
-                <a href="http://dx.doi.org/10.2139/ssrn.5917983" target="_blank" class="btn-base btn-filled">PDF</a>
+                <a href="http://dx.doi.org/10.2139/ssrn.5917983" target="_blank" class="btn-base btn-filled">DOI</a>
                 <a href="https://www.growkudos.com/" target="_blank" class="btn-base" style="background:#00A896; color:white; border:none;">Kudos</a>
             </div>
             <div id="bib1" class="expand-panel bib-box">@inproceedings{gawel2026survival,
   author = {Gaweł, Hanna},
-  title = {Survival in the Information Smog: Digital Tradecraft as an Evolutionary Adaptation in Information Ecologies},
-  booktitle = {SSRN Preprint},
+  title = {Survival in the Information Smog: Digital Tradecraft as an Evolutionary Adaptation},
   year = {2026},
   doi = {10.2139/ssrn.5917983}
 }</div>
-            <div id="abs1" class="expand-panel abstract-box">Examining digital tradecraft as a survival adaptation in polluted and surveilled information ecosystems.</div>
+            <div id="abs1" class="expand-panel abstract-box">Investigating how digital tradecraft strategies evolve within high-risk, information-saturated environments. [cite: 21]</div>
             <div class="btn-row">
                 <div data-badge-popover="right" data-badge-type="donut" data-doi="10.2139/ssrn.5917983" class="altmetric-embed"></div>
                 <div class="scite-badge" data-doi="10.2139/ssrn.5917983" data-layout="horizontal"></div>
@@ -172,136 +175,140 @@
         </div>
 
         <div class="card pub-accent">
-            <p style="font-size: 15px;">Gaweł, Hanna (2025). From Pirated Signals to Platform Sovereignty: Lessons from Fifty Years of Media Disruption [Preprint] (pp.1-37). Cambridge Open Engage. DOI:10.33774/coe-2025-2hgdz.</p>
+            <p style="font-size: 15px;">Gaweł, Hanna (2025). From Pirated Signals to Platform Sovereignty: Lessons from Fifty Years of Media Disruption [Preprint] (pp.1-37). Cambridge Open Engage. DOI:10.33774/coe-2025-2hgdz. [cite: 77]</p>
             <div class="btn-row">
                 <button class="btn-base" onclick="toggle('bib2')">BIB</button>
-                <button class="btn-base" onclick="toggle('abs2')">Abstract</button>
-                <a href="https://doi.org/10.33774/coe-2025-2hgdz" target="_blank" class="btn-base btn-filled">PDF</a>
+                <a href="https://doi.org/10.33774/coe-2025-2hgdz" target="_blank" class="btn-base btn-filled">DOI</a>
             </div>
-            <div id="bib2" class="expand-panel bib-box">@article{gawel2025signals,
-  author = {Gaweł, Hanna},
-  title = {From Pirated Signals to Platform Sovereignty},
-  year = {2025},
-  publisher = {Cambridge Open Engage},
-  doi = {10.33774/coe-2025-2hgdz}
-}</div>
-            <div id="abs2" class="expand-panel abstract-box">A longitudinal analysis of media disruption and resistance architectures.</div>
+            <div id="bib2" class="expand-panel bib-box">@article{gawel2025signals, author = {Gaweł, Hanna}, year = {2025}, doi = {10.33774/coe-2025-2hgdz}}</div>
+            <div class="btn-row">
+                <div data-badge-popover="right" data-badge-type="donut" data-doi="10.33774/coe-2025-2hgdz" class="altmetric-embed"></div>
+                <div class="scite-badge" data-doi="10.33774/coe-2025-2hgdz" data-layout="horizontal"></div>
+                <span class="__dimensions_badge_embed__" data-doi="10.33774/coe-2025-2hgdz" data-style="small_rectangle"></span>
+            </div>
         </div>
 
         <div class="card pub-accent">
-            <p style="font-size: 15px;">Gaweł, Hanna (2024). Hacktivism. Internet Policy Review, 13(2). DOI:10.14763/2024.2.1751.</p>
+            <p style="font-size: 15px;">Gaweł, Hanna (2024). Hacktivism. Internet Policy Review, 13(2). DOI:10.14763/2024.2.1751. [cite: 80]</p>
             <div class="btn-row">
                 <button class="btn-base" onclick="toggle('bib3')">BIB</button>
                 <a href="https://doi.org/10.14763/2024.2.1751" target="_blank" class="btn-base btn-filled">DOI</a>
             </div>
-            <div id="bib3" class="expand-panel bib-box">@article{gawel2024hack, author={Gaweł, Hanna}, title={Hacktivism}, journal={Internet Policy Review}, year={2024}, doi={10.14763/2024.2.1751}}</div>
-            <div class="btn-row"><div data-badge-popover="right" data-badge-type="donut" data-doi="10.14763/2024.2.1751" class="altmetric-embed"></div></div>
+            <div class="btn-row">
+                <div data-badge-popover="right" data-badge-type="donut" data-doi="10.14763/2024.2.1751" class="altmetric-embed"></div>
+                <div class="scite-badge" data-doi="10.14763/2024.2.1751" data-layout="horizontal"></div>
+            </div>
         </div>
 
         <div class="card pub-accent">
-            <p style="font-size: 15px;">Gaweł, Hanna (2023). Results from a collective bound case studies analysis of researched Polish metropolises for inspecting information management regarding air quality in light of information ecology [E-book]. In W. Babik & D. Pietruch-Reizes (Eds.), Wokół informacji i wiedzy w nauce (pp. 101–149). Biblioteka Jagiellońska. DOI:10.26106/9788367127486.</p>
+            <p style="font-size: 15px;">Gaweł, Hanna (2023). Results from a collective bound case studies analysis of researched Polish metropolises for inspecting information management regarding air quality in light of information ecology [E-book]. W: Babik, W.; Pietruch-Reizes, D. red., Wokół informacji i wiedzy w nauce. Kraków: Wydawnictwo UJ, s. 101-149. DOI:10.26106/9788367127486. [cite: 81, 82]</p>
             <div class="btn-row">
                 <button class="btn-base" onclick="toggle('bib4')">BIB</button>
                 <a href="https://ruj.uj.edu.pl/xmlui/handle/item/325517" target="_blank" class="btn-base btn-filled">RUJ Link</a>
             </div>
-            <div id="bib4" class="expand-panel bib-box">@inbook{gawel2023air, author={Gaweł, Hanna}, year={2023}, publisher={Biblioteka Jagiellońska}}</div>
-        </div>
-
-        <div class="card js-entry" style="border-left: 6px solid #f39c12;">
-            <p style="font-size: 15px;">Bożek, Mateusz; Gaweł, Hanna (2023). Czy anonimowość w sieci jest możliwa? [Radio podcast]. Radio Kraków SA, 19/12/2023.</p>
             <div class="btn-row">
-                <a href="http://podcasty.radiokrakow.pl/radiowy-wos/?play=3620637" target="_blank" class="btn-base btn-filled" style="background:#f39c12;">Listen</a>
+                <div data-badge-popover="right" data-badge-type="donut" data-doi="10.26106/9788367127486" class="altmetric-embed"></div>
             </div>
         </div>
 
-        <div class="card pub-accent">
-            <p style="font-size: 15px;">Gaweł, Hanna (2022). Web 2.5 as a safe shift from Web 2.0 to Web 3.0 [Preprint]. Cambridge Open Engage. DOI:10.33774/coe-2022-sj2w3.</p>
-            <div class="btn-row"><button class="btn-base" onclick="toggle('bib6')">BIB</button><a href="https://doi.org/10.33774/coe-2022-sj2w3" class="btn-base btn-filled">DOI</a></div>
-            <div id="bib6" class="expand-panel bib-box">@article{gawel2022web, author={Gaweł, Hanna}, year={2022}, doi={10.33774/coe-2022-sj2w3}}</div>
-        </div>
-
-        <div class="card pub-accent">
-            <p style="font-size: 15px;">Gaweł, Hanna (2022). Architektura informacji serwisów informujących o jakości powietrza w Polsce. DOI:10.31219/osf.io/e2ufc.</p>
-            <div class="btn-row"><span class="tag">🔓 OSF</span><button class="btn-base" onclick="toggle('bib7')">BIB</button><a href="https://doi.org/10.31219/osf.io/e2ufc" class="btn-base btn-filled">DOI</a></div>
-            <div id="bib7" class="expand-panel bib-box">@article{gawel2022osf, author={Gaweł, Hanna}, year={2022}, doi={10.31219/osf.io/e2ufc}}</div>
-        </div>
-
-        <div class="card pub-accent"><p>Gaweł, Hanna (2021). Ekologia informacji w świecie cyfrowym. Horyzonty informacji 2. <button class="btn-base" onclick="toggle('bib8')">BIB</button></p><div id="bib8" class="expand-panel bib-box">@inbook{gawel2021ek, author={Gaweł, Hanna}, year={2021}}</div></div>
-        <div class="card pub-accent"><p>Gaweł, Hanna (2021). Komunikacja naukowa 3.0. Zarządzanie informacją w nauce. <button class="btn-base" onclick="toggle('bib9')">BIB</button></p></div>
-        <div class="card pub-accent"><p>Gaweł, Hanna (2021). The Dark Side of Media and Technology (Review). JoCTec. <a href="https://doi.org/10.51548/joctec-2021-012" class="btn-base btn-filled">DOI</a></p></div>
-        <div class="card pub-accent"><p>Gaweł, Hanna (2021). Bibliotekarze o bibliotekach przyszłości. Katechizm biblioteki. <button class="btn-base" onclick="toggle('bib11')">BIB</button></p></div>
-        <div class="card pub-accent"><p>Gaweł, Hanna (2020). Koło Naukowe Bibliotekoznawców UKW. Student zawsze obecny. <a href="https://doi.org/10.34616/129271" class="btn-base btn-filled">DOI</a></p></div>
-        <div class="card pub-accent"><p>Gaweł, Hanna (2020). Future of research & copyright. Folia Toruniensia. <button class="btn-base" onclick="toggle('bib13')">BIB</button></p></div>
-        <div class="card pub-accent"><p>Gaweł, Hanna (2020). Zarządzanie Informacją (Review). Folia Toruniensia. <button class="btn-base" onclick="toggle('bib14')">BIB</button></p></div>
-        <div class="card pub-accent"><p>Gaweł, Hanna (2019). IA design challenges for Arabic users. Toruńskie Studia Bib. <a href="https://doi.org/10.12775/TSB.2019.014" class="btn-base btn-filled">DOI</a></p></div>
-        <div class="card pub-accent"><p>Gaweł, Hanna (2019). II Conference Paul Ladewig. Folia Toruniensia. <a href="http://dx.doi.org/10.12775/FT.2019.017" class="btn-base btn-filled">DOI</a></p></div>
-        <div class="card pub-accent"><p>Gaweł, Hanna (2019). Ożywienie biblioteki: E-learning. Wyd. UKW.</p></div>
-        <div class="card pub-accent"><p>Gaweł, Hanna (2017). Zarys dziejów IFLA. Universitas Gedanensis. <a href="https://universitasgedanensis.wordpress.com/" class="btn-base btn-filled">Link</a></p></div>
-        <div class="card pub-accent"><p>Gaweł, Hanna (2017). Pomiędzy tekstem a technologią – Ngram Viewer. Toruń.</p></div>
-        <div class="card pub-accent"><p>Gaweł, Hanna (2015). Nauka we współczesnym świecie arabskim. Universitas Gedanensis.</p></div>
+        <div class="card pub-accent"><p>Gaweł, Hanna (2022). Web 2.5: Shift from 2.0 to 3.0. Cambridge Open Engage. [cite: 77]</p></div>
+        <div class="card pub-accent"><p>Gaweł, Hanna (2022). Architektura informacji serwisów jakości powietrza. OSF. [cite: 77] <span class="tag">🔓 OSF</span></p></div>
+        <div class="card pub-accent"><p>Gaweł, Hanna (2022). Wprowadzenie. W: Prawo a media społecznościowe. Wydawnictwo UJ. [cite: 83]</p></div>
+        <div class="card pub-accent"><p>Gaweł, Hanna (2021). Ekologia informacji w świecie cyfrowym. Horyzonty Informacji t. 2. [cite: 85, 86]</p></div>
+        <div class="card pub-accent"><p>Gaweł, Hanna (2021). Komunikacja naukowa 3.0. Wydawnictwo UJ. [cite: 88, 89]</p></div>
+        <div class="card pub-accent"><p>Gaweł, Hanna (2021). Dark Side of Media and Technology (Book Review). JoCTec. [cite: 91, 92]</p></div>
+        <div class="card pub-accent"><p>Gaweł, Hanna (2021). Bibliotekarze o bibliotekach przyszłości. Wyd. UKW. [cite: 94, 95]</p></div>
+        <div class="card pub-accent"><p>Gaweł, Hanna (2020). Międzynarodowa Konferencja w Katowicach. Folia Toruniensia. [cite: 97, 98]</p></div>
+        <div class="card pub-accent"><p>Gaweł, Hanna (2020). Zarządzanie Informacją (Review). Folia Toruniensia. [cite: 100, 101]</p></div>
+        <div class="card pub-accent"><p>Gaweł, Hanna (2020). Koło Naukowe Bibliotekoznawców UKW. [cite: 102, 103]</p></div>
+        <div class="card pub-accent"><p>Gaweł, Hanna (2019). II Konferencja Ladewig. Folia Toruniensia. [cite: 106]</p></div>
+        <div class="card pub-accent"><p>Gaweł, Hanna (2019). Ożywienie biblioteki: E-learning. Wyd. UKW. [cite: 108, 109]</p></div>
+        <div class="card pub-accent"><p>Gaweł, Hanna (2019). Is man an information system? RG. [cite: 110]</p></div>
+        <div class="card pub-accent"><p>Gaweł, Hanna (2019). IA design challenges for Arabic users. Toruńskie Studia Bib. [cite: 112]</p></div>
+        <div class="card pub-accent"><p>Gaweł, Hanna (2017). Ngram Viewer. Wydawnictwo UMK. [cite: 114, 115]</p></div>
+        <div class="card pub-accent"><p>Gaweł, Hanna (2017). Zarys dziejów IFLA. Universitas Gedanensis. [cite: 117]</p></div>
+        <div class="card pub-accent"><p>Gaweł, Hanna (2015). Nauka we współczesnym świecie arabskim. Universitas Gedanensis. [cite: 118]</p></div>
         <div class="card pub-accent"><p>Gaweł, Hanna (2015). Biblioteka Główna Akademii Morskiej. Między Regałami.</p></div>
 
         <h2 class="section-header" id="conferences">Conferences</h2>
         <div style="margin-bottom: 30px; display: flex; gap: 8px; flex-wrap: wrap;">
             <button onclick="filterYear('all')" class="btn-base btn-filled">All</button>
-            <button onclick="filterYear('2026')" class="btn-base btn-blue">2026</button>
-            <button onclick="filterYear('2025')" class="btn-base btn-blue">2025</button>
-            <button onclick="filterYear('2024')" class="btn-base btn-blue">2024</button>
-            <button onclick="filterYear('2023')" class="btn-base btn-blue">2023</button>
-            <button onclick="filterYear('2022')" class="btn-base btn-blue">2022</button>
-            <button onclick="filterYear('2021')" class="btn-base btn-blue">2021</button>
-            <button onclick="filterYear('2015')" class="btn-base btn-blue">Earlier</button>
+            <button onclick="filterYear('2026')" class="btn-base">2026</button>
+            <button onclick="filterYear('2025')" class="btn-base">2025</button>
+            <button onclick="filterYear('2024')" class="btn-base">2024</button>
+            <button onclick="filterYear('2023')" class="btn-base">2023</button>
+            <button onclick="filterYear('2022')" class="btn-base">2022</button>
+            <button onclick="filterYear('2021')" class="btn-base">2021</button>
+            <button onclick="filterYear('2015')" class="btn-base">Earlier</button>
         </div>
 
         <div id="conf-container">
-            <div class="card conf-accent conf-card" data-year="2026">🇩🇪 <strong>Social Media Access Days 2026</strong>: Archiving Hacktivism. Frankfurt. <a href="https://snurb.info/index.php/node/3555" class="tag">Liveblog</a></div>
-            <div class="card conf-accent conf-card" data-year="2025">🇪🇸 <strong>2nd Disinformation Congress</strong>: The Gossiping Machine (AI Verification). Madrid.</div>
-            <div class="card conf-accent conf-card" data-year="2025">🇬🇧 <strong>CAMRI</strong>: Signals to Platform Sovereignty. London.</div>
-            <div class="card conf-accent conf-card" data-year="2024">🇵🇱 <strong>Polish Open Science</strong>: Preprint phenomenon. Kraków.</div>
-            <div class="card conf-accent conf-card" data-year="2023">🇵🇱 <strong>Paul Ladewig III</strong>: Model of Librarianship comparison. Bydgoszcz.</div>
-            <div class="card conf-accent conf-card" data-year="2022">🇩🇰 <strong>ECREA</strong>: Digital media disorders. Aarhus.</div>
-            <div class="card conf-accent conf-card" data-year="2022">🇹🇷 <strong>Symposium</strong>: Meme phenomenon in info smog. Antalya.</div>
-            <div class="card conf-accent conf-card" data-year="2022">🇵🇱 <strong>WIAD22</strong>: Nano-influencers. Toruń.</div>
-            <div class="card conf-accent conf-card" data-year="2021">🇵🇱 <strong>WIAD21</strong>: Love to Online Hate. Toruń.</div>
-            <div class="card conf-accent conf-card" data-year="2020">🇵🇱 <strong>PTIN</strong>: Komunikacja 3.0. Kraków.</div>
-            <div class="card conf-accent conf-card" data-year="2020">🇵🇱 <strong>AIDA2</strong>: Info Architecture air quality. Kraków.</div>
-            <div class="card conf-accent conf-card" data-year="2019">🇵🇱 <strong>Paul Ladewig II</strong>: Future Libraries. Bydgoszcz.</div>
-            <div class="card conf-accent conf-card" data-year="2019">🇵🇱 <strong>Share & Inspire</strong>: Man as info system. Kraków.</div>
-            <div class="card conf-accent conf-card" data-year="2019">🇵🇱 <strong>WIAD19</strong>: AI for Arabic users. Toruń.</div>
-            <div class="card conf-accent conf-card" data-year="2018">🇵🇱 <strong>Info Management</strong>: GRADE methodology. Kraków.</div>
-            <div class="card conf-accent conf-card" data-year="2018">🇵🇱 <strong>AIDA1</strong>: Viz of missing data. Kraków.</div>
-            <div class="card conf-accent conf-card" data-year="2018">🇵🇱 <strong>Language/Culture</strong>: Topic modeling. Kielce.</div>
-            <div class="card conf-accent conf-card" data-year="2017">🇵🇱 <strong>Big Data</strong>: Kraków Tourist maps. Kraków.</div>
-            <div class="card conf-accent conf-card" data-year="2017">🇵🇱 <strong>Humanities Viz</strong>: Ngram Viewer. Toruń.</div>
-            <div class="card conf-accent conf-card" data-year="2017">🇵🇱 <strong>Cyberkultura</strong>: Memes as art. Toruń.</div>
-            <div class="card conf-accent conf-card" data-year="2016">🇵🇱 <strong>Books vs E-books</strong>: Book machines. Bydgoszcz.</div>
-            <div class="card conf-accent conf-card" data-year="2016">🇵🇱 <strong>Man-Library</strong>: 25M books. Toruń.</div>
-            <div class="card conf-accent conf-card" data-year="2015">🇵🇱 <strong>Student Clubs</strong>: Chalkup platforms. Bydgoszcz.</div>
-            <div class="card conf-accent conf-card" data-year="2015">🇵🇱 <strong>Man-Science</strong>: MOOC platforms. Toruń.</div>
-            <div class="card conf-accent conf-card" data-year="2015">🇵🇱 <strong>Research Session</strong>: Bibliography 1801-1811. Bydgoszcz.</div>
+            <div class="card conf-accent conf-card" data-year="2026">
+                <span class="mono" style="color:var(--hydrangea-deep); font-size:12px;">🇩🇪 Frankfurt, 2026 [cite: 77]</span><br>
+                <strong>Social Media Access Days 2026</strong>: Archiving Hacktivism. 
+                <p class="mono" style="font-size: 13px; margin-top: 10px;">Creating derivative archival datasets from sensitive hacktivist content. [cite: 77]</p>
+            </div>
+            <div class="card conf-accent conf-card" data-year="2025">
+                <span class="mono" style="color:var(--hydrangea-deep); font-size:12px;">🇪🇸 Madrid, 2025 [cite: 77]</span><br>
+                <strong>Disinformation Congress</strong>: The Gossiping Machine (AI Verification).
+            </div>
+            <div class="card conf-accent conf-card" data-year="2025">
+                <span class="mono" style="color:var(--hydrangea-deep); font-size:12px;">🇬🇧 London, 2025 [cite: 77]</span><br>
+                <strong>CAMRI</strong>: Signals to Platform Sovereignty.
+            </div>
+            <div class="card conf-accent conf-card" data-year="2024">
+                <span class="mono" style="color:var(--hydrangea-deep); font-size:12px;">🇵🇱 Kraków, 2024 [cite: 122]</span><br>
+                <strong>Open Science</strong>: Preprint phenomenon.
+            </div>
+            <div class="card conf-accent conf-card" data-year="2023">
+                <span class="mono" style="color:var(--hydrangea-deep); font-size:12px;">🇵🇱 Katowice, 2023 [cite: 126]</span><br>
+                <strong>Książka, biblioteka...</strong>: Ms. Dewey and library archetypes.
+            </div>
+            <div class="card conf-accent conf-card" data-year="2022">🇩🇰 ECREA Aarhus. [cite: 136]</div>
+            <div class="card conf-accent conf-card" data-year="2022">🇹🇷 Antalya Symposium. [cite: 141]</div>
+            <div class="card conf-accent conf-card" data-year="2021">🇵🇱 WIAD Toruń. [cite: 145]</div>
+            <div class="card conf-accent conf-card" data-year="2020">🇵🇱 PTIN Kraków. [cite: 151]</div>
+            <div class="card conf-accent conf-card" data-year="2020">🇵🇱 AIDA 2. [cite: 154]</div>
+            <div class="card conf-accent conf-card" data-year="2019">🇵🇱 II Ladewig Bydgoszcz. [cite: 158]</div>
+            <div class="card conf-accent conf-card" data-year="2018">🇵🇱 Big Data Kraków. [cite: 175]</div>
+            <div class="card conf-accent conf-card" data-year="2015">🇵🇱 Sesja UKW. [cite: 204]</div>
         </div>
 
-        <h2 class="section-header" id="awards">Awards & Fellowships</h2>
+        <h2 class="section-header" id="awards">Honours & Scholarships</h2>
         <div class="card pub-accent">
             <ul style="list-style: none; padding:0; font-size: 14px; line-height: 2;">
-                <li><span class="mature-point">◆</span> <strong>2022</strong>: EU TalentOn (hackaton) - team: Urbolution</li>
-                <li><span class="mature-point">◆</span> <strong>2018</strong>: Scholarship of Ministry of Science and Higher Education</li>
-                <li><span class="mature-point">◆</span> <strong>2017-19</strong>: Jagiellonian University Rector’s Scholarship</li>
-                <li><span class="mature-point">◆</span> <strong>2017</strong>: Honour KWU Rector’s Award for Scientific Excellence</li>
-                <li><span class="mature-point">◆</span> <strong>2017</strong>: Best Graduate Student (KWU Bydgoszcz)</li>
-                <li><span class="mature-point">◆</span> <strong>2017</strong>: Best Diploma Thesis Award</li>
-                <li><span class="mature-point">◆</span> <strong>2016</strong>: Best Student of the University (KWU)</li>
-                <li><span class="mature-point">◆</span> <strong>2016</strong>: Best Student Faculty of Admin/Social Sciences</li>
-                <li><span class="mature-point">◆</span> <strong>2016</strong>: Scholarship of the Ministry of Science and Higher Education</li>
-                <li><span class="mature-point">◆</span> <strong>2015-16</strong>: KWU Rector’s Scholarship</li>
+                <li><span class="mature-point">◆</span> <strong>2022</strong>: EU TalentON Category Winner "Smart and Climate Neutral Cities". [cite: 209, 211]</li>
+                <li><span class="mature-point">◆</span> <strong>2021</strong>: OSCAR&PAUL Battleweeks Jury's Award (PI Project). [cite: 217]</li>
+                <li><span class="mature-point">◆</span> <strong>2018</strong>: Scholarship of the Ministry of Science and Higher Education (2018/19). [cite: 246]</li>
+                <li><span class="mature-point">◆</span> <strong>2017-19</strong>: Jagiellonian University Rector's Scholarship (Best Students). [cite: 249]</li>
+                <li><span class="mature-point">◆</span> <strong>2017</strong>: Honour KWU Rector's Award for scientific achievements. [cite: 234]</li>
+                <li><span class="mature-point">◆</span> <strong>2017</strong>: Best Thesis Award (Faculty of Admin/Social Sciences). [cite: 233]</li>
+                <li><span class="mature-point">◆</span> <strong>2017</strong>: Best Graduate Award (KWU). [cite: 235]</li>
+                <li><span class="mature-point">◆</span> <strong>2016</strong>: Best Student of KWU (2015/16). [cite: 228]</li>
+                <li><span class="mature-point">◆</span> <strong>2016</strong>: Scholarship of the Ministry of Science and Higher Education (2016/17). [cite: 242]</li>
+                <li><span class="mature-point">◆</span> <strong>2015-16</strong>: KWU Rector's Scholarship (Best Students). [cite: 238]</li>
             </ul>
         </div>
 
-        <h2 class="section-header" id="teaching">Teaching</h2>
+        <h2 class="section-header" id="teaching">Teaching Praxis</h2>
         <div class="card conf-accent">
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; font-size: 14px;">
-                <div><strong>Info Management</strong><ul><li>Visual Comm</li><li>Info Env</li><li>Customer Data</li><li>Methodology</li></ul></div>
-                <div><strong>Digital Processing</strong><ul><li>Info Processing</li><li>Internet Tech</li></ul></div>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; font-size: 14px;">
+                <div>
+                    <strong>Information Management</strong>
+                    <ul>
+                        <li>Visual Communication (WZ.ZI-303) [cite: 45]</li>
+                        <li>Information Environment (WZ.ZI-074) [cite: 42]</li>
+                        <li>Customer Data Analysis (WZ.ZI-168) [cite: 43]</li>
+                        <li>Theory & Methodology (WZ.ZI-202) [cite: 44]</li>
+                    </ul>
+                </div>
+                <div>
+                    <strong>Digital Processing</strong>
+                    <ul>
+                        <li>Information Processing (WZ.KLK-PIWI) [cite: 46]</li>
+                        <li>Internet Technologies (WZ.KLK-TI) [cite: 47]</li>
+                    </ul>
+                </div>
             </div>
         </div>
 
