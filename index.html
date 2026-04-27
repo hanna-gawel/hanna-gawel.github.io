@@ -197,6 +197,11 @@
             background-color: var(--hydrangea-blue);
             color: white;
         }
+        
+        .btn-wide {
+            width: auto !important;
+            padding: 10px 20px;
+        }
 
         /* TOGGLE BLOCKS (BIB & ABS) */
         .toggle-box {
@@ -280,6 +285,12 @@
             10% { opacity: 0.6; }
             90% { opacity: 0.6; }
             100% { top: 110%; transform: translateX(100px) rotate(360deg); opacity: 0; }
+        }
+        @keyframes sway {
+            0% { transform: translateX(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg); }
+            33% { transform: translateX(30px) rotateX(70deg) rotateY(45deg) rotateZ(40deg); }
+            66% { transform: translateX(-30px) rotateX(140deg) rotateY(90deg) rotateZ(80deg); }
+            100% { transform: translateX(0px) rotateX(210deg) rotateY(135deg) rotateZ(120deg); }
         }
     </style>
 </head>
@@ -391,6 +402,15 @@
                     Interview for the ISI UJ Podcast regarding air quality information and information management in Polish cities. Available on Spotify.
                 </li>
             </ul>
+        </div>
+
+        <!-- RESEARCH METRICS / RG STATS -->
+        <h2 class="section-title">Research Metrics & Impact</h2>
+        <div class="card" style="text-align: center;">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/ResearchGate_icon_SVG.svg/1200px-ResearchGate_icon_SVG.svg.png" alt="ResearchGate" style="width: 50px; margin-bottom: 15px;">
+            <div class="card-title">ResearchGate Citation Dashboard</div>
+            <p style="color: var(--text-light); max-width: 600px; margin: 0 auto 20px auto;">To view real-time interactive citations, reads, recommendations, and Research Interest (RI) scores globally, please visit my official ResearchGate statistics page.</p>
+            <a href="https://www.researchgate.net/profile/Hanna-Gawel/stats" target="_blank" class="btn btn-wide">View Full RG Stats &rarr;</a>
         </div>
 
         <!-- PUBLICATIONS -->
@@ -1071,7 +1091,7 @@
 
     <!-- UI Scripts (Toggle Blocks & Cherry Blossoms) -->
     <script>
-        // Toggle BIB and ABS blocks perfectly independent of each other
+        // Toggle BIB and ABS blocks completely independent
         function toggleElement(btn, selector) {
             const card = btn.closest('.card');
             const target = card.querySelector(selector);
@@ -1087,26 +1107,33 @@
             }
         }
 
-        // Optimized Cherry Blossom Script
+        // Optimized subtle cherry blossom twirling effect
         function createPetal() {
             const petal = document.createElement('div');
             petal.classList.add('petal');
             
-            const size = Math.random() * 8 + 8; // 8px to 16px
+            const size = Math.random() * 6 + 10; 
             petal.style.width = `${size}px`;
             petal.style.height = `${size}px`;
             petal.style.left = `${Math.random() * 100}vw`;
-            petal.style.animationDuration = `${Math.random() * 6 + 6}s`; // 6s to 12s
+            
+            const fallDuration = Math.random() * 10 + 15; 
+            const swayDuration = Math.random() * 4 + 4; 
+            
+            petal.style.animation = `fall ${fallDuration}s linear forwards, sway ${swayDuration}s ease-in-out infinite alternate`;
             
             document.getElementById('cherry-blossom-container').appendChild(petal);
             
             setTimeout(() => {
                 petal.remove();
-            }, 12000); // cleanup
+            }, fallDuration * 1000);
         }
         
-        // Render gently (not overwhelming the browser)
-        setInterval(createPetal, 1200);
+        function spawnLoop() {
+            createPetal();
+            setTimeout(spawnLoop, Math.random() * 2000 + 3000);
+        }
+        spawnLoop();
     </script>
 </body>
 </html>
