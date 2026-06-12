@@ -47,27 +47,28 @@
 
     <style>
         :root {
-            /* Dynamic Palette - Changes via JS based on month */
-            --bg-color: #FCF8F9;
-            --primary-accent: #E5A9B4;
-            --primary-accent-light: #F8DDE3;
-            --secondary-accent: #A2B5E5;
-            --secondary-accent-hover: #8C9FCE;
+            /* Lilac & Sea Green Theme Palette */
+            --bg-gradient: linear-gradient(135deg, #e9d5ff 0%, #ccfbf1 100%);
+            --primary-accent: #0f766e; /* Deep Teal for high readability */
+            --primary-accent-light: rgba(15, 118, 110, 0.2);
+            --secondary-accent: #6b21a8; /* Deep Lilac/Purple */
+            --secondary-accent-hover: #581c87;
             
-            --text-main: #334155;
-            --text-light: #64748B;
-            --card-bg: #FFFFFF;
+            --text-main: #0f172a; /* Slate 900 */
+            --text-light: #334155; /* Slate 700 */
+            --card-bg: rgba(255, 255, 255, 0.75); /* Glassmorphism Base */
+            --card-border: rgba(255, 255, 255, 0.6);
         }
 
         body {
-            background-color: var(--bg-color);
+            background-image: var(--bg-gradient);
+            background-attachment: fixed;
             font-family: 'Inter', sans-serif;
             color: var(--text-main);
             line-height: 1.7;
             margin: 0;
             padding: 0;
             overflow-x: hidden; 
-            transition: background-color 1s ease;
         }
 
         h1, h2, h3, h4, h5, h6, .card-title {
@@ -77,7 +78,9 @@
         }
 
         h2.section-title {
-            color: var(--primary-accent);
+            background: linear-gradient(to right, var(--secondary-accent), var(--primary-accent));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
             font-weight: 800;
             font-size: 1.9rem;
             border-bottom: 2px solid var(--primary-accent-light);
@@ -85,7 +88,6 @@
             margin-top: 4rem;
             margin-bottom: 1.5rem;
             letter-spacing: -0.5px;
-            transition: color 1s ease, border-color 1s ease;
         }
 
         .container {
@@ -102,66 +104,72 @@
             font-size: 3.2rem;
             margin-bottom: 0.2rem;
             letter-spacing: -1px;
+            color: var(--text-main);
         }
         .subtitle {
             font-size: 1.2rem;
             color: var(--text-light);
-            font-weight: 500;
+            font-weight: 600;
             margin-bottom: 1.5rem;
         }
 
         .header-links { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
         .header-links a {
-            background: var(--card-bg);
-            border: 1px solid var(--primary-accent);
+            background: rgba(255, 255, 255, 0.8);
+            border: 1px solid rgba(15, 118, 110, 0.3);
             color: var(--primary-accent);
             padding: 6px 14px;
             border-radius: 20px;
             font-family: 'Plus Jakarta Sans', sans-serif;
             font-size: 0.85rem;
-            font-weight: 600;
+            font-weight: 700;
             text-decoration: none;
-            transition: 0.2s all;
+            transition: 0.3s all ease;
             display: inline-flex;
             align-items: center;
+            backdrop-filter: blur(4px);
         }
         .header-links a:hover {
-            background: var(--primary-accent);
-            color: white;
-            box-shadow: 0 4px 10px var(--primary-accent-light);
-            transform: translateY(-1px);
+            background: linear-gradient(135deg, #d8b4fe, #5eead4);
+            color: var(--text-main);
+            border-color: transparent;
+            box-shadow: 0 4px 15px rgba(15, 118, 110, 0.2);
+            transform: translateY(-2px);
         }
 
         .orcid-icon { width: 16px; margin-right: 6px; }
 
-        /* CARDS */
+        /* CARDS (Glassmorphism Effect) */
         .card {
             background: var(--card-bg);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
             border-radius: 16px;
             padding: 26px 32px;
             margin-bottom: 20px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.02);
-            border: 1px solid rgba(0,0,0,0.05);
-            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.04);
+            border: 1px solid var(--card-border);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
             position: relative;
             z-index: 10;
         }
         .card:hover {
             transform: translateY(-3px);
-            box-shadow: 0 8px 25px rgba(0,0,0,0.05);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+            border-color: rgba(255, 255, 255, 0.9);
         }
 
         .card-title {
             font-size: 1.25rem;
-            font-weight: 700;
+            font-weight: 800;
             margin-bottom: 0.3rem;
             line-height: 1.4;
         }
         .card-meta {
             font-size: 0.9rem;
-            color: var(--text-light);
+            color: var(--secondary-accent);
             margin-bottom: 1rem;
-            font-weight: 500;
+            font-weight: 600;
         }
 
         /* BUTTONS */
@@ -178,7 +186,7 @@
             display: inline-flex;
             justify-content: center;
             align-items: center;
-            background-color: var(--secondary-accent);
+            background: linear-gradient(135deg, #a855f7, #14b8a6);
             color: white;
             border-radius: 8px;
             padding: 8px 0;
@@ -186,43 +194,49 @@
             font-size: 0.85rem;
             font-weight: 700;
             text-decoration: none;
-            border: 2px solid var(--secondary-accent);
+            border: none;
             cursor: pointer;
-            transition: all 0.2s;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 10px rgba(20, 184, 166, 0.2);
         }
         .btn:hover {
-            background-color: var(--secondary-accent-hover);
-            border-color: var(--secondary-accent-hover);
+            background: linear-gradient(135deg, #9333ea, #0d9488);
+            box-shadow: 0 6px 15px rgba(147, 51, 234, 0.3);
+            transform: translateY(-1px);
         }
         .btn-outline {
-            background-color: transparent;
-            color: var(--secondary-accent);
+            background: transparent;
+            color: var(--primary-accent);
+            border: 2px solid var(--primary-accent);
+            box-shadow: none;
         }
         .btn-outline:hover {
-            background-color: var(--secondary-accent);
+            background: var(--primary-accent);
             color: white;
+            box-shadow: 0 4px 10px rgba(15, 118, 110, 0.2);
         }
         
         /* TOGGLE BLOCKS (BIB & ABS) */
         .toggle-box {
             display: none;
-            background: #F8FAFC;
-            color: #334155;
+            background: rgba(255, 255, 255, 0.9);
+            color: var(--text-main);
             padding: 16px;
             border-radius: 12px;
             font-size: 0.9rem;
             margin-top: 15px;
-            border-left: 4px solid var(--primary-accent);
-            border-right: 1px solid #E2E8F0;
-            border-top: 1px solid #E2E8F0;
-            border-bottom: 1px solid #E2E8F0;
-            transition: border-color 1s ease;
+            border-left: 4px solid var(--secondary-accent);
+            border-right: 1px solid rgba(0,0,0,0.05);
+            border-top: 1px solid rgba(0,0,0,0.05);
+            border-bottom: 1px solid rgba(0,0,0,0.05);
+            box-shadow: inset 0 2px 5px rgba(0,0,0,0.02);
         }
         .bib-code {
-            font-family: 'Courier New', monospace;
+            font-family: 'Fira Code', 'Courier New', monospace;
             font-size: 0.85rem;
             white-space: pre-wrap;
             overflow-x: auto;
+            color: #1e293b;
         }
 
         /* WIDGET METRICS ROW */
@@ -233,71 +247,48 @@
             gap: 15px;
             margin-top: 15px;
             padding-top: 15px;
-            border-top: 1px dashed var(--primary-accent-light);
+            border-top: 1px dashed rgba(15, 118, 110, 0.3);
             min-height: 24px;
         }
 
         /* LISTS & TEXT LINKS */
         .info-list { list-style: none; padding: 0; margin: 0; }
-        .info-list li { margin-bottom: 1rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(0,0,0,0.04); }
+        .info-list li { margin-bottom: 1rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(0,0,0,0.06); }
         .info-list li:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
 
-        a.text-link { color: var(--secondary-accent); text-decoration: none; font-weight: 600; }
-        a.text-link:hover { text-decoration: underline; color: var(--secondary-accent-hover); }
+        a.text-link { color: var(--secondary-accent); text-decoration: none; font-weight: 700; transition: color 0.2s;}
+        a.text-link:hover { color: var(--primary-accent); text-decoration: underline; }
 
-        .sdg-link { color: var(--primary-accent); font-weight: 700; text-decoration: none; }
-        .sdg-link:hover { text-decoration: underline; }
+        .sdg-link { color: var(--primary-accent); font-weight: 800; text-decoration: none; border-bottom: 1px solid transparent; transition: 0.2s; }
+        .sdg-link:hover { border-bottom-color: var(--primary-accent); }
 
         .canva-container {
             position: relative; width: 100%; height: 0; padding-top: 56.25%;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.06); margin: 2rem 0; overflow: hidden; border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08); margin: 2rem 0; overflow: hidden; border-radius: 16px;
             z-index: 10;
+            border: 1px solid var(--card-border);
         }
 
         .footer { margin-top: 5rem; text-align: center; color: var(--text-light); font-size: 0.9rem; position: relative; z-index: 10;}
 
-        /* DYNAMIC PARTICLES (3D TWIRL) */
-        #cherry-blossom-container {
+        /* NETWORK ANIMATION CANVAS */
+        #network-canvas {
             position: fixed;
-            top: 0; left: 0; width: 100vw; height: 100vh;
-            pointer-events: none; 
-            z-index: 0; /* Ensures petals fall strictly in the background */
-            overflow: hidden;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            z-index: 0;
+            pointer-events: none;
+            opacity: 0.6; /* Subtle integration into the background */
         }
 
-        .particle {
-            position: absolute;
-            top: -10vh;
-            opacity: 0.8;
-            /* Enable 3D space for the twirl */
-            transform-style: preserve-3d;
-            animation: fall linear forwards;
-        }
-        
-        @keyframes fall {
-            0% { top: -10vh; }
-            100% { top: 110vh; }
-        }
-        
-        /* Smooth lazy 3D sway for petals */
-        @keyframes sway-petal {
-            0% { transform: translateX(0px) rotate3d(1, 1, 1, 0deg); }
-            50% { transform: translateX(35px) rotate3d(1, 1, 0, 180deg); }
-            100% { transform: translateX(-35px) rotate3d(0, 1, 1, 360deg); }
-        }
-
-        /* 2D Sway for snow */
-        @keyframes sway-snow {
-            0% { transform: translateX(0px) rotate(0deg); }
-            50% { transform: translateX(15px) rotate(180deg); }
-            100% { transform: translateX(-15px) rotate(360deg); }
-        }
     </style>
 </head>
 
 <body>
-    <!-- Subtle Seasonal Particles -->
-    <div id="cherry-blossom-container"></div>
+    <!-- Subtle Information Ecology / Network Background -->
+    <canvas id="network-canvas"></canvas>
 
     <div class="container">
         
@@ -1046,134 +1037,113 @@
         </div>
     </div>
 
-    <!-- JS Logic: Monthly Dynamic Themes & Animations -->
+    <!-- JS Logic: Toggles and Elevated Network Background Animation -->
     <script>
-        // Toggle BIB and ABS blocks completely independent
+        // Toggle BIB and ABS blocks
         function toggleElement(btn, selector) {
             const card = btn.closest('.card');
             const target = card.querySelector(selector);
             
             if(target.style.display === "block") {
                 target.style.display = "none";
-                btn.style.backgroundColor = "transparent";
-                btn.style.color = "var(--secondary-accent)";
+                btn.style.background = "transparent";
+                btn.style.color = "var(--primary-accent)";
+                btn.style.border = "2px solid var(--primary-accent)";
+                btn.style.boxShadow = "none";
             } else {
                 target.style.display = "block";
-                btn.style.backgroundColor = "var(--secondary-accent)";
+                btn.style.background = "linear-gradient(135deg, #a855f7, #14b8a6)";
                 btn.style.color = "white";
+                btn.style.border = "none";
+                btn.style.boxShadow = "0 4px 10px rgba(20, 184, 166, 0.2)";
             }
         }
 
-        /* ----- DYNAMIC MONTHLY THEMES ----- */
-        const themes =[
-            { // 0: January
-                bg: "#F4F9F9", primary: "#8CA0D7", primaryLight: "#D9E2F8", sec: "#7A90C2", secHover: "#607AA8",
-                particleType: 'snow', color1: '#E0F0FF', color2: '#ADD8E6'
-            },
-            { // 1: February
-                bg: "#F2FAFA", primary: "#6AB3B8", primaryLight: "#D2EFF0", sec: "#5A9EA3", secHover: "#4A8489",
-                particleType: 'snow', color1: '#E0FFFF', color2: '#AFEEEE'
-            },
-            { // 2: March
-                bg: "#F5FAF5", primary: "#8CBA8C", primaryLight: "#DAEFDA", sec: "#A08CBA", secHover: "#8672A0",
-                particleType: 'petal', color1: '#D0F0C0', color2: '#DDA0DD'
-            },
-            { // 3: April (Cherry Blossom)
-                bg: "#FCF8F9", primary: "#E5A9B4", primaryLight: "#F8DDE3", sec: "#A2B5E5", secHover: "#8C9FCE",
-                particleType: 'petal', color1: '#FFC0CB', color2: '#F7DADD'
-            },
-            { // 4: May (Peony)
-                bg: "#FCF5F7", primary: "#E89EAE", primaryLight: "#F8DADD", sec: "#D48C9E", secHover: "#B87586",
-                particleType: 'petal', color1: '#FFB6C1', color2: '#DB7093'
-            },
-            { // 5: June (Rose)
-                bg: "#FCF4F4", primary: "#DE8A96", primaryLight: "#F8D6D9", sec: "#C97A86", secHover: "#A8626C",
-                particleType: 'petal', color1: '#FFC0CB', color2: '#CD5C5C'
-            },
-            { // 6: July (Larkspur/Delphinium)
-                bg: "#F4F6FC", primary: "#8E9BCE", primaryLight: "#D8DDF2", sec: "#7A89C2", secHover: "#606EA3",
-                particleType: 'petal', color1: '#B0C4DE', color2: '#7B68EE'
-            },
-            { // 7: August (Poppy)
-                bg: "#FCF6F4", primary: "#E59383", primaryLight: "#F8D6CF", sec: "#D67A68", secHover: "#B8604F",
-                particleType: 'petal', color1: '#FFA07A', color2: '#FF6347'
-            },
-            { // 8: September (Morning Glory)
-                bg: "#F6F4FC", primary: "#9E8CD4", primaryLight: "#DED6F2", sec: "#8A7AC2", secHover: "#7260A3",
-                particleType: 'petal', color1: '#D8BFD8', color2: '#8A2BE2'
-            },
-            { // 9: October (Marigold)
-                bg: "#FCF9F2", primary: "#DCA052", primaryLight: "#F8E2C4", sec: "#C99042", secHover: "#A87532",
-                particleType: 'petal', color1: '#FFD700', color2: '#DAA520'
-            },
-            { // 10: November (Chrysanthemum)
-                bg: "#FCFAF2", primary: "#C9B25A", primaryLight: "#F2E8CD", sec: "#B8A048", secHover: "#9A853A",
-                particleType: 'petal', color1: '#F0E68C', color2: '#B8860B'
-            },
-            { // 11: December (Narcissus + Snow)
-                bg: "#F8F9FA", primary: "#A2A9B5", primaryLight: "#E2E5E8", sec: "#8C95A3", secHover: "#707886",
-                particleType: 'mixed', color1: '#FFFFFF', color2: '#E6E6FA'
+        /* ----- ELEVATED DATA NETWORK ANIMATION ----- */
+        const canvas = document.getElementById('network-canvas');
+        const ctx = canvas.getContext('2d');
+        let width, height, particles;
+
+        // Initialize Canvas
+        function initCanvas() {
+            width = canvas.width = window.innerWidth;
+            height = canvas.height = window.innerHeight;
+            particles = [];
+            
+            // Adjust particle count based on screen size (mobile performance)
+            const particleCount = window.innerWidth < 768 ? 30 : 60;
+            
+            for (let i = 0; i < particleCount; i++) {
+                particles.push(new Particle());
             }
-        ];
-
-        // Apply theme based on current month
-        const currentMonth = new Date().getMonth();
-        const theme = themes[currentMonth];
-
-        document.documentElement.style.setProperty('--bg-color', theme.bg);
-        document.documentElement.style.setProperty('--primary-accent', theme.primary);
-        document.documentElement.style.setProperty('--primary-accent-light', theme.primaryLight);
-        document.documentElement.style.setProperty('--secondary-accent', theme.sec);
-        document.documentElement.style.setProperty('--secondary-accent-hover', theme.secHover);
-
-        // Particle generation logic with beautiful 3D twirling
-        function createParticle() {
-            const particle = document.createElement('div');
-            particle.classList.add('particle');
-            
-            let pType = theme.particleType;
-            if (pType === 'mixed') {
-                pType = Math.random() > 0.5 ? 'petal' : 'snow';
-            }
-
-            const size = Math.random() * 6 + 10; 
-            particle.style.width = `${size}px`;
-            particle.style.height = `${size}px`;
-            particle.style.left = `${Math.random() * 100}vw`;
-
-            if (pType === 'petal') {
-                // Organic petal shape
-                particle.style.borderRadius = '50% 0 50% 50%';
-                particle.style.background = `linear-gradient(135deg, ${theme.color1}, ${theme.color2})`;
-                particle.style.boxShadow = `0 1px 3px ${theme.color1}`;
-            } else {
-                // Snow
-                particle.style.borderRadius = '50%';
-                particle.style.background = `radial-gradient(circle, ${theme.color1} 0%, ${theme.color2} 100%)`;
-                particle.style.boxShadow = `0 0 5px ${theme.color1}`;
-            }
-            
-            const fallDuration = Math.random() * 15 + 20; // 20s to 35s (super lazy)
-            const swayDuration = Math.random() * 5 + 5;   // 5s to 10s
-            
-            const swayAnim = pType === 'petal' ? 'sway-petal' : 'sway-snow';
-            particle.style.animation = `fall ${fallDuration}s linear forwards, ${swayAnim} ${swayDuration}s ease-in-out infinite alternate`;
-            
-            document.getElementById('cherry-blossom-container').appendChild(particle);
-            
-            setTimeout(() => {
-                particle.remove();
-            }, fallDuration * 1000);
         }
+
+        // Particle Class (representing data nodes)
+        class Particle {
+            constructor() {
+                this.x = Math.random() * width;
+                this.y = Math.random() * height;
+                // Very slow, elegant movement
+                this.vx = (Math.random() - 0.5) * 0.4;
+                this.vy = (Math.random() - 0.5) * 0.4;
+                this.radius = Math.random() * 1.5 + 0.5;
+            }
+            
+            update() {
+                this.x += this.vx;
+                this.y += this.vy;
+                
+                // Bounce off edges gently
+                if (this.x < 0 || this.x > width) this.vx *= -1;
+                if (this.y < 0 || this.y > height) this.vy *= -1;
+            }
+            
+            draw() {
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
+                ctx.fillStyle = 'rgba(15, 118, 110, 0.4)'; // Subtle Teal
+                ctx.fill();
+            }
+        }
+
+        // Animation Loop
+        function animate() {
+            ctx.clearRect(0, 0, width, height);
+            
+            // Update and draw nodes
+            particles.forEach(p => {
+                p.update();
+                p.draw();
+            });
+            
+            // Draw connecting lines (representing network/ecology)
+            for (let i = 0; i < particles.length; i++) {
+                for (let j = i + 1; j < particles.length; j++) {
+                    const dx = particles[i].x - particles[j].x;
+                    const dy = particles[i].y - particles[j].y;
+                    const dist = Math.sqrt(dx * dx + dy * dy);
+                    
+                    // Connect nodes that are close to each other
+                    if (dist < 130) {
+                        ctx.beginPath();
+                        ctx.moveTo(particles[i].x, particles[i].y);
+                        ctx.lineTo(particles[j].x, particles[j].y);
+                        // Opacity depends on distance
+                        ctx.strokeStyle = `rgba(107, 33, 168, ${0.15 - (dist/130) * 0.15})`; // Subtle Purple line
+                        ctx.lineWidth = 0.5;
+                        ctx.stroke();
+                    }
+                }
+            }
+            requestAnimationFrame(animate);
+        }
+
+        // Handle Resizing
+        window.addEventListener('resize', initCanvas);
         
-        // Spawn interval: extremely lazy, 1 per 6 to 8 seconds
-        function spawnLoop() {
-            createParticle();
-            setTimeout(spawnLoop, Math.random() * 2000 + 6000); 
-        }
-        
-        // Start animation
-        spawnLoop();
+        // Start Everything
+        initCanvas();
+        animate();
     </script>
 </body>
 </html>
