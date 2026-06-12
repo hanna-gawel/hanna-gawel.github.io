@@ -271,7 +271,7 @@
 
         .footer { margin-top: 5rem; text-align: center; color: var(--text-light); font-size: 0.9rem; position: relative; z-index: 10;}
 
-        /* NETWORK ANIMATION CANVAS */
+        /* NOTEBOOK GRID ANIMATION CANVAS */
         #network-canvas {
             position: fixed;
             top: 0;
@@ -280,7 +280,7 @@
             height: 100vh;
             z-index: 0;
             pointer-events: none;
-            opacity: 0.6; /* Subtle integration into the background */
+            opacity: 0.8; /* Subtle integration into the background */
         }
 
     </style>
@@ -1059,82 +1059,84 @@
             }
         }
 
-        /* ----- ELEVATED DATA NETWORK ANIMATION ----- */
+        /* ----- NOTEBOOK GRID ANIMATION ----- */
         const canvas = document.getElementById('network-canvas');
         const ctx = canvas.getContext('2d');
-        let width, height, particles;
+        let width, height;
+        let offsetX = 0;
+        let offsetY = 0;
+        const gridSize = 40; // Size of notebook squares
+        let activeCells = []; // Array to hold randomly lighting up cells
 
-        // Initialize Canvas
         function initCanvas() {
             width = canvas.width = window.innerWidth;
             height = canvas.height = window.innerHeight;
-            particles = [];
-            
-            // Adjust particle count based on screen size (mobile performance)
-            const particleCount = window.innerWidth < 768 ? 30 : 60;
-            
-            for (let i = 0; i < particleCount; i++) {
-                particles.push(new Particle());
+            activeCells = [];
+            // Pre-populate some active cells
+            const cellCount = window.innerWidth < 768 ? 10 : 25;
+            for(let i = 0; i < cellCount; i++) {
+                activeCells.push(createCell());
             }
         }
 
-        // Particle Class (representing data nodes)
-        class Particle {
-            constructor() {
-                this.x = Math.random() * width;
-                this.y = Math.random() * height;
-                // Very slow, elegant movement
-                this.vx = (Math.random() - 0.5) * 0.4;
-                this.vy = (Math.random() - 0.5) * 0.4;
-                this.radius = Math.random() * 1.5 + 0.5;
-            }
-            
-            update() {
-                this.x += this.vx;
-                this.y += this.vy;
-                
-                // Bounce off edges gently
-                if (this.x < 0 || this.x > width) this.vx *= -1;
-                if (this.y < 0 || this.y > height) this.vy *= -1;
-            }
-            
-            draw() {
-                ctx.beginPath();
-                ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
-                ctx.fillStyle = 'rgba(15, 118, 110, 0.4)'; // Subtle Teal
-                ctx.fill();
-            }
+        function createCell() {
+            return {
+                x: Math.floor(Math.random() * (width / gridSize) + 2) - 1, // span slightly offscreen
+                y: Math.floor(Math.random() * (height / gridSize) + 2) - 1,
+                opacity: 0,
+                maxOpacity: Math.random() * 0.12 + 0.03, // subtle glow
+                fadeSpeed: Math.random() * 0.003 + 0.001,
+                fadingIn: true
+            };
         }
 
-        // Animation Loop
         function animate() {
             ctx.clearRect(0, 0, width, height);
             
-            // Update and draw nodes
-            particles.forEach(p => {
-                p.update();
-                p.draw();
-            });
-            
-            // Draw connecting lines (representing network/ecology)
-            for (let i = 0; i < particles.length; i++) {
-                for (let j = i + 1; j < particles.length; j++) {
-                    const dx = particles[i].x - particles[j].x;
-                    const dy = particles[i].y - particles[j].y;
-                    const dist = Math.sqrt(dx * dx + dy * dy);
-                    
-                    // Connect nodes that are close to each other
-                    if (dist < 130) {
-                        ctx.beginPath();
-                        ctx.moveTo(particles[i].x, particles[i].y);
-                        ctx.lineTo(particles[j].x, particles[j].y);
-                        // Opacity depends on distance
-                        ctx.strokeStyle = `rgba(107, 33, 168, ${0.15 - (dist/130) * 0.15})`; // Subtle Purple line
-                        ctx.lineWidth = 0.5;
-                        ctx.stroke();
+            // Very slow, methodical drift to mimic a panning canvas
+            offsetX = (offsetX + 0.2) % gridSize;
+            offsetY = (offsetY + 0.2) % gridSize;
+
+            // 1. Draw active processing cells
+            activeCells.forEach(cell => {
+                if (cell.fadingIn) {
+                    cell.opacity += cell.fadeSpeed;
+                    if (cell.opacity >= cell.maxOpacity) cell.fadingIn = false;
+                } else {
+                    cell.opacity -= cell.fadeSpeed;
+                    if (cell.opacity <= 0) {
+                        // Reset cell to a new location once faded out
+                        Object.assign(cell, createCell());
                     }
                 }
+                
+                // Align cells with the panning grid
+                const drawX = (cell.x * gridSize) + offsetX - gridSize;
+                const drawY = (cell.y * gridSize) + offsetY - gridSize;
+                
+                ctx.fillStyle = `rgba(107, 33, 168, ${cell.opacity})`; // Faint purple glow
+                ctx.fillRect(drawX, drawY, gridSize, gridSize);
+            });
+
+            // 2. Draw Notebook / Graph Grid
+            ctx.beginPath();
+            
+            // Vertical lines
+            for (let x = offsetX; x < width; x += gridSize) {
+                ctx.moveTo(x, 0);
+                ctx.lineTo(x, height);
             }
+            
+            // Horizontal lines
+            for (let y = offsetY; y < height; y += gridSize) {
+                ctx.moveTo(0, y);
+                ctx.lineTo(width, y);
+            }
+            
+            ctx.strokeStyle = 'rgba(15, 118, 110, 0.12)'; // Faint deep teal from the theme
+            ctx.lineWidth = 1;
+            ctx.stroke();
+
             requestAnimationFrame(animate);
         }
 
